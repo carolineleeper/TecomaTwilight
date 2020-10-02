@@ -1,6 +1,9 @@
+import SEO from "../components/SEO";
+
 const Home = () => {
   return (
     <>
+      <SEO title="Home" />
       <p>
         The perfect pre-Christmas market – promoting living and buying
         ethically.

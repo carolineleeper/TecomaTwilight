@@ -1,5 +1,12 @@
+import SEO from "../components/SEO";
+
 const Stalls = () => {
-  return <p>This is the list of stalls we have!</p>;
+  return (
+    <>
+      <SEO title="Stalls" />
+      <p>This is the list of stalls we have!</p>
+    </>
+  );
 };
 
 export default Stalls;
