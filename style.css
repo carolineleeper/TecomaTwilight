@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Brusher;
+  src: url(./fonts/Brusher.ttf);
+}
+@font-face {
+  font-family: LatoHeavy;
+  src: url(./fonts/Lato-Heavy.ttf);
+}
+
+body {
+  background: url("./images/background.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: Brusher;
+  font-size: 6em;
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  font-family: Brusher;
+  font-size: 3.5em;
+  letter-spacing: 6px;
+  text-align: center;
+  color: #ffe685;
+}
+
+p,
+a {
+  font-family: LatoHeavy;
+}
