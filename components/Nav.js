@@ -1,4 +1,5 @@
 import NavItem from "./NavItem";
+import style from "./Nav.module.css";
 
 const routes = [
   {
@@ -13,7 +14,7 @@ const routes = [
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className={style.navbar}>
       {routes.map((route) => {
         return (
           <NavItem key={route.title} title={route.title} url={route.url} />

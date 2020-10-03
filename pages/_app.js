@@ -8,7 +8,9 @@ export default function MyApp({ Component, pageProps }) {
     <>
       <Header />
       <Nav />
-      <Component {...pageProps} />
+      <div className="pageContent">
+        <Component {...pageProps} />
+      </div>
       <Footer />
     </>
   );

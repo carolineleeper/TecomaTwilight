@@ -9,22 +9,30 @@
   src: url(./fonts/Lato-Heavy.ttf);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: url("./images/background.jpg");
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
-}
-
-h2 {
-  font-family: Brusher;
-  font-size: 3.5em;
-  letter-spacing: 6px;
-  text-align: center;
-  color: #ffe685;
-}
-
-p,
-a {
   font-family: LatoHeavy;
+}
+
+p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
 }
