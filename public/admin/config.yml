@@ -36,7 +36,7 @@ collections:
         name: "category"
         widget: "select"
         multiple: true
-        require: false
+        required: false
         options: ["Vegan", "Plastic-free", "Clothing", "Jewellery", "Women-run"]
         hint: "Optional. Choose one or many."
       - label: "Available Products"
