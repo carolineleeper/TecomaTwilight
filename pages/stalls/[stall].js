@@ -3,15 +3,35 @@ import marked from "marked";
 import fs from "fs";
 
 const Stall = (props) => {
+  console.log(props.data.products);
   return (
     <>
       <h2>{props.data.name}</h2>
       <p>Website: {props.data.url}</p>
-      <p>Criteria: {props.data.criteria}</p>
-      <p>Categories: {props.data.category}</p>
+      <div>
+        {props.data.criteria.map((criterion) => {
+          return <p key={criterion}>{criterion}</p>;
+        })}
+      </div>
+      <div>
+        {props.data.category.map((category) => {
+          return <p key={category}>{category}</p>;
+        })}
+      </div>
       <div dangerouslySetInnerHTML={{ __html: props.html }} />
       <h2>Products:</h2>
-      <p>{props.data.products}</p>
+      <div>
+        {props.data.products.map((product) => {
+          return (
+            <>
+              <p>Name: {product.product_name}</p>
+              <p>Description: {product.product_description}</p>
+              <p>Price: {product.product_price}</p>
+              <img src={product.product_image}></img>
+            </>
+          );
+        })}
+      </div>
     </>
   );
 };

@@ -51,22 +51,22 @@ collections:
             fields:
               - {
                   label: "Product Name",
-                  name: "product-name",
+                  name: "product_name",
                   widget: "string",
                 }
               - {
                   label: "Product Description",
-                  name: "product-description",
+                  name: "product_description",
                   widget: "text",
                 }
               - {
                   label: "Product Price",
-                  name: "product-price",
+                  name: "product_price",
                   widget: "number",
                   hint: "Enter value without dollar symbol e.g. 25.50",
                 }
               - {
                   label: "Product Image",
-                  name: "product-image",
+                  name: "product_image",
                   widget: "image",
                 }
