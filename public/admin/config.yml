@@ -29,7 +29,7 @@ collections:
             "Locally Made",
             "Community Empowerment",
           ]
-          hint: "Choose one or many"
+        hint: "Choose one or many"
       - label: "Keywords"
         name: "keywords"
         widget: "select"
@@ -46,8 +46,23 @@ collections:
             name: "product"
             widget: "object"
             fields:
-              - { label: 'Product Name', name: 'product-name', widget: 'string' }
-              - { label: 'Product Description', name: 'product-description', widget: 'string' }
-              - { label: 'Product Image', name: 'product-image', widget: 'image' }
-
-
+              - {
+                  label: "Product Name",
+                  name: "product-name",
+                  widget: "string",
+                }
+              - {
+                  label: "Product Description",
+                  name: "product-description",
+                  widget: "string",
+                }
+              - {
+                  label: "Product Price",
+                  name: "product-price",
+                  widget: "number",
+                }
+              - {
+                  label: "Product Image",
+                  name: "product-image",
+                  widget: "image",
+                }
