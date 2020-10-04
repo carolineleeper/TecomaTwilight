@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
-logo_url: "images/cms-logo.png"
+logo_url: "/images/cms-logo.png"
 collections:
   - name: "stall" # used in routes
     label: "Stalls" # used in the UI
@@ -38,7 +38,7 @@ collections:
         multiple: true
         required: false
         options: ["Vegan", "Plastic-free", "Clothing", "Jewellery", "Women-run"]
-        hint: "Optional. Choose one or many."
+        hint: "Choose one or many."
       - label: "Available Products"
         label_singular: "Available Product"
         name: "products"
