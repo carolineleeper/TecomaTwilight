@@ -16,11 +16,12 @@ collections:
       - { label: "Stall Name", name: "name", widget: "string", tagname: "h1" }
       - { label: "Website", name: "url", widget: "string", tagname: "h1" }
       - { label: "Logo", name: "logo", widget: "image" }
-      - { label: "Description", name: "body", widget: "markdown" }
-      - label: "Tags"
-        name: "tags"
+      - { label: "Description", name: "body", widget: "text" }
+      - label: "Stall Criteria"
+        name: "criteria"
         widget: "select"
         multiple: true
+        min: 1
         options:
           [
             "Fair Trade",
@@ -29,13 +30,14 @@ collections:
             "Locally Made",
             "Community Empowerment",
           ]
-        hint: "Choose one or many"
-      - label: "Keywords"
-        name: "keywords"
+        hint: "Which ethical criteria does this stall meet? Choose at least one"
+      - label: "Categories"
+        label_singular: "Category"
+        name: "category"
         widget: "select"
         multiple: true
         options: ["Vegan", "Plastic-free", "Clothing", "Jewellery", "Women-run"]
-        hint: "Choose one or many"
+        hint: "Optional. Choose one or many."
       - label: "Available Products"
         label_singular: "Available Product"
         name: "products"
@@ -60,6 +62,7 @@ collections:
                   label: "Product Price",
                   name: "product-price",
                   widget: "number",
+                  hint: "Enter value without dollar symbol e.g. 25.50",
                 }
               - {
                   label: "Product Image",
