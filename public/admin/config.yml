@@ -7,6 +7,7 @@ logo_url: "images/cms-logo.png"
 collections:
   - name: "stall" # used in routes
     label: "Stall" # used in the UI
+    identifier_field: name
     label_singular: "Stall" # Used in the UI, ie: "New Stall"
     description: >
       Add a new stall by clicking the 'New Stall' button, or edit existing stalls below.
