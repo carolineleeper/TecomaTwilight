@@ -11,12 +11,12 @@ collections:
     description: >
       Add a new stall by clicking the 'New Stall' button, or edit existing stalls below.
     folder: "stalls"
-    summary: "{{title}}"
     create: true # Allow users to create new stalls
     fields: # The fields each document in this collection have
       - { label: "Stall Name", name: "name", widget: "string", tagname: "h1" }
       - { label: "Website", name: "url", widget: "string", tagname: "h1" }
       - { label: "Logo", name: "logo", widget: "image" }
+      - { label: "Description", name: "body", widget: "markdown" }
       - label: "Tags"
         name: "tags"
         widget: "select"
@@ -36,16 +36,15 @@ collections:
         multiple: true
         options: ["Vegan", "Plastic-free", "Clothing", "Jewellery", "Women-run"]
         hint: "Choose one or many"
-      - { label: "Description", name: "body", widget: "markdown" }
       - label: "Available Products"
         label_singular: "Available Product"
         name: "products"
         widget: "list"
+        allow_add: true
         fields: # the stall's featured items
           - label: "Product"
             name: "product"
             widget: "object"
-            allow_add: true
             fields:
               - { label: 'Product Name', name: 'product-name', widget: 'string' }
               - { label: 'Product Description', name: 'product-description', widget: 'string' }
