@@ -7,11 +7,9 @@ collections:
   - name: "stall" # used in routes
     label: "Stall" # used in the UI
     label_singular: "Stall" # Used in the UI, ie: "New Stall"
-    folder: "stalls"
     description: >
       Use this dashboard to enter new stalls or update existing stalls.
-
-    create: true
-    fields:
-      - { label: "Stall", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "markdown" }
+    folder: "stalls"
+    create: true # Allow users to create new stalls
+    fields: # The fields each document in this collection have
+      - { label: "Stall", name: "stall", widget: "string", tagname: "h1" }
