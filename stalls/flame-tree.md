@@ -10,22 +10,15 @@ category:
   - Vegan
 products:
   - product:
-      product-name: Gold and Silver Art Deco
-      product-description: Gold and silver art deco ornament.
-      product-price: 18
-      product-image: /images/uploads/gold-and-silver-art-deco-e-justine-cotter-salama.jpg
       product_name: Gold and Silver Art Deco
       product_description: Gold and silver art deco ornament
       product_price: 18
       product_image: /images/uploads/gold-and-silver-art-deco-e-justine-cotter-salama.jpg
   - product:
-      product-name: Medium Blue Iridescent Ball
-      product-description: Medium Blue Iridescent Ball
-      product-price: 15
-      product-image: /images/uploads/medium-blue-iridescent-ball-justine-cotter-salama.jpg
       product_name: Medium Blue Iridescent Ball
       product_description: Medium Blue Iridescent Ball
       product_price: 15
       product_image: /images/uploads/medium-blue-iridescent-ball-justine-cotter-salama.jpg
 ---
+
 Beautifully Unique and Eclectic Handblown Christmas Ornaments and Decorations Made By Egyptian Artisans
