@@ -8,8 +8,14 @@ collections:
     label: "Stall" # used in the UI
     label_singular: "Stall" # Used in the UI, ie: "New Stall"
     description: >
-      Use this dashboard to enter new stalls or update existing stalls.
+      Add a new stall by clicking the 'New Stall' button, or edit existing stalls below.
     folder: "stalls"
+    summary: "{{title}}"
     create: true # Allow users to create new stalls
     fields: # The fields each document in this collection have
-      - { label: "Stall", name: "stall", widget: "string", tagname: "h1" }
+      - label: "Stall Name"
+        name: "stall"
+        widget: "string"
+      - { label: "Stall Name", name: "name", widget: "string", tagname: "h1" }
+      - { label: "URL", name: "url", widget: "string", tagname: "h1" }
+      - { label: "Body", name: "body", widget: "markdown" }
