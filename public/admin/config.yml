@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
-logo_url: "/images/cms-logo.png"
+logo_url: "cms-logo.png"
 collections:
   - name: "stall" # used in routes
     label: "Stalls" # used in the UI
