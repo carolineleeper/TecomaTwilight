@@ -3,6 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+logo_url: "images/cms-logo.png"
 collections:
   - name: "stall" # used in routes
     label: "Stall" # used in the UI
@@ -13,9 +14,6 @@ collections:
     summary: "{{title}}"
     create: true # Allow users to create new stalls
     fields: # The fields each document in this collection have
-      - label: "Stall Name"
-        name: "stall"
-        widget: "string"
       - { label: "Stall Name", name: "name", widget: "string", tagname: "h1" }
       - { label: "URL", name: "url", widget: "string", tagname: "h1" }
       - { label: "Body", name: "body", widget: "markdown" }
