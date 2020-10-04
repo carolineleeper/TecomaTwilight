@@ -57,7 +57,7 @@ collections:
               - {
                   label: "Product Description",
                   name: "product-description",
-                  widget: "string",
+                  widget: "text",
                 }
               - {
                   label: "Product Price",
