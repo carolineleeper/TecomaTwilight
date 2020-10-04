@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 logo_url: "images/cms-logo.png"
 collections:
@@ -18,7 +17,6 @@ collections:
       - { label: "Stall Name", name: "name", widget: "string", tagname: "h1" }
       - { label: "Website", name: "url", widget: "string", tagname: "h1" }
       - { label: "Logo", name: "logo", widget: "image" }
-      - { label: "Description", name: "body", widget: "markdown" }
       - label: "Tags"
         name: "tags"
         widget: "select"
@@ -31,8 +29,26 @@ collections:
             "Locally Made",
             "Community Empowerment",
           ]
+          hint: "Choose one or many"
       - label: "Keywords"
         name: "keywords"
         widget: "select"
         multiple: true
         options: ["Vegan", "Plastic-free", "Clothing", "Jewellery", "Women-run"]
+        hint: "Choose one or many"
+      - { label: "Description", name: "body", widget: "markdown" }
+      - label: "Available Products"
+        label_singular: "Available Product"
+        name: "products"
+        widget: "list"
+        fields: # the stall's featured items
+          - label: "Product"
+            name: "product"
+            widget: "object"
+            allow_add: true
+            fields:
+              - { label: 'Product Name', name: 'product-name', widget: 'string' }
+              - { label: 'Product Description', name: 'product-description', widget: 'string' }
+              - { label: 'Product Image', name: 'product-image', widget: 'image' }
+
+
