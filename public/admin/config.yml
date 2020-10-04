@@ -19,3 +19,20 @@ collections:
       - { label: "Website", name: "url", widget: "string", tagname: "h1" }
       - { label: "Logo", name: "logo", widget: "image" }
       - { label: "Description", name: "body", widget: "markdown" }
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options:
+          [
+            "Fair Trade",
+            "Upcycled",
+            "Eco Friendly",
+            "Locally Made",
+            "Community Empowerment",
+          ]
+      - label: "Keywords"
+        name: "keywords"
+        widget: "select"
+        multiple: true
+        options: ["Vegan", "Plastic-free", "Clothing", "Jewellery", "Women-run"]
