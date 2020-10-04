@@ -6,9 +6,9 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 logo_url: "images/cms-logo.png"
 collections:
   - name: "stall" # used in routes
-    label: "Stall" # used in the UI
-    identifier_field: name
+    label: "Stalls" # used in the UI
     label_singular: "Stall" # Used in the UI, ie: "New Stall"
+    identifier_field: name
     description: >
       Add a new stall by clicking the 'New Stall' button, or edit existing stalls below.
     folder: "stalls"
@@ -16,5 +16,6 @@ collections:
     create: true # Allow users to create new stalls
     fields: # The fields each document in this collection have
       - { label: "Stall Name", name: "name", widget: "string", tagname: "h1" }
-      - { label: "URL", name: "url", widget: "string", tagname: "h1" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Website", name: "url", widget: "string", tagname: "h1" }
+      - { label: "Logo", name: "logo", widget: "image" }
+      - { label: "Description", name: "body", widget: "markdown" }
