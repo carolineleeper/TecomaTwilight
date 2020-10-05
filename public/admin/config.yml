@@ -33,7 +33,7 @@ collections:
         hint: "Which ethical criteria does this stall meet? Choose at least one"
       - label: "Categories"
         label_singular: "Category"
-        name: "category"
+        name: "categories"
         widget: "select"
         multiple: true
         required: false
@@ -44,29 +44,17 @@ collections:
         name: "products"
         widget: "list"
         allow_add: true
-        fields: # the stall's featured items
-          - label: "Product"
-            name: "product"
-            widget: "object"
-            fields:
-              - {
-                  label: "Product Name",
-                  name: "product_name",
-                  widget: "string",
-                }
-              - {
-                  label: "Product Description",
-                  name: "product_description",
-                  widget: "text",
-                }
-              - {
-                  label: "Product Price",
-                  name: "product_price",
-                  widget: "number",
-                  hint: "Enter value without dollar symbol e.g. 25.50",
-                }
-              - {
-                  label: "Product Image",
-                  name: "product_image",
-                  widget: "image",
-                }
+        fields:
+          - { label: "Product Name", name: "product_name", widget: "string" }
+          - {
+              label: "Product Description",
+              name: "product_description",
+              widget: "text",
+            }
+          - {
+              label: "Product Price",
+              name: "product_price",
+              widget: "number",
+              hint: "Enter value without dollar symbol e.g. 25.50",
+            }
+          - { label: "Product Image", name: "product_image", widget: "image" }

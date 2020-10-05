@@ -1,37 +1,22 @@
+import Criteria from "../../components/Criteria";
+import Categories from "../../components/Categories";
+import Products from "../../components/Products";
 import matter from "gray-matter";
 import marked from "marked";
 import fs from "fs";
 
 const Stall = (props) => {
-  console.log(props.data.products);
   return (
     <>
       <h2>{props.data.name}</h2>
-      <p>Website: {props.data.url}</p>
-      <div>
-        {props.data.criteria.map((criterion) => {
-          return <p key={criterion}>{criterion}</p>;
-        })}
-      </div>
-      <div>
-        {props.data.category.map((category) => {
-          return <p key={category}>{category}</p>;
-        })}
-      </div>
+      <p>
+        Website: <a href={props.data.url}>{props.data.url}</a>
+      </p>
+      <Criteria criteria={props.data.criteria} />
+      <Categories categories={props.data.categories} />
+      <Products products={props.data.products} />
+
       <div dangerouslySetInnerHTML={{ __html: props.html }} />
-      <h2>Products:</h2>
-      <div>
-        {props.data.products.map((product) => {
-          return (
-            <>
-              <p>Name: {product.product_name}</p>
-              <p>Description: {product.product_description}</p>
-              <p>Price: {product.product_price}</p>
-              <img src={product.product_image}></img>
-            </>
-          );
-        })}
-      </div>
     </>
   );
 };
