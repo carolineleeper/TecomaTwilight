@@ -18,7 +18,7 @@
 }
 
 body {
-  background: url("./images/background.jpg");
+  background: url("/images/background.jpg");
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
