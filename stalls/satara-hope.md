@@ -1,7 +1,7 @@
 ---
 name: Satara Hope
 url: satarahope.com
-logo: /images/uploads/satara-hope-logo-green-claire-fawbert.png
+logo: /public/images/uploads/satara-hope-logo-green-claire-fawbert.png
 criteria:
   - Eco Friendly
   - Fair Trade
@@ -17,7 +17,7 @@ products:
       over your legs  We recommend leaving it either on the bathroom bench or
       next to the bed for easy regular access.
     product_price: 30
-    product_image: /images/uploads/satara-hope-doterra-holiday-joy-claire-fawbert.png
+    product_image: /public/images/uploads/satara-hope-doterra-holiday-joy-claire-fawbert.png
   - product_name: Rejuvenate Box
     product_description:
       The purple box for restorative sleep is an absolute  must
@@ -27,7 +27,7 @@ products:
       box is sourced for its natural ability to promote a good nights rest and
       has been thoroughly tested by the team at Satara Hope.
     product_price: 119
-    product_image: /images/uploads/satara-hope-rejuvenate-box-claire-fawbert.jpg
+    product_image: /public/images/uploads/satara-hope-rejuvenate-box-claire-fawbert.jpg
   - product_name: Sunshine Box
     product_description:
       This popular all natural and organic yellow box is a great
@@ -35,7 +35,7 @@ products:
       say thank you or an end of year teachers gift. Send a little box of
       sunshine to brighten someones day
     product_price: 59
-    product_image: /images/uploads/satara-hope-sunshine-box-claire-fawbert.jpg
+    product_image: /public/images/uploads/satara-hope-sunshine-box-claire-fawbert.jpg
 ---
 
 Satara is one of my favourite places in the world. Located in the African bush its Big Cat country where an early morning rise will more often than not treat you to a sighting of lion or leopard. Its my peaceful calm place.
