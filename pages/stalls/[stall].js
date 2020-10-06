@@ -42,8 +42,8 @@ export const getStaticPaths = () => {
 };
 
 export const getStaticProps = (context) => {
-  const storeName = context.params.stall;
-  const filepath = `${process.cwd()}/stalls/${storeName}.md`;
+  const stallName = context.params.stall;
+  const filepath = `${process.cwd()}/stalls/${stallName}.md`;
   const rawFileContent = fs.readFileSync(filepath).toString();
   const { content, data } = matter(rawFileContent);
   const html = marked(content);

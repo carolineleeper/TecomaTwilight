@@ -1,4 +1,6 @@
+import Stall from "../components/Stall";
 import SEO from "../components/SEO";
+import matter from "gray-matter";
 import { useState } from "react";
 import Link from "next/link";
 import fs from "fs";
@@ -11,8 +13,20 @@ const Stalls = (props) => {
   };
 
   const filteredStalls = () => {
-    const filtered = props.filenames.filter((filename) => {
-      return filename.includes(search);
+    const filtered = props.stalls.filter((stall) => {
+      const toLowerCritera = stall.criteria.map((criteria) =>
+        criteria.toLowerCase()
+      );
+      const toLowerCategories = stall.categories.map((category) =>
+        category.toLowerCase()
+      );
+
+      return (
+        stall.filename.toLowerCase().includes(search.toLowerCase()) ||
+        stall.storeName.toLowerCase().includes(search.toLowerCase()) ||
+        toLowerCritera.find((a) => a.includes(search.toLowerCase())) ||
+        toLowerCategories.find((a) => a.includes(search.toLowerCase()))
+      );
     });
     return filtered;
   };
@@ -23,16 +37,17 @@ const Stalls = (props) => {
       <p>This is the list of stalls we have!</p>
 
       <input onChange={handleInput} value={search} />
+
       <p>Your search is: {search}</p>
 
       <ul>
-        {filteredStalls().map((file) => {
+        {filteredStalls().map((stall) => {
           return (
-            <li key={file}>
-              <Link href={`stalls/${file}`}>
-                <a>{file}</a>
-              </Link>
-            </li>
+            <Link key={stall.filename} href={`stalls/${stall.filename}`}>
+              <a>
+                <Stall stall={stall} />
+              </a>
+            </Link>
           );
         })}
       </ul>
@@ -44,11 +59,22 @@ export const getStaticProps = () => {
   const directory = `${process.cwd()}/stalls`;
   const rawFilenames = fs.readdirSync(directory);
 
-  const filenames = rawFilenames.map((filename) => {
-    return filename.replace(".md", "");
+  const stalls = rawFilenames.map((filename) => {
+    const rawFileContent = fs
+      .readFileSync(`${directory}/${filename}`)
+      .toString();
+    const { data } = matter(rawFileContent);
+    return {
+      filename: filename.replace(".md", ""),
+      storeName: data.name,
+      criteria: data.criteria,
+      categories: data.categories,
+      logo: data.logo,
+    };
   });
+  console.log(stalls);
 
-  return { props: { filenames } };
+  return { props: { stalls } };
 };
 
 export default Stalls;

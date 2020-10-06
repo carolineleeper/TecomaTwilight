@@ -1,8 +1,10 @@
+import Criterion from "./Criterion";
+
 const Criteria = (props) => {
   return (
     <div>
       {props.criteria.map((criterion) => {
-        return <p key={criterion}>{criterion}</p>;
+        return <Criterion key={criterion} criterion={criterion} />;
       })}
     </div>
   );

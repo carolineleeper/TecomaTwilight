@@ -6,7 +6,6 @@ const Products = (props) => {
       <h2>Products:</h2>
       <div>
         {props.products.map((product) => {
-          console.log(product.product_image);
           return (
             <Product
               key={product.product_name}
