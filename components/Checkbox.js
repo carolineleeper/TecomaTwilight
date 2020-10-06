@@ -1,15 +1,13 @@
 const Checkbox = (props) => {
-  console.log(props.categories);
-  console.log(props);
   return (
-    <label htmlFor="vegan">
+    <label htmlFor={props.category}>
       <input
         type="checkbox"
-        id="vegan"
-        value="vegan"
+        id={props.category}
+        value={props.category}
         onChange={props.handleChecks}
       />
-      Vegan
+      {props.category}
     </label>
   );
 };

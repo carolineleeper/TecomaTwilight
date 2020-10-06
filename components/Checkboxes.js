@@ -1,3 +1,4 @@
+import NavItem from "./NavItem";
 import Checkbox from "./Checkbox";
 import { useState } from "react";
 
@@ -16,12 +17,24 @@ const Checkboxes = (props) => {
     }
   };
 
+  console.log(checkArray);
+
+  const mergedArray = [].concat.apply([], props.categories);
+  const uniqueArray = [...new Set(mergedArray)];
+
   return (
-    <Checkbox
-      categories={props.categories}
-      checkArray={checkArray}
-      handleChecks={handleChecks}
-    />
+    <div>
+      {uniqueArray.map((category) => {
+        return (
+          <Checkbox
+            key={category}
+            category={category}
+            checkArray={checkArray}
+            handleChecks={handleChecks}
+          />
+        );
+      })}
+    </div>
   );
 };
 

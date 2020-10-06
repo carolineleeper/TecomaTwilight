@@ -77,7 +77,6 @@ export const getStaticProps = () => {
       logo: data.logo,
     };
   });
-  console.log(stalls);
 
   return { props: { stalls } };
 };
