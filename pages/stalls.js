@@ -8,6 +8,7 @@ import fs from "fs";
 
 const Stalls = (props) => {
   const [search, setSearch] = useState("");
+  const [checkArray, setCheckArray] = useState([]);
 
   const handleInput = (e) => {
     setSearch(e.target.value);
@@ -22,13 +23,15 @@ const Stalls = (props) => {
         category.toLowerCase()
       );
 
-      return (
-        stall.filename.toLowerCase().includes(search.toLowerCase()) ||
-        stall.storeName.toLowerCase().includes(search.toLowerCase()) ||
-        toLowerCritera.find((a) => a.includes(search.toLowerCase())) ||
-        toLowerCategories.find((a) => a.includes(search.toLowerCase()))
-      );
+      const intersectChecker = (array, target) =>
+        target.every((value) => array.includes(value));
+
+      return intersectChecker(stall.categories, checkArray);
+      // stall.storeName.toLowerCase().includes(search.toLowerCase()) ||
+      // toLowerCritera.find((a) => a.includes(search.toLowerCase())) ||
+      // toLowerCategories.find((a) => a.includes(search.toLowerCase()))
     });
+
     return filtered;
   };
 
@@ -40,12 +43,14 @@ const Stalls = (props) => {
       <input onChange={handleInput} value={search} />
 
       <Checkboxes
+        checkArray={checkArray}
+        setCheckArray={setCheckArray}
         categories={props.stalls.map((stall) => {
           return stall.categories;
         })}
       />
 
-      <ul>
+      <ul className="galleryContainer">
         {filteredStalls().map((stall) => {
           return (
             <Link key={stall.filename} href={`stalls/${stall.filename}`}>

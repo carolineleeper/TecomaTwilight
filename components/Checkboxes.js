@@ -1,23 +1,17 @@
-import NavItem from "./NavItem";
 import Checkbox from "./Checkbox";
-import { useState } from "react";
 
 const Checkboxes = (props) => {
-  const [checkArray, setCheckArray] = useState([]);
-
   const handleChecks = (e) => {
-    if (!checkArray.includes(e.target.value)) {
-      const newCheckArray = [...checkArray, e.target.value];
-      setCheckArray(newCheckArray);
+    if (!props.checkArray.includes(e.target.value)) {
+      const newCheckArray = [...props.checkArray, e.target.value];
+      props.setCheckArray(newCheckArray);
     } else {
-      const newCheckArray = checkArray.filter((value) => {
+      const newCheckArray = props.checkArray.filter((value) => {
         return value !== e.target.value;
       });
-      setCheckArray(newCheckArray);
+      props.setCheckArray(newCheckArray);
     }
   };
-
-  console.log(checkArray);
 
   const mergedArray = [].concat.apply([], props.categories);
   const uniqueArray = [...new Set(mergedArray)];
@@ -29,7 +23,7 @@ const Checkboxes = (props) => {
           <Checkbox
             key={category}
             category={category}
-            checkArray={checkArray}
+            checkArray={props.checkArray}
             handleChecks={handleChecks}
           />
         );

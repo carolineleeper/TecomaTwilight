@@ -47,3 +47,8 @@ a:hover {
   background: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
 }
+
+.galleryContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
