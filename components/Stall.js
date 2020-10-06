@@ -1,9 +1,10 @@
 import Categories from "./Categories";
 import Criteria from "./Criteria";
+import style from "./Stall.module.css";
 
 const Stall = (props) => {
   return (
-    <div>
+    <div className={style.stallThumb}>
       <p>{props.stall.storeName}</p>
       <img src={props.stall.logo} />
       <Criteria criteria={props.stall.criteria} />

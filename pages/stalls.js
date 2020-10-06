@@ -1,3 +1,4 @@
+import Checkboxes from "../components/Checkboxes";
 import Stall from "../components/Stall";
 import SEO from "../components/SEO";
 import matter from "gray-matter";
@@ -38,7 +39,11 @@ const Stalls = (props) => {
 
       <input onChange={handleInput} value={search} />
 
-      <p>Your search is: {search}</p>
+      <Checkboxes
+        categories={props.stalls.map((stall) => {
+          return stall.categories;
+        })}
+      />
 
       <ul>
         {filteredStalls().map((stall) => {
