@@ -14,7 +14,7 @@ const routes = [
 
 const Nav = () => {
   return (
-    <nav className={style.navbar}>
+    <nav className={style.navBar}>
       {routes.map((route) => {
         return (
           <NavItem key={route.title} title={route.title} url={route.url} />

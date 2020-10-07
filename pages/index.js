@@ -18,27 +18,6 @@ const Home = () => {
         performers, this festival-like market will be a great community event
         for the whole family.
       </p>
-
-      <div
-        className="fb-page"
-        data-href="https://www.facebook.com/TecomaTwilightEthicalMarket"
-        data-tabs="timeline"
-        data-width="500"
-        data-height=""
-        data-small-header="false"
-        data-adapt-container-width="false"
-        data-hide-cover="false"
-        data-show-facepile="false"
-      >
-        <blockquote
-          cite="https://www.facebook.com/TecomaTwilightEthicalMarket"
-          class="fb-xfbml-parse-ignore"
-        >
-          <a href="https://www.facebook.com/TecomaTwilightEthicalMarket">
-            Tecoma Twilight Ethical Market
-          </a>
-        </blockquote>
-      </div>
     </>
   );
 };

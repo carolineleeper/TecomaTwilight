@@ -1,6 +1,17 @@
-.headerTextSVG {
+.headerNavContainer {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  background: url("/images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 700px) {
+  .headerNavContainer {
+    flex-direction: column;
+  }
 }
