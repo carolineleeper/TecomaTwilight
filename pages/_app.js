@@ -6,8 +6,10 @@ import "../style.css";
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Header />
-      <Nav />
+      <div className="headerContainer">
+        <Header />
+        <Nav />
+      </div>
       <div className="pageContent">
         <Component {...pageProps} />
       </div>

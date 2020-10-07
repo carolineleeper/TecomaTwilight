@@ -15,7 +15,7 @@ const Stalls = (props) => {
   };
 
   const filteredStalls = () => {
-    const filtered = props.stalls.filter((stall) => {
+    const searchFiltered = props.stalls.filter((stall) => {
       const toLowerCritera = stall.criteria.map((criteria) =>
         criteria.toLowerCase()
       );
@@ -23,13 +23,18 @@ const Stalls = (props) => {
         category.toLowerCase()
       );
 
+      return (
+        stall.storeName.toLowerCase().includes(search.toLowerCase()) ||
+        toLowerCritera.find((a) => a.includes(search.toLowerCase())) ||
+        toLowerCategories.find((a) => a.includes(search.toLowerCase()))
+      );
+    });
+
+    const filtered = searchFiltered.filter((stall) => {
       const intersectChecker = (array, target) =>
         target.every((value) => array.includes(value));
 
       return intersectChecker(stall.categories, checkArray);
-      // stall.storeName.toLowerCase().includes(search.toLowerCase()) ||
-      // toLowerCritera.find((a) => a.includes(search.toLowerCase())) ||
-      // toLowerCategories.find((a) => a.includes(search.toLowerCase()))
     });
 
     return filtered;
