@@ -1,7 +1,43 @@
-.navBar {
+.navContainer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   flex: 2;
+}
+
+@media screen and (max-width: 750px) {
+  .navContainer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    left: 200vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #fff;
+    flex: 1;
+
+    transition: left 0.2s ease-in-out;
+  }
+  .toggledNavContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #fff;
+    flex: 1;
+
+    transition: left 0.2s ease-in-out;
+  }
+}
+
+.hiddenLogo {
+  display: none;
 }

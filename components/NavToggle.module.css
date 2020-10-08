@@ -1,0 +1,18 @@
+.navToggle {
+  padding: 1rem;
+  background-color: #ffffff83;
+  border-radius: 10px 0 0 10px;
+  font-size: 2rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  color: #271f6b;
+}
+
+@media screen and (min-width: 751px) {
+  .navToggle {
+    display: none;
+  }
+}

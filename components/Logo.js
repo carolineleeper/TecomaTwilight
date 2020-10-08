@@ -2,7 +2,7 @@ import style from "./Logo.module.css";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-const Logo = () => {
+const Logo = (props) => {
   const [shouldCollapse, setShouldCollapse] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,11 @@ const Logo = () => {
           <a>
             <svg
               className={
-                shouldCollapse ? style.collapsedSVGText : style.SVGText
+                props.isMenuToggled
+                  ? style.toggledLogo
+                  : shouldCollapse
+                  ? style.collapsedSVGText
+                  : style.SVGText
               }
               id="tecomatwilightSVG"
               viewBox="0 0 1964 437"
@@ -124,7 +128,11 @@ const Logo = () => {
 
             <svg
               className={
-                shouldCollapse ? style.collapsedSVGText : style.SVGText
+                props.isMenuToggled
+                  ? style.toggledLogo
+                  : shouldCollapse
+                  ? style.collapsedSVGText
+                  : style.SVGText
               }
               id="ethicalmarketSVG"
               viewBox="0 0 2301 427"
