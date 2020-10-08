@@ -384,10 +384,10 @@ ________/\\\\\\\\\__/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\____
 /*********************************************/
 
 body {
-  /* background: url("/images/background.jpg");
+  background: url("/images/background.jpg");
   background-position: top;
   background-size: cover;
-  background-attachment: fixed; */
+  background-attachment: fixed;
   font-family: Lato;
   color: #fff;
 }
@@ -415,11 +415,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
+  margin: 2rem auto;
   width: 80%;
   padding: 2rem;
-  background: #ffffff4b;
-  border-radius: 10px;
 }
 
 .galleryContainer {

@@ -17,7 +17,11 @@ const Nav = () => {
     <nav className={style.navBar}>
       {routes.map((route) => {
         return (
-          <NavItem key={route.title} title={route.title} url={route.url} />
+          <>
+            <NavItem key={route.title} title={route.title} url={route.url} />
+            <Facebook />
+            <Instagram />
+          </>
         );
       })}
     </nav>
