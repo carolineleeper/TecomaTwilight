@@ -6,6 +6,9 @@
   padding: 1rem 2rem;
   flex: 0.7;
 }
+.logoContainer a {
+  text-align: center;
+}
 .SVGText {
   width: 100%;
   transition: 0.4s ease-in-out;

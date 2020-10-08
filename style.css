@@ -390,6 +390,7 @@ body {
   background-attachment: fixed;
   font-family: Lato;
   color: #fff;
+  max-width: 100%;
 }
 
 p {
