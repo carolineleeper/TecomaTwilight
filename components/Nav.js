@@ -12,6 +12,10 @@ const routes = [
     title: "Stalls",
     url: "/stalls",
   },
+  {
+    title: "Form",
+    url: "/form",
+  },
 ];
 
 const Nav = () => {
