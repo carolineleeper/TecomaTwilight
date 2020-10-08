@@ -9,6 +9,9 @@ a.navItem {
   transition: all 0.2s ease-in-out;
 }
 a.navItem:hover {
-  /* color: #a33387; */
   color: #ff63b1;
+}
+a.navItem:active,
+a.navItem:focus {
+  outline: none;
 }

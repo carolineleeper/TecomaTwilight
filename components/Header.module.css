@@ -1,6 +1,6 @@
 .headerContainer {
-  /* position: sticky;
-  top: 0; */
+  position: sticky;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -13,7 +13,7 @@
   transition: all 0.3s ease-in;
 }
 
-/* .collapsedHeaderContainer {
+.collapsedHeaderContainer {
   position: sticky;
   top: 0;
   display: flex;
@@ -26,9 +26,9 @@
   box-shadow: 0px 8px 13px 1px rgba(0, 0, 0, 0.75);
 
   transition: all 0.3s ease-in;
-} */
+}
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .headerNavContainer {
     flex-direction: column;
   }

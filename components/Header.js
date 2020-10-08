@@ -21,15 +21,7 @@ const Header = () => {
 
   return (
     <>
-      <div
-        className={
-          style.headerContainer
-
-          // shouldCollapse
-          //   ? style.collapsedHeaderContainer
-          //   : style.headerContainer
-        }
-      >
+      <div className={style.headerContainer}>
         <Logo />
         <Nav />
       </div>

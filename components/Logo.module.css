@@ -1,8 +1,16 @@
-.logoTextSVG {
+.logoContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
   flex: 0.7;
+}
+.SVGText {
+  width: 100%;
+  transition: 0.4s ease-in-out;
+}
+.collapsedSVGText {
+  width: 60%;
+  transition: 0.4s ease-in-out;
 }
