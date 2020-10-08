@@ -20,10 +20,14 @@ const Nav = () => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
 
   const handleMenuToggle = () => {
+    const body = document.querySelector("body");
+
     if (isMenuToggled) {
       setIsMenuToggled(false);
+      body.classList.remove("menuToggled");
     } else {
       setIsMenuToggled(true);
+      body.classList.add("menuToggled");
     }
   };
 
@@ -33,14 +37,12 @@ const Nav = () => {
     >
       {routes.map((route) => {
         return (
-          <>
-            <NavItem
-              key={route.title}
-              title={route.title}
-              url={route.url}
-              handleMenuToggle={handleMenuToggle}
-            />
-          </>
+          <NavItem
+            key={route.title}
+            title={route.title}
+            url={route.url}
+            handleMenuToggle={handleMenuToggle}
+          />
         );
       })}
       <Facebook key="facebook" />

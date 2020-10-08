@@ -14,9 +14,11 @@
   transition: 0.4s ease-in-out;
 }
 .collapsedSVGText {
-  width: 60%;
+  width: 55%;
   transition: 0.4s ease-in-out;
 }
-.toggledLogo {
-  width: 80%;
+@media screen and (max-width: 750px) {
+  .toggledLogo {
+    width: 80%;
+  }
 }

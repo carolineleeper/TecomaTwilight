@@ -8,8 +8,11 @@
 
 @media screen and (max-width: 750px) {
   .navContainer {
+    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
     left: 200vw;
     right: 0;
     top: 0;
@@ -23,9 +26,9 @@
   .toggledNavContainer {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: nowrap;
     left: 0;
     right: 0;
     top: 0;
