@@ -1,9 +1,7 @@
 a.navItem {
   position: relative;
-  padding: 1rem 2rem;
   margin: 0 1rem;
   font-size: 2.5em;
-  /* font-family: Brusher; */
   color: #271f6b;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -14,4 +12,10 @@ a.navItem:hover {
 a.navItem:active,
 a.navItem:focus {
   outline: none;
+}
+
+@media screen and (max-width: 750px) {
+  a.navItem {
+    padding: 1rem 2rem;
+  }
 }

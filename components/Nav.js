@@ -34,7 +34,12 @@ const Nav = () => {
       {routes.map((route) => {
         return (
           <>
-            <NavItem key={route.title} title={route.title} url={route.url} />
+            <NavItem
+              key={route.title}
+              title={route.title}
+              url={route.url}
+              handleMenuToggle={handleMenuToggle}
+            />
           </>
         );
       })}

@@ -4,7 +4,9 @@ import style from "./NavItem.module.css";
 const NavItem = (props) => {
   return (
     <Link href={props.url}>
-      <a className={style.navItem}>{props.title}</a>
+      <a className={style.navItem} onClick={props.handleMenuToggle}>
+        {props.title}
+      </a>
     </Link>
   );
 };
