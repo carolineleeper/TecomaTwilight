@@ -2,14 +2,10 @@ import Link from "next/link";
 import style from "./NavItem.module.css";
 import { useMediaQuery } from "react-responsive";
 import classnames from "classnames";
-import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 
 const NavItem = (props) => {
-  const [pathname, setPathname] = useState(null);
-
-  useEffect(() => {
-    setPathname(window.location.pathname);
-  });
+  const router = useRouter();
 
   const isMobile = useMediaQuery({
     query: "(max-width: 750px)",
@@ -19,7 +15,7 @@ const NavItem = (props) => {
     <Link href={props.url}>
       <a
         className={classnames(style.navItem, {
-          [style.currentNavItem]: pathname === props.url,
+          [style.currentNavItem]: router.pathname === props.url,
         })}
         onClick={isMobile && props.handleMenuToggle}
       >

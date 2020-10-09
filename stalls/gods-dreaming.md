@@ -5,6 +5,9 @@ logo: /images/uploads/gods-dreaming-rbg-72dpi-web-god-s-dreaming.jpg
 criteria:
   - Community Empowerment
   - Eco Friendly
+departments:
+  - Health
+  - Beauty
 categories:
   - Clothing
   - Jewellery

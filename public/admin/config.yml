@@ -32,13 +32,38 @@ collections:
             "Community Empowerment",
           ]
         hint: "Which ethical criteria does this stall meet? Choose at least one"
+      - label: "Departments"
+        label_singular: "Department"
+        name: "departments"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          [
+            "Clothing",
+            "Jewellery",
+            "Homewares",
+            "Food",
+            "Health",
+            "Beauty",
+            "Children",
+          ]
+        hint: "Choose one or many."
       - label: "Categories"
         label_singular: "Category"
         name: "categories"
         widget: "select"
         multiple: true
         required: false
-        options: ["Vegan", "Plastic-free", "Clothing", "Jewellery", "Women-run"]
+        options:
+          [
+            "Vegan",
+            "Plastic-free",
+            "Organic",
+            "Handmade",
+            "Waste-free",
+            "Eco-friendly",
+          ]
         hint: "Choose one or many."
       - label: "Available Products"
         label_singular: "Available Product"

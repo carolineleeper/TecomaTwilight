@@ -6,6 +6,10 @@ criteria:
   - Eco Friendly
   - Fair Trade
   - Locally Made
+departments:
+  - Food
+  - Health
+  - Jewellery
 categories:
   - Vegan
   - Women-run

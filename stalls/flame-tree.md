@@ -5,6 +5,8 @@ logo: /images/uploads/fb-designs-03-justine-cotter-salama.png
 criteria:
   - Fair Trade
   - Locally Made
+departments:
+  - Homewares
 categories:
   - Plastic-free
   - Vegan
