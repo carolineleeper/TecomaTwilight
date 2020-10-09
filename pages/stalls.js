@@ -43,7 +43,7 @@ const Stalls = (props) => {
   return (
     <>
       <SEO title="Stalls" />
-      <p>This is the list of stalls we have!</p>
+      <h1>Stall Guide</h1>
 
       <input onChange={handleInput} value={search} />
 
