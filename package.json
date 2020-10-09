@@ -13,6 +13,7 @@
   "author": "Caroline Leeper",
   "license": "ISC",
   "dependencies": {
+    "classnames": "^2.2.6",
     "gray-matter": "^4.0.2",
     "marked": "^1.2.0",
     "next": "^9.5.3",

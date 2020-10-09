@@ -1,26 +1,26 @@
 import Link from "next/link";
 import style from "./NavItem.module.css";
 import { useMediaQuery } from "react-responsive";
-import { useState } from "react";
-
-const isClient = () => typeof window !== "undefined";
-const getCurrentPage = () => {
-  if (!isClient()) return null;
-
-  return window.location.pathname;
-};
+import classnames from "classnames";
+import { useState, useEffect } from "react";
 
 const NavItem = (props) => {
+  const [pathname, setPathname] = useState(null);
+
+  useEffect(() => {
+    setPathname(window.location.pathname);
+  });
+
   const isMobile = useMediaQuery({
     query: "(max-width: 750px)",
   });
 
-  const isCurrentPage = () => getCurrentPage() === props.url;
-
   return (
     <Link href={props.url}>
       <a
-        className={isCurrentPage() ? style.currentNavItem : style.navItem}
+        className={classnames(style.navItem, {
+          [style.currentNavItem]: pathname === props.url,
+        })}
         onClick={isMobile && props.handleMenuToggle}
       >
         {props.title}

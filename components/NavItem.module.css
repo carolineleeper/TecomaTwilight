@@ -9,6 +9,10 @@ a.currentNavItem {
   transition: all 0.4s ease-in-out;
 }
 
+.active {
+  background-color: red;
+}
+
 a.navItem:hover,
 a.currentNavItem {
   color: #e4b1dd;
