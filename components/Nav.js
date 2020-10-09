@@ -41,6 +41,7 @@ const Nav = () => {
             key={route.title}
             title={route.title}
             url={route.url}
+            isMenuToggled={isMenuToggled}
             handleMenuToggle={handleMenuToggle}
           />
         );
