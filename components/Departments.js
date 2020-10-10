@@ -1,8 +1,9 @@
 import Department from "./Department";
+import style from "./Departments.module.css";
 
 const Departments = (props) => {
   return (
-    <div>
+    <div className={style.departmentsContainer}>
       {props.departments.map((department) => {
         return <Department key={department} department={department} />;
       })}

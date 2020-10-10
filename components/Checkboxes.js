@@ -2,14 +2,20 @@ import Checkbox from "./Checkbox";
 
 const Checkboxes = (props) => {
   const handleChecks = (e) => {
-    if (!props.checkArray.includes(e.target.value)) {
+    if (!props.checkArray.includes(e.target.value.toLowerCase())) {
       const newCheckArray = [...props.checkArray, e.target.value];
-      props.setCheckArray(newCheckArray);
+
+      const lowerCheckArray = newCheckArray.map((check) => check.toLowerCase());
+
+      props.setCheckArray(lowerCheckArray);
     } else {
       const newCheckArray = props.checkArray.filter((value) => {
-        return value !== e.target.value;
+        return value !== e.target.value.toLowerCase();
       });
-      props.setCheckArray(newCheckArray);
+
+      const lowerCheckArray = newCheckArray.map((check) => check.toLowerCase());
+
+      props.setCheckArray(lowerCheckArray);
     }
   };
 

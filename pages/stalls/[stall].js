@@ -13,8 +13,8 @@ const Stall = (props) => {
       <p>
         Website: <a href={props.data.url}>{props.data.url}</a>
       </p>
-      <Departments departments={props.data.departments} />
       <Criteria criteria={props.data.criteria} />
+      <Departments departments={props.data.departments} />
       <Categories categories={props.data.categories} />
       <Products products={props.data.products} />
 

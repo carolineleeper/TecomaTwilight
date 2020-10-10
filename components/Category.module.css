@@ -1,0 +1,8 @@
+.category {
+  background-color: #e6b6b8;
+  margin: 0.25rem;
+  width: fit-content;
+  color: #6e7381;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+}

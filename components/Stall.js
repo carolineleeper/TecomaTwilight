@@ -6,10 +6,10 @@ import style from "./Stall.module.css";
 const Stall = (props) => {
   return (
     <div className={style.stallThumb}>
-      <p>{props.stall.storeName}</p>
+      <div className={style.storeName}>{props.stall.storeName}</div>
       <img src={props.stall.logo} />
-      <Departments departments={props.stall.departments} />
       <Criteria criteria={props.stall.criteria} />
+      <Departments departments={props.stall.departments} />
       <Categories categories={props.stall.categories} />
     </div>
   );

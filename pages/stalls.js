@@ -14,30 +14,52 @@ const Stalls = (props) => {
     setSearch(e.target.value);
   };
 
+  // search bar filtering
   const filteredStalls = () => {
     const searchFiltered = props.stalls.filter((stall) => {
-      const toLowerCritera = stall.criteria.map((criteria) =>
+      const criteriaArray = stall.criteria.map((criteria) =>
         criteria.toLowerCase()
       );
-      const toLowerCategories = stall.categories.map((category) =>
+      const categoriesArray = stall.categories.map((category) =>
         category.toLowerCase()
       );
-      // const toLowerDepartments = stall.departments.map((department) =>
-      //   department.toLowerCase()
-      // );
+      const departmentsArray = stall.departments.map((department) =>
+        department.toLowerCase()
+      );
 
       return (
         stall.storeName.toLowerCase().includes(search.toLowerCase()) ||
-        toLowerCritera.find((a) => a.includes(search.toLowerCase())) ||
-        toLowerCategories.find((a) => a.includes(search.toLowerCase()))
+        criteriaArray.find((a) => a.includes(search.toLowerCase())) ||
+        departmentsArray.find((a) => a.includes(search.toLowerCase())) ||
+        categoriesArray.find((a) => a.includes(search.toLowerCase()))
       );
     });
 
+    // checkbox filtering
     const filtered = searchFiltered.filter((stall) => {
+      const criteriaArray = stall.criteria.map((criteria) =>
+        criteria.toLowerCase()
+      );
+      const categoriesArray = stall.categories.map((category) =>
+        category.toLowerCase()
+      );
+      const departmentsArray = stall.departments.map((department) =>
+        department.toLowerCase()
+      );
+
+      const mergedArray = [
+        ...criteriaArray,
+        ...categoriesArray,
+        ...departmentsArray,
+      ];
+
+      console.log(mergedArray);
+      console.log(checkArray);
+
       const intersectChecker = (array, target) =>
         target.every((value) => array.includes(value));
 
-      return intersectChecker(stall.categories, checkArray);
+      return intersectChecker(mergedArray, checkArray);
     });
 
     return filtered;

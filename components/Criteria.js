@@ -1,8 +1,9 @@
 import Criterion from "./Criterion";
+import style from "./Criteria.module.css";
 
 const Criteria = (props) => {
   return (
-    <div>
+    <div className={style.criteriaContianer}>
       {props.criteria.map((criterion) => {
         return <Criterion key={criterion} criterion={criterion} />;
       })}
