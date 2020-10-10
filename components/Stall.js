@@ -7,10 +7,14 @@ const Stall = (props) => {
   return (
     <div className={style.stallThumb}>
       <div className={style.storeName}>{props.stall.storeName}</div>
-      <img src={props.stall.logo} />
-      <Criteria criteria={props.stall.criteria} />
-      <Departments departments={props.stall.departments} />
-      <Categories categories={props.stall.categories} />
+      <div className={style.stallImageContainer}>
+        <img src={props.stall.logo} />
+      </div>
+      <div className={style.keywordContainer}>
+        <Criteria criteria={props.stall.criteria} />
+        <Departments departments={props.stall.departments} />
+        <Categories categories={props.stall.categories} />
+      </div>
     </div>
   );
 };

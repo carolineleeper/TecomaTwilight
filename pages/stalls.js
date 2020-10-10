@@ -90,7 +90,7 @@ const Stalls = (props) => {
         {filteredStalls().map((stall) => {
           return (
             <Link key={stall.filename} href={`stalls/${stall.filename}`}>
-              <a>
+              <a className="stallLink">
                 <Stall stall={stall} />
               </a>
             </Link>

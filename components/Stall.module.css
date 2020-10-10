@@ -1,4 +1,9 @@
 .stallThumb {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   background-color: #fff;
   margin: 1rem;
   padding: 0.5rem 1rem;
@@ -30,6 +35,14 @@
   color: #e4b1dd;
 }
 
-.stallThumb img {
+.stallImageContainer img {
   width: 100%;
+}
+.stallImageContainer {
+  width: 100%;
+  margin: auto;
+}
+
+.keywordContainer {
+  align-self: flex-start;
 }
