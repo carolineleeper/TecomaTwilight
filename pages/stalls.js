@@ -22,6 +22,9 @@ const Stalls = (props) => {
       const toLowerCategories = stall.categories.map((category) =>
         category.toLowerCase()
       );
+      // const toLowerDepartments = stall.departments.map((department) =>
+      //   department.toLowerCase()
+      // );
 
       return (
         stall.storeName.toLowerCase().includes(search.toLowerCase()) ||
@@ -50,6 +53,12 @@ const Stalls = (props) => {
       <Checkboxes
         checkArray={checkArray}
         setCheckArray={setCheckArray}
+        departments={props.stalls.map((stall) => {
+          return stall.departments;
+        })}
+        criteria={props.stalls.map((stall) => {
+          return stall.criteria;
+        })}
         categories={props.stalls.map((stall) => {
           return stall.categories;
         })}
@@ -82,6 +91,7 @@ export const getStaticProps = () => {
     return {
       filename: filename.replace(".md", ""),
       storeName: data.name,
+      departments: data.departments,
       criteria: data.criteria,
       categories: data.categories,
       logo: data.logo,

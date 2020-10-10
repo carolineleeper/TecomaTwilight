@@ -18,6 +18,9 @@
   transition: 0.4s ease-in-out;
 }
 @media screen and (max-width: 750px) {
+  .logoContainer {
+    flex: unset;
+  }
   .toggledLogo {
     width: 80%;
   }

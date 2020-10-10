@@ -41,12 +41,17 @@ collections:
         options:
           [
             "Clothing",
+            "Footwear",
             "Jewellery",
             "Homewares",
             "Food",
             "Health",
             "Beauty",
-            "Children",
+            "Plants",
+            "Wall Art",
+            "Gifts",
+            "Cleaning",
+            "Children and Baby",
           ]
         hint: "Choose one or many."
       - label: "Categories"
@@ -58,11 +63,12 @@ collections:
         options:
           [
             "Vegan",
-            "Plastic-free",
+            "Plastic Free",
             "Organic",
             "Handmade",
-            "Waste-free",
-            "Eco-friendly",
+            "Waste Free",
+            "Plant Based",
+            "Vintage",
           ]
         hint: "Choose one or many."
       - label: "Available Products"

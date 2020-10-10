@@ -13,22 +13,54 @@ const Checkboxes = (props) => {
     }
   };
 
-  const mergedArray = [].concat.apply([], props.categories);
-  const uniqueArray = [...new Set(mergedArray)];
+  const mergedDepartmentArray = [].concat.apply([], props.departments);
+  const uniqueDepartmentArray = [...new Set(mergedDepartmentArray)];
+
+  const mergedCriteriaArray = [].concat.apply([], props.criteria);
+  const uniqueCriteriaArray = [...new Set(mergedCriteriaArray)];
+
+  const mergedCategoryArray = [].concat.apply([], props.categories);
+  const uniqueCategoryArray = [...new Set(mergedCategoryArray)];
 
   return (
-    <div>
-      {uniqueArray.map((category) => {
-        return (
-          <Checkbox
-            key={category}
-            category={category}
-            checkArray={props.checkArray}
-            handleChecks={handleChecks}
-          />
-        );
-      })}
-    </div>
+    <>
+      <div>
+        {uniqueDepartmentArray.map((department) => {
+          return (
+            <Checkbox
+              key={department}
+              value={department}
+              checkArray={props.checkArray}
+              handleChecks={handleChecks}
+            />
+          );
+        })}
+      </div>
+      <div>
+        {uniqueCriteriaArray.map((criteria) => {
+          return (
+            <Checkbox
+              key={criteria}
+              value={criteria}
+              checkArray={props.checkArray}
+              handleChecks={handleChecks}
+            />
+          );
+        })}
+      </div>
+      <div>
+        {uniqueCategoryArray.map((category) => {
+          return (
+            <Checkbox
+              key={category}
+              value={category}
+              checkArray={props.checkArray}
+              handleChecks={handleChecks}
+            />
+          );
+        })}
+      </div>
+    </>
   );
 };
 

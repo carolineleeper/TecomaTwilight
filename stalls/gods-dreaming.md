@@ -9,8 +9,6 @@ departments:
   - Health
   - Beauty
 categories:
-  - Clothing
-  - Jewellery
   - Vegan
   - Plastic-free
 products:
