@@ -1,4 +1,5 @@
 import Checkbox from "./Checkbox";
+import style from "./Checkboxes.module.css";
 
 const Checkboxes = (props) => {
   const handleChecks = (e) => {
@@ -30,7 +31,8 @@ const Checkboxes = (props) => {
 
   return (
     <>
-      <div>
+      <div className={style.checkboxesContainer}>
+        <p>Search by Department</p>
         {uniqueDepartmentArray.map((department) => {
           return (
             <Checkbox
@@ -42,7 +44,8 @@ const Checkboxes = (props) => {
           );
         })}
       </div>
-      <div>
+      <div className={style.checkboxesContainer}>
+        <p>Search by Ethical Category</p>
         {uniqueCriteriaArray.map((criteria) => {
           return (
             <Checkbox
@@ -54,7 +57,7 @@ const Checkboxes = (props) => {
           );
         })}
       </div>
-      <div>
+      <div className={style.checkboxesContainer}>
         {uniqueCategoryArray.map((category) => {
           return (
             <Checkbox

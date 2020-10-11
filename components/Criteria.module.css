@@ -1,4 +1,5 @@
 .criteriaContianer {
   display: flex;
   font-weight: bold;
+  flex-wrap: wrap;
 }

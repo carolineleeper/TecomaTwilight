@@ -420,15 +420,37 @@ body.menuToggled {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 2rem auto;
-  width: 80%;
+  width: 100%;
+}
+.stallsContainer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.stallsContainer > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.searchContainer {
+  flex: 1 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e243d;
   padding: 2rem;
+}
+.stallContentContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  justify-content: center;
+  padding: 0 2rem;
 }
 
 .galleryContainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  /* align-items: stretch; */
+  padding: 0;
 }
 
 .stallLink {

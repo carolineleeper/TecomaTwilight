@@ -68,35 +68,44 @@ const Stalls = (props) => {
   return (
     <>
       <SEO title="Stalls" />
-      <h1>Stall Guide</h1>
+      <div className="stallsContainer">
+        <div className="searchContainer">
+          <Checkboxes
+            checkArray={checkArray}
+            setCheckArray={setCheckArray}
+            departments={props.stalls.map((stall) => {
+              return stall.departments;
+            })}
+            criteria={props.stalls.map((stall) => {
+              return stall.criteria;
+            })}
+            categories={props.stalls.map((stall) => {
+              return stall.categories;
+            })}
+          />
+        </div>
+        <div className="stallContentContainer">
+          <h1>Stall Guide</h1>
+          <p>
+            This is all the stalls, you can filter your search by department and
+            ethical categories in the menu to the left.
+          </p>
 
-      <input onChange={handleInput} value={search} />
+          <input onChange={handleInput} value={search} />
 
-      <Checkboxes
-        checkArray={checkArray}
-        setCheckArray={setCheckArray}
-        departments={props.stalls.map((stall) => {
-          return stall.departments;
-        })}
-        criteria={props.stalls.map((stall) => {
-          return stall.criteria;
-        })}
-        categories={props.stalls.map((stall) => {
-          return stall.categories;
-        })}
-      />
-
-      <ul className="galleryContainer">
-        {filteredStalls().map((stall) => {
-          return (
-            <Link key={stall.filename} href={`stalls/${stall.filename}`}>
-              <a className="stallLink">
-                <Stall stall={stall} />
-              </a>
-            </Link>
-          );
-        })}
-      </ul>
+          <ul className="galleryContainer">
+            {filteredStalls().map((stall) => {
+              return (
+                <Link key={stall.filename} href={`stalls/${stall.filename}`}>
+                  <a className="stallLink">
+                    <Stall stall={stall} />
+                  </a>
+                </Link>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
     </>
   );
 };

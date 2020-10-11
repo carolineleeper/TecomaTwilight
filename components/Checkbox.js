@@ -1,14 +1,19 @@
+import style from "./Checkbox.module.css";
+
 const Checkbox = (props) => {
   return (
-    <label htmlFor={props.value}>
+    <>
       <input
+        className={style.checkboxInput}
         type="checkbox"
         id={props.value}
         value={props.value}
         onChange={props.handleChecks}
       />
-      {props.value}
-    </label>
+      <label className={style.checkboxLabel} htmlFor={props.value}>
+        {props.value}
+      </label>
+    </>
   );
 };
 
