@@ -1,5 +1,6 @@
 import CheckboxesMenu from "../components/CheckboxesMenu";
 import Stall from "../components/Stall";
+import StallSearch from "../components/StallSearch";
 import NoStalls from "../components/NoStalls";
 import SEO from "../components/SEO";
 import matter from "gray-matter";
@@ -60,30 +61,21 @@ const Stalls = (props) => {
       return intersectChecker(mergedArray, checkArray);
     });
 
-    const shuffleArray = (array) => {
-      let currentIndex = array.length,
-        temporaryValue,
-        randomIndex;
-
-      // While there remain elements to shuffle...
-      while (0 !== currentIndex) {
-        // Pick a remaining element...
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-
-        // And swap it with the current element.
-        temporaryValue = array[currentIndex];
-        array[currentIndex] = array[randomIndex];
-        array[randomIndex] = temporaryValue;
-      }
-
-      return array;
-    };
-
-    return shuffleArray(filtered);
+    return filtered;
   };
 
-  console.log(`Numner: ${filteredStalls().length}`);
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * i);
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+
+    return array;
+  };
+
+  const randomFilteredStalls = shuffleArray(filteredStalls());
 
   return (
     <>
@@ -102,11 +94,11 @@ const Stalls = (props) => {
             ethical categories in the menu to the left.
           </p>
 
-          <input onChange={handleInput} value={search} />
+          <StallSearch handleInput={handleInput} search={search} />
 
           <ul className="galleryContainer">
-            {filteredStalls().length ? (
-              filteredStalls().map((stall) => {
+            {randomFilteredStalls.length ? (
+              randomFilteredStalls.map((stall) => {
                 return (
                   <Link key={stall.filename} href={`stalls/${stall.filename}`}>
                     <a className="stallLink">
