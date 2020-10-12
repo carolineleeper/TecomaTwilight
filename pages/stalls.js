@@ -1,5 +1,6 @@
-import Checkboxes from "../components/Checkboxes";
+import CheckboxesMenu from "../components/CheckboxesMenu";
 import Stall from "../components/Stall";
+import NoStalls from "../components/NoStalls";
 import SEO from "../components/SEO";
 import matter from "gray-matter";
 import { useState } from "react";
@@ -53,9 +54,6 @@ const Stalls = (props) => {
         ...departmentsArray,
       ];
 
-      console.log(mergedArray);
-      console.log(checkArray);
-
       const intersectChecker = (array, target) =>
         target.every((value) => array.includes(value));
 
@@ -65,25 +63,18 @@ const Stalls = (props) => {
     return filtered;
   };
 
+  console.log(`Numner: ${filteredStalls().length}`);
+
   return (
     <>
       <SEO title="Stalls" />
       <div className="stallsContainer">
-        <div className="searchContainer">
-          <Checkboxes
-            checkArray={checkArray}
-            setCheckArray={setCheckArray}
-            departments={props.stalls.map((stall) => {
-              return stall.departments;
-            })}
-            criteria={props.stalls.map((stall) => {
-              return stall.criteria;
-            })}
-            categories={props.stalls.map((stall) => {
-              return stall.categories;
-            })}
-          />
-        </div>
+        <CheckboxesMenu
+          checkArray={checkArray}
+          setCheckArray={setCheckArray}
+          stalls={props.stalls}
+        />
+
         <div className="stallContentContainer">
           <h1>Stall Guide</h1>
           <p>
@@ -94,15 +85,19 @@ const Stalls = (props) => {
           <input onChange={handleInput} value={search} />
 
           <ul className="galleryContainer">
-            {filteredStalls().map((stall) => {
-              return (
-                <Link key={stall.filename} href={`stalls/${stall.filename}`}>
-                  <a className="stallLink">
-                    <Stall stall={stall} />
-                  </a>
-                </Link>
-              );
-            })}
+            {filteredStalls().length ? (
+              filteredStalls().map((stall) => {
+                return (
+                  <Link key={stall.filename} href={`stalls/${stall.filename}`}>
+                    <a className="stallLink">
+                      <Stall stall={stall} />
+                    </a>
+                  </Link>
+                );
+              })
+            ) : (
+              <NoStalls />
+            )}
           </ul>
         </div>
       </div>

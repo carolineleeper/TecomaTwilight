@@ -386,7 +386,6 @@ ________/\\\\\\\\\__/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\____
 body {
   background: url("/images/background.jpg");
   background-position: top;
-  background-size: cover;
   background-attachment: fixed;
   font-family: Lato;
   color: #fff;
@@ -431,25 +430,19 @@ body.menuToggled {
   padding: 10px;
   flex: 1 100%;
 }
-
-.searchContainer {
-  flex: 1 0;
-  display: flex;
-  flex-direction: column;
-  background-color: #1e243d;
-  padding: 2rem;
-}
 .stallContentContainer {
   display: flex;
   flex-direction: column;
   flex: 5;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 0 2rem;
 }
 
 .galleryContainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  width: 100%;
   padding: 0;
 }
 

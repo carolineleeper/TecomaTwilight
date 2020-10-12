@@ -1,0 +1,12 @@
+.noStalls {
+  background-color: #e6b6b8;
+  border: 2px solid #8d6f70;
+  padding: 1rem;
+  color: #1e243d;
+  border-radius: 5px;
+  /* width: 100%; */
+  text-align: center;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
