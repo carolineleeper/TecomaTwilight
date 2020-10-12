@@ -4,6 +4,7 @@ import Categories from "./Categories";
 import style from "./Stall.module.css";
 
 const Stall = (props) => {
+  console.log(props.stall);
   return (
     <div className={style.stallThumb}>
       <div className={style.storeName}>{props.stall.storeName}</div>

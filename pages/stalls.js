@@ -3,14 +3,21 @@ import Stall from "../components/Stall";
 import StallSearch from "../components/StallSearch";
 import NoStalls from "../components/NoStalls";
 import SEO from "../components/SEO";
+
 import matter from "gray-matter";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import fs from "fs";
+import _ from "lodash";
 
 const Stalls = (props) => {
   const [search, setSearch] = useState("");
   const [checkArray, setCheckArray] = useState([]);
+  const [randomStalls, setRandomStalls] = useState([]);
+
+  useEffect(() => {
+    setRandomStalls(_.shuffle(props.stalls));
+  }, [props.stalls]);
 
   const handleInput = (e) => {
     setSearch(e.target.value);
@@ -18,7 +25,7 @@ const Stalls = (props) => {
 
   // search bar filtering
   const filteredStalls = () => {
-    const searchFiltered = props.stalls.filter((stall) => {
+    const searchFiltered = randomStalls.filter((stall) => {
       const criteriaArray = stall.criteria.map((criteria) =>
         criteria.toLowerCase()
       );
@@ -64,19 +71,6 @@ const Stalls = (props) => {
     return filtered;
   };
 
-  const shuffleArray = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * i);
-      const temp = array[i];
-      array[i] = array[j];
-      array[j] = temp;
-    }
-
-    return array;
-  };
-
-  const randomFilteredStalls = shuffleArray(filteredStalls());
-
   return (
     <>
       <SEO title="Stalls" />
@@ -84,7 +78,7 @@ const Stalls = (props) => {
         <CheckboxesMenu
           checkArray={checkArray}
           setCheckArray={setCheckArray}
-          stalls={props.stalls}
+          stalls={randomStalls}
         />
 
         <div className="stallContentContainer">
@@ -97,8 +91,8 @@ const Stalls = (props) => {
           <StallSearch handleInput={handleInput} search={search} />
 
           <ul className="galleryContainer">
-            {randomFilteredStalls.length ? (
-              randomFilteredStalls.map((stall) => {
+            {filteredStalls().length ? (
+              filteredStalls().map((stall) => {
                 return (
                   <Link key={stall.filename} href={`stalls/${stall.filename}`}>
                     <a className="stallLink">
