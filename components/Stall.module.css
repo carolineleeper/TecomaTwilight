@@ -1,4 +1,5 @@
 .stallThumb {
+  opacity: 0.9;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -15,6 +16,7 @@
   transition: all 0.2s ease-in-out;
 }
 .stallThumb:hover {
+  opacity: 1;
   transform: translateY(-2px) translateX(-2px);
   -webkit-box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.75);

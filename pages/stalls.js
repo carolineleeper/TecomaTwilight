@@ -82,15 +82,15 @@ const Stalls = (props) => {
         />
 
         <div className="stallContentContainer">
-          <h1>Stall Guide</h1>
+          {/* <h1>Stall Guide</h1>
           <p>
             This is all the stalls, you can filter your search by department and
             ethical categories in the menu to the left.
-          </p>
+          </p> */}
 
           <StallSearch handleInput={handleInput} search={search} />
 
-          <ul className="galleryContainer">
+          {/* <ul className="galleryContainer">
             {filteredStalls().length ? (
               filteredStalls().map((stall) => {
                 return (
@@ -104,7 +104,22 @@ const Stalls = (props) => {
             ) : (
               <NoStalls />
             )}
-          </ul>
+          </ul> */}
+          {filteredStalls().length ? (
+            <ul className="galleryContainer">
+              {filteredStalls().map((stall) => {
+                return (
+                  <Link key={stall.filename} href={`stalls/${stall.filename}`}>
+                    <a className="stallLink">
+                      <Stall stall={stall} />
+                    </a>
+                  </Link>
+                );
+              })}
+            </ul>
+          ) : (
+            <NoStalls />
+          )}
         </div>
       </div>
     </>
