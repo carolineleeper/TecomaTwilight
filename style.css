@@ -385,8 +385,7 @@ ________/\\\\\\\\\__/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\____
 
 body {
   background: url("/images/background.jpg");
-  background-position: top;
-  background-attachment: fixed;
+  background-position: right;
   font-family: Lato;
   color: #fff;
   max-width: 100%;
@@ -414,6 +413,18 @@ body.menuToggled {
 /*********************************************/
 /*************** C O N T E N T ***************/
 /*********************************************/
+.comingSoonContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.comingSoon {
+  font-size: 4rem;
+  text-align: center;
+}
 
 .pageContent {
   display: flex;

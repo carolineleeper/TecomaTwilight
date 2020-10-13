@@ -1,10 +1,14 @@
 import SEO from "../components/SEO";
+import Logo from "../components/Logo";
 
 const Home = () => {
   return (
     <>
-      <SEO title="Home" />
-      <h1>Coming Soon</h1>
+      <SEO title="Coming Soon" />
+      <div className="comingSoonContainer">
+        <Logo />
+        <h1 className="comingSoon">Coming Soon</h1>
+      </div>
     </>
   );
 };

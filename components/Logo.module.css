@@ -1,16 +1,14 @@
 .logoContainer {
+  background-color: #fff;
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
-  flex: 0.7;
-}
-.logoContainer a {
-  text-align: center;
+  height: 40vh;
+  width: 100%;
 }
 .SVGText {
-  width: 100%;
   transition: 0.4s ease-in-out;
 }
 .collapsedSVGText {
