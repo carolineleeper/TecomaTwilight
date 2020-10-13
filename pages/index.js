@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <SEO title="Home" />
-      <h1>Home2</h1>
+      <h1>Home</h1>
       <p>
         The perfect pre-Christmas market – promoting living and buying
         ethically.
