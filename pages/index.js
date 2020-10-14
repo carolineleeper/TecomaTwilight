@@ -1,4 +1,5 @@
 import SEO from "../components/SEO";
+import Video from "../components/Video";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         performers, this festival-like market will be a great community event
         for the whole family.
       </p>
+      <Video src="https://www.youtube.com/embed/ZGb6xasktBg" />
     </>
   );
 };
