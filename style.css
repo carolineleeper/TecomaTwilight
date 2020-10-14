@@ -425,6 +425,40 @@ body.menuToggled {
   font-size: 4rem;
   text-align: center;
 }
+.applyHereContainer {
+  text-align: center;
+}
+.applyBtn button {
+  border-radius: 5px;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background: #a33387;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.applyBtn button:hover,
+.applyBtn button:focus {
+  background: #e4b1dd;
+}
+
+.applyBtn button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.applyBtn button:active {
+  transform: scale(0.99);
+}
 
 .thanksText {
   text-align: center;
