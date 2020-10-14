@@ -1,7 +1,11 @@
 import SEO from "../components/SEO";
 import Video from "../components/Video";
+import FeaturedStalls from "../components/FeaturedStalls";
 
-const Home = () => {
+import matter from "gray-matter";
+import fs from "fs";
+
+const Home = (props) => {
   return (
     <>
       <SEO title="Home" />
@@ -21,8 +25,33 @@ const Home = () => {
         for the whole family.
       </p>
       <Video src="https://www.youtube.com/embed/ZGb6xasktBg" />
+      <FeaturedStalls stalls={props.stalls} />
     </>
   );
+};
+
+export const getStaticProps = () => {
+  const directory = `${process.cwd()}/stalls`;
+  const rawFilenames = fs.readdirSync(directory);
+
+  const stalls = rawFilenames.map((filename) => {
+    const rawFileContent = fs
+      .readFileSync(`${directory}/${filename}`)
+      .toString();
+    const { data } = matter(rawFileContent);
+    return {
+      filename: filename.replace(".md", ""),
+      storeName: data.name,
+      departments: data.departments,
+      criteria: data.criteria,
+      categories: data.categories,
+      logo: data.logo,
+    };
+  });
+
+  console.log(stalls)
+
+  return { props: { stalls } };
 };
 
 export default Home;

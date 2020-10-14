@@ -1,5 +1,5 @@
 ---
-name: Flame Tree
+name: Flame Tree 3
 url: https://flametreeartisans.com.au/
 logo: /images/uploads/fb-designs-03-justine-cotter-salama.png
 criteria:

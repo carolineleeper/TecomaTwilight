@@ -1,5 +1,5 @@
 ---
-name: God's Dreaming
+name: God's Dreaming 3
 url: godsdreaming.org
 logo: /images/uploads/gods-dreaming-rbg-72dpi-web-god-s-dreaming.jpg
 criteria:

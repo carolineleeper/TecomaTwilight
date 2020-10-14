@@ -3,18 +3,17 @@ import Criteria from "./Criteria";
 import Categories from "./Categories";
 import style from "./Stall.module.css";
 
-const Stall = (props) => {
-  console.log(props.stall);
+const Stall = ({ stall }) => {
   return (
     <div className={style.stallThumb}>
-      <div className={style.storeName}>{props.stall.storeName}</div>
+      <div className={style.storeName}>{stall.storeName}</div>
       <div className={style.stallImageContainer}>
-        <img src={props.stall.logo} />
+        <img src={stall.logo} />
       </div>
       <div className={style.keywordContainer}>
-        <Criteria criteria={props.stall.criteria} />
-        <Departments departments={props.stall.departments} />
-        <Categories categories={props.stall.categories} />
+        <Criteria criteria={stall.criteria} />
+        <Departments departments={stall.departments} />
+        <Categories categories={stall.categories} />
       </div>
     </div>
   );

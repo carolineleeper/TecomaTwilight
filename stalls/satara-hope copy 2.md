@@ -1,5 +1,5 @@
 ---
-name: Satara Hope
+name: Satara Hope 3
 url: satarahope.com
 logo: /images/uploads/satara-hope-logo-green-claire-fawbert.png
 criteria:
