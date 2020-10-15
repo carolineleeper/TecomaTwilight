@@ -1,3 +1,7 @@
+import FeaturedStall from "./FeaturedStall";
+import style from "./FeaturedStalls.module.css";
+import Carousel from "react-slick";
+
 const getWrappedIndex = (collection, index) => {
   let wrappedIndex = Math.abs(index);
   while (wrappedIndex > collection.length - 1) {
@@ -7,7 +11,7 @@ const getWrappedIndex = (collection, index) => {
 };
 
 const FeaturedStalls = ({ stalls }) => {
-  const goLiveDate = new Date("2020-10-13");
+  const goLiveDate = new Date("2020-10-15");
   const today = new Date();
   const diffTime = today - goLiveDate;
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
@@ -16,12 +20,25 @@ const FeaturedStalls = ({ stalls }) => {
   const stallMiddle = stalls[getWrappedIndex(stalls, diffDays)];
   const stallRight = stalls[getWrappedIndex(stalls, diffDays + 1)];
 
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // autoplay: true,
+  };
+
   return (
-    <div>
-      <p>{stallLeft.storeName}</p>
-      <p>{stallMiddle.storeName}</p>
-      <p>{stallRight.storeName}</p>
-    </div>
+    <>
+      <div className={style.carouselContainer}>
+        <Carousel {...settings} className={style.carousel}>
+          <FeaturedStall className={style.carouselItem} stall={stallLeft} />
+          <FeaturedStall className={style.carouselItem} stall={stallMiddle} />
+          <FeaturedStall className={style.carouselItem} stall={stallRight} />
+        </Carousel>
+      </div>
+    </>
   );
 };
 

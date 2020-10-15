@@ -3,6 +3,7 @@ import Video from "../components/Video";
 import FeaturedStalls from "../components/FeaturedStalls";
 
 import matter from "gray-matter";
+import marked from "marked";
 import fs from "fs";
 
 const Home = (props) => {
@@ -38,7 +39,8 @@ export const getStaticProps = () => {
     const rawFileContent = fs
       .readFileSync(`${directory}/${filename}`)
       .toString();
-    const { data } = matter(rawFileContent);
+    const { content, data } = matter(rawFileContent);
+    const html = marked(content);
     return {
       filename: filename.replace(".md", ""),
       storeName: data.name,
@@ -46,10 +48,12 @@ export const getStaticProps = () => {
       criteria: data.criteria,
       categories: data.categories,
       logo: data.logo,
+      products: data.products,
+      description: html,
     };
   });
 
-  console.log(stalls)
+  console.log(stalls);
 
   return { props: { stalls } };
 };
