@@ -7,7 +7,7 @@
   align-items: flex-start;
   background-color: #fff;
   margin: 1rem;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
   border-radius: 3px;
   -webkit-box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
@@ -24,8 +24,8 @@
 }
 .storeName {
   color: #271f6b;
-  padding: 0.5rem 0;
-  margin: 0 0 0.5rem;
+  padding: 0.5rem 1rem;
+  /* margin: 0 0 0.5rem; */
   font-family: Brusher;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -46,5 +46,6 @@
 }
 
 .keywordContainer {
+  padding: 1rem;
   align-self: flex-start;
 }
