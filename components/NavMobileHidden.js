@@ -1,4 +1,5 @@
 import NavItem from "./NavItem";
+import Donate from "./Donate";
 import Facebook from "./Facebook";
 import Instagram from "./Instagram";
 import style from "./NavMobileHidden.module.css";
@@ -23,6 +24,7 @@ const NavMobileHidden = (props) => {
       })}
       <Facebook key="facebook" />
       <Instagram key="instagram" />
+      <Donate />
     </div>
   );
 };
