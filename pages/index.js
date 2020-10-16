@@ -10,11 +10,14 @@ const Home = (props) => {
   return (
     <>
       <SEO title="Home" />
-      <Video src="https://www.youtube.com/embed/live_stream?channel=UCFsqNXY_8Ab3yFDOdZTKKbA" />
+      <Video src="https://www.youtube.com/embed/ZGb6xasktBg" />
+      <Video src="https://www.youtube.com/embed/videoseries?list=PL735C37C69C6A737C" />
       <FeaturedStalls stalls={props.stalls} />
     </>
   );
 };
+
+// channel id: UCFsqNXY_8Ab3yFDOdZTKKbA
 
 export const getStaticProps = () => {
   const directory = `${process.cwd()}/stalls`;

@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  max-width: 900px;
-  margin: auto;
+  max-width: 1000px;
+  margin: 0 auto 2rem;
 }
 
 .responsiveVideoContainer {
