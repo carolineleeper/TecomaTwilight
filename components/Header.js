@@ -10,6 +10,10 @@ const routes = [
     url: "/",
   },
   {
+    title: "About",
+    url: "/about",
+  },
+  {
     title: "Stalls",
     url: "/stalls",
   },

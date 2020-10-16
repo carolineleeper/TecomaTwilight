@@ -53,8 +53,6 @@ export const getStaticProps = () => {
     };
   });
 
-  console.log(stalls);
-
   return { props: { stalls } };
 };
 

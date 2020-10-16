@@ -9,6 +9,7 @@ const SEO = (props) => {
         src="https://kit.fontawesome.com/f06f95e36e.js"
         crossOrigin="anonymous"
       ></script>
+      <link rel="icon" href="/static/favicon.ico" />
       <title>Tecoma Twilight | {props.title}</title>
     </Head>
   );

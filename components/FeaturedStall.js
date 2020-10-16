@@ -4,7 +4,6 @@ import Criteria from "./Criteria";
 import style from "./FeaturedStall.module.css";
 
 const FeaturedStall = (props) => {
-  console.log(props);
   return (
     <div className={style.featuredStallContainer}>
       <div className={style.imageContainer}>
