@@ -120,8 +120,8 @@ export const getStaticProps = () => {
       departments: data.departments,
       criteria: data.criteria,
       categories: data.categories,
-      logo: data.logo,
       ethicalDesc: data.ethical,
+      logo: data.logo,
     };
   });
 
