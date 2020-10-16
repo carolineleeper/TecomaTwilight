@@ -10,7 +10,7 @@ const Home = (props) => {
   return (
     <>
       <SEO title="Home" />
-      <Video src="https://www.youtube.com/embed/ZGb6xasktBg" />
+      <Video src="https://www.youtube.com/embed/live_stream?channel=UCFsqNXY_8Ab3yFDOdZTKKbA" />
       <FeaturedStalls stalls={props.stalls} />
     </>
   );
