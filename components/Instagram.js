@@ -1,10 +1,13 @@
+import style from "./NavItem.module.css";
+
 const Instagram = () => {
   return (
     <a
-      href="https://www.instagram.com/TecomaTwilightEthicalMarket/"
+      className={style.navItem}
+      href="https://www.instagram.com/tecomatwilightmarket/"
       target="_blank"
     >
-      Instagram
+      <i aria-hidden className="fab fa-instagram"></i>
     </a>
   );
 };

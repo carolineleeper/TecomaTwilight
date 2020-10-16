@@ -1,5 +1,7 @@
 import NavItem from "./NavItem";
+import Donate from "./Donate";
 import Facebook from "./Facebook";
+import Instagram from "./Instagram";
 import style from "./Nav.module.css";
 
 const Nav = (props) => {
@@ -10,7 +12,11 @@ const Nav = (props) => {
           <NavItem key={route.title} title={route.title} url={route.url} />
         );
       })}
-      <Facebook key="facebook" />
+      <Donate />
+      <div>
+        <Facebook key="facebook" />
+        <Instagram key="instagram" />
+      </div>
     </nav>
   );
 };
