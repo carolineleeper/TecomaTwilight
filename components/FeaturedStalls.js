@@ -11,7 +11,7 @@ const getWrappedIndex = (collection, index) => {
 };
 
 const FeaturedStalls = ({ stalls }) => {
-  const goLiveDate = new Date("2020-10-30");
+  const goLiveDate = new Date("2020-10-15");
   const today = new Date();
   const diffTime = today - goLiveDate;
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
@@ -31,6 +31,7 @@ const FeaturedStalls = ({ stalls }) => {
 
   return (
     <>
+      <h1 className={style.title}>Today's Featured Stalls</h1>
       <div className={style.carouselContainer}>
         <Carousel {...settings} className={style.carousel}>
           <FeaturedStall className={style.carouselItem} stall={stallLeft} />
