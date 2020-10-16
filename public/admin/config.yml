@@ -28,7 +28,7 @@ collections:
             "Fair Trade",
             "Upcycled",
             "Eco Friendly",
-            "Locally Made",
+            "Local Produce/Artist",
             "Community Empowerment",
           ]
         hint: "Which ethical criteria does this stall meet? Choose at least one"
@@ -40,18 +40,18 @@ collections:
         required: false
         options:
           [
-            "Clothing",
-            "Footwear",
+            "Clothing/Footwear",
+            "Accessories",
             "Jewellery",
             "Homewares",
             "Food",
-            "Health",
-            "Beauty",
+            "Health/Beauty",
             "Plants",
             "Wall Art",
             "Gifts",
             "Cleaning",
             "Children and Baby",
+            "Pets",
           ]
         hint: "Choose one or many."
       - label: "Categories"
@@ -64,11 +64,17 @@ collections:
           [
             "Vegan",
             "Plastic Free",
-            "Organic",
+            "Certified Organic",
             "Handmade",
             "Waste Free",
             "Plant Based",
-            "Vintage",
+            "Carbon Neutral",
+            "Female Empowerment",
+            "First Nations",
+            "Social Enterprise",
+            "20km Tecoma Radius",
+            "Refugee Advocacy",
+            "Under 25 Years",
           ]
         hint: "Choose one or many."
       - label: "Available Products"
