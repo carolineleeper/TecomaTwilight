@@ -37,7 +37,7 @@ export const getStaticProps = () => {
       categories: data.categories,
       logo: data.logo,
       products: data.products,
-      ethicalDesc: data.ethical,
+      // ethicalDesc: data.ethical,
       description: html,
     };
   });
