@@ -121,6 +121,7 @@ export const getStaticProps = () => {
       criteria: data.criteria,
       categories: data.categories,
       logo: data.logo,
+      ethicalDesc: data.ethical,
     };
   });
 
