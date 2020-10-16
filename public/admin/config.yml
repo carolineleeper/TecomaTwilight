@@ -17,8 +17,12 @@ collections:
       - { label: "Stall Name", name: "name", widget: "string", tagname: "h1" }
       - { label: "Website", name: "url", widget: "string", tagname: "h1" }
       - { label: "Logo", name: "logo", widget: "image" }
-      - { label: "Description", name: "body", widget: "text" }
-      - { label: "Ethical Description", name: "ethical", widget: "text" }
+      - { label: "Stall Description", name: "description", widget: "text" }
+      - {
+          label: "Ethical Description",
+          name: "ethicalDescription",
+          widget: "text",
+        }
       - label: "Stall Criteria"
         name: "criteria"
         widget: "select"
