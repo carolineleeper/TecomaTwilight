@@ -2,6 +2,8 @@
 name: Flame Tree 2
 url: https://flametreeartisans.com.au/
 logo: /images/uploads/fb-designs-03-justine-cotter-salama.png
+description: Beautifully Unique and Eclectic Handblown Christmas Ornaments and Decorations Made By Egyptian Artisans
+ethicalDescription: This is the ethical description
 criteria:
   - Fair Trade
   - Locally Made
@@ -20,5 +22,3 @@ products:
     product_price: 15
     product_image: /images/uploads/medium-blue-iridescent-ball-justine-cotter-salama.jpg
 ---
-
-Beautifully Unique and Eclectic Handblown Christmas Ornaments and Decorations Made By Egyptian Artisans

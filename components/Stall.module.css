@@ -22,7 +22,7 @@
   -moz-box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.75);
 }
-.storeName {
+.name {
   color: #271f6b;
   padding: 0.5rem 1rem;
   /* margin: 0 0 0.5rem; */
@@ -33,7 +33,7 @@
 
   transition: all 0.2s ease-in-out;
 }
-.stallThumb:hover .storeName {
+.stallThumb:hover .name {
   color: #e4b1dd;
 }
 

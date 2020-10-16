@@ -10,16 +10,17 @@ const FeaturedStall = (props) => {
         <img src={props.stall.products[1].product_image} />
       </div>
       <div className={style.stallInfoContainer}>
-        <h1>{props.stall.storeName}</h1>
+        <h1>{props.stall.name}</h1>
         <div className={style.keywordsContainer}>
           <Criteria criteria={props.stall.criteria} />
           <Departments departments={props.stall.departments} />
-          <Categories categories={props.stall.categories} />
+          {props.stall.categories && (
+            <Categories categories={props.stall.categories} />
+          )}
         </div>
-        <div
-          className={style.descriptionContainer}
-          dangerouslySetInnerHTML={{ __html: props.stall.description }}
-        />
+        <div className={style.descriptionContainer}>
+          {props.stall.ethicalDescription}
+        </div>
       </div>
     </div>
   );

@@ -37,7 +37,7 @@ const Stalls = (props) => {
       );
 
       return (
-        stall.storeName.toLowerCase().includes(search.toLowerCase()) ||
+        stall.name.toLowerCase().includes(search.toLowerCase()) ||
         criteriaArray.find((a) => a.includes(search.toLowerCase())) ||
         departmentsArray.find((a) => a.includes(search.toLowerCase())) ||
         categoriesArray.find((a) => a.includes(search.toLowerCase()))
@@ -114,15 +114,7 @@ export const getStaticProps = () => {
       .readFileSync(`${directory}/${filename}`)
       .toString();
     const { data } = matter(rawFileContent);
-    return {
-      filename: filename.replace(".md", ""),
-      storeName: data.name,
-      departments: data.departments,
-      criteria: data.criteria,
-      categories: data.categories,
-      // ethicalDesc: data.ethical,
-      logo: data.logo,
-    };
+    return { ...data, filename: filename.replace(".md", "") };
   });
 
   return { props: { stalls } };

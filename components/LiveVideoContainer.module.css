@@ -1,0 +1,22 @@
+.liveVideoContainer {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.liveVideoContainer div {
+  flex: 1;
+}
+
+.liveVideoContainerText {
+  flex: 1;
+  padding: 1rem 2rem;
+}
+
+@media screen and (max-width: 750px) {
+  .liveVideoContainer {
+    flex-direction: column-reverse;
+  }
+}

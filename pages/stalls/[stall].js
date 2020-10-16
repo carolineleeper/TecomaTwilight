@@ -1,24 +1,25 @@
+import SEO from "../../components/SEO";
 import Departments from "../../components/Departments";
 import Criteria from "../../components/Criteria";
 import Categories from "../../components/Categories";
 import Products from "../../components/Products";
 import matter from "gray-matter";
-import marked from "marked";
 import fs from "fs";
 
 const Stall = (props) => {
   return (
     <>
-      <h2>{props.data.name}</h2>
+      <SEO title={props.stall.name} />
+      <h2>{props.stall.name}</h2>
       <p>
-        Website: <a href={props.data.url}>{props.data.url}</a>
+        Website: <a href={props.stall.url}>{props.stall.url}</a>
       </p>
-      <Criteria criteria={props.data.criteria} />
-      <Departments departments={props.data.departments} />
-      <Categories categories={props.data.categories} />
-      <Products products={props.data.products} />
-
-      <div dangerouslySetInnerHTML={{ __html: props.html }} />
+      <Criteria criteria={props.stall.criteria} />
+      <Departments departments={props.stall.departments} />
+      {props.stall.categories && (
+        <Categories categories={props.stall.categories} />
+      )}
+      {props.stall.products && <Products products={props.stall.products} />}
     </>
   );
 };
@@ -47,10 +48,9 @@ export const getStaticProps = (context) => {
   const stallName = context.params.stall;
   const filepath = `${process.cwd()}/stalls/${stallName}.md`;
   const rawFileContent = fs.readFileSync(filepath).toString();
-  const { content, data } = matter(rawFileContent);
-  const html = marked(content);
+  const { data } = matter(rawFileContent);
 
-  return { props: { html, data } };
+  return { props: { stall: data } };
 };
 
 export default Stall;

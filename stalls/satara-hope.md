@@ -2,6 +2,12 @@
 name: Satara Hope
 url: satarahope.com
 logo: /images/uploads/satara-hope-logo-green-claire-fawbert.png
+description: >-
+  Satara is one of my favourite places in the world. Located in the African bush its Big Cat country where an early morning rise will more often than not treat you to a sighting of lion or leopard. Its my peaceful calm place.
+
+  Hope (n) a feeling of expectation and desire for a particular thing to happen. My desire is for community wellness and to help people on their own journey to natural happy living. I also believe that hope is the one thing we all have, no matter what the situation, if you want it bad enough that desire can manifest.
+ethicalDescription: >-
+  Hope (n) a feeling of expectation and desire for a particular thing to happen. My desire is for community wellness and to help people on their own journey to natural happy living. I also believe that hope is the one thing we all have, no matter what the situation, if you want it bad enough that desire can manifest.
 criteria:
   - Eco Friendly
   - Fair Trade
@@ -41,7 +47,3 @@ products:
     product_price: 59
     product_image: /images/uploads/satara-hope-sunshine-box-claire-fawbert.jpg
 ---
-
-Satara is one of my favourite places in the world. Located in the African bush its Big Cat country where an early morning rise will more often than not treat you to a sighting of lion or leopard. Its my peaceful calm place.
-
-Hope (n) a feeling of expectation and desire for a particular thing to happen. My desire is for community wellness and to help people on their own journey to natural happy living. I also believe that hope is the one thing we all have, no matter what the situation, if you want it bad enough that desire can manifest.

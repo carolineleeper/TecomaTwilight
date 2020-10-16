@@ -1,16 +1,16 @@
 import SEO from "../components/SEO";
 import Video from "../components/Video";
+import LiveVideoContainer from "../components/LiveVideoContainer";
 import FeaturedStalls from "../components/FeaturedStalls";
 
 import matter from "gray-matter";
-import marked from "marked";
 import fs from "fs";
 
 const Home = (props) => {
   return (
     <>
       <SEO title="Home" />
-      <Video src="https://www.youtube.com/embed/ZGb6xasktBg" />
+      <LiveVideoContainer />
       <Video src="https://www.youtube.com/embed/videoseries?list=PL735C37C69C6A737C" />
       <FeaturedStalls stalls={props.stalls} />
     </>
@@ -27,19 +27,8 @@ export const getStaticProps = () => {
     const rawFileContent = fs
       .readFileSync(`${directory}/${filename}`)
       .toString();
-    const { content, data } = matter(rawFileContent);
-    const html = marked(content);
-    return {
-      filename: filename.replace(".md", ""),
-      storeName: data.name,
-      departments: data.departments,
-      criteria: data.criteria,
-      categories: data.categories,
-      logo: data.logo,
-      products: data.products,
-      // ethicalDesc: data.ethical,
-      description: html,
-    };
+    const { data } = matter(rawFileContent);
+    return { ...data, filename: filename.replace(".md", "") };
   });
 
   return { props: { stalls } };

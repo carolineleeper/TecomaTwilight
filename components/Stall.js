@@ -6,7 +6,7 @@ import style from "./Stall.module.css";
 const Stall = ({ stall }) => {
   return (
     <div className={style.stallThumb}>
-      <div className={style.storeName}>{stall.storeName}</div>
+      <div className={style.name}>{stall.name}</div>
       <div className={style.stallImageContainer}>
         <img src={stall.logo} />
       </div>
