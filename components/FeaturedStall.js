@@ -1,9 +1,11 @@
 import Categories from "./Categories";
 import Departments from "./Departments";
 import Criteria from "./Criteria";
+import ViewStallButton from "./ViewStallButton";
 import style from "./FeaturedStall.module.css";
 
 const FeaturedStall = (props) => {
+  console.log(props);
   return (
     <div className={style.featuredStallContainer}>
       <div className={style.imageContainer}>
@@ -12,6 +14,7 @@ const FeaturedStall = (props) => {
         ) : (
           <img src={props.stall.logo} />
         )}
+        <ViewStallButton filename={props.stall.filename} />
       </div>
 
       <div className={style.stallInfoContainer}>

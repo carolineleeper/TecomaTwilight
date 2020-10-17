@@ -1,0 +1,35 @@
+.viewStallButton {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 1rem;
+
+  border-radius: 5px;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background: #a33387;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.viewStallButton:hover,
+.viewStallButton:focus {
+  background: #e4b1dd;
+}
+
+.viewStallButton:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.viewStallButton:active {
+  transform: scale(0.99);
+}
