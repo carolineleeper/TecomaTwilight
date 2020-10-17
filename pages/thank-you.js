@@ -4,7 +4,7 @@ import Logo from "../components/Logo";
 const Home = () => {
   return (
     <>
-      <SEO title="Coming Soon" />
+      <SEO title="Thank You" />
       <div className="comingSoonContainer">
         <Logo />
         <p className="thanksText">
