@@ -33,8 +33,8 @@ const SEO = (props) => {
       />
       <meta
         property="og:image"
-        content="https://tecomatwilight.com/static/og_image.png"
-        href="https://tecomatwilight.com/static/og_image.png"
+        content="tecomatwilight.com/static/og_image.png"
+        // href="https://tecomatwilight.com/static/og_image.png"
         key="ogimage"
       />
 
@@ -51,8 +51,8 @@ const SEO = (props) => {
       />
       <meta
         property="twitter:image"
-        content="https://tecomatwilight.com/static/og_image.png"
-        href="https://tecomatwilight.com/static/og_image.png"
+        content="tecomatwilight.com/static/og_image.png"
+        // href="https://tecomatwilight.com/static/og_image.png"
       />
     </Head>
   );
