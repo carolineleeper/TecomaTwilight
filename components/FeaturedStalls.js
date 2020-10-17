@@ -31,7 +31,7 @@ const FeaturedStalls = ({ stalls }) => {
 
   return (
     <>
-      <h1 className={style.title}>Today's Featured Stalls</h1>
+      <h1 className={style.title}>STALL SPOTLIGHT</h1>
       <div className={style.carouselContainer}>
         <Carousel {...settings} className={style.carousel}>
           <FeaturedStall className={style.carouselItem} stall={stallLeft} />

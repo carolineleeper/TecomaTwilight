@@ -1,0 +1,29 @@
+.videoPlaylistContainer {
+  margin: 0 2rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.videoPlaylistContainer div {
+  flex: 1;
+}
+
+.videoPlaylistContainerText {
+  flex: 1;
+  padding: 1rem 2rem;
+  align-items: flex-end;
+  text-align: right;
+}
+
+@media screen and (max-width: 750px) {
+  .videoPlaylistContainer {
+    flex-direction: column;
+    margin: 0 0 2rem;
+  }
+  .videoPlaylistContainerText {
+    text-align: left;
+    /* margin: 2rem 0 0; */
+  }
+}

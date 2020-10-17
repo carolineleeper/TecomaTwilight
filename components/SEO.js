@@ -61,11 +61,6 @@ const SEO = (props) => {
         property="twitter:image"
         content="tecomatwilight.com/static/og_image.png"
       />
-
-      <script
-        src="https://kit.fontawesome.com/f06f95e36e.js"
-        crossOrigin="anonymous"
-      ></script>
     </Head>
   );
 };

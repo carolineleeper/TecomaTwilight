@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import style from "./NavItem.module.css";
 
 const Facebook = () => {
@@ -7,7 +9,7 @@ const Facebook = () => {
       href="https://www.facebook.com/TecomaTwilightEthicalMarket/"
       target="_blank"
     >
-      <i aria-hidden className="fab fa-facebook"></i>
+      <FontAwesomeIcon icon={["fab", "facebook"]} />
     </a>
   );
 };

@@ -4,6 +4,15 @@ import "../style.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  fab,
+  faFacebook,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
+library.add(fab, faFacebook, faInstagram);
+
 export default function MyApp({ Component, pageProps }) {
   return (
     <>

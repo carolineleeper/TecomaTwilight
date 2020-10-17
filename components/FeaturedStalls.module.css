@@ -4,5 +4,8 @@
   margin: 1rem auto;
 }
 .title {
+  /* font-family: Brusher; */
+  letter-spacing: 5px;
   text-align: center;
+  font-size: 2.5rem;
 }

@@ -1,5 +1,5 @@
 import SEO from "../components/SEO";
-import Video from "../components/Video";
+import VideoPlaylistContainer from "../components/VideoPlaylistContainer";
 import LiveVideoContainer from "../components/LiveVideoContainer";
 import FeaturedStalls from "../components/FeaturedStalls";
 
@@ -10,9 +10,9 @@ const Home = (props) => {
   return (
     <>
       <SEO title="Home" />
-      <LiveVideoContainer />
-      <Video src="https://www.youtube.com/embed/videoseries?list=PL735C37C69C6A737C" />
       <FeaturedStalls stalls={props.stalls} />
+      <LiveVideoContainer />
+      <VideoPlaylistContainer />
     </>
   );
 };
