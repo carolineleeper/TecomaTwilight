@@ -6,10 +6,6 @@ const SEO = (props) => {
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" href="/static/favicon.ico" />
-      <script
-        src="https://kit.fontawesome.com/f06f95e36e.js"
-        crossOrigin="anonymous"
-      ></script>
       <title>Tecoma Twilight | {props.title}</title>
 
       <meta name="title" content={`Tecoma Twilight | ${props.title}`} />
@@ -38,13 +34,11 @@ const SEO = (props) => {
       <meta
         property="og:image"
         content="tecomatwilight.com/static/og_image.png"
-        // href="https://tecomatwilight.com/static/og_image.png"
         key="ogimage"
       />
       <meta
         property="og:image:secure_url"
         content="tecomatwilight.com/static/og_image.png"
-        // href="https://tecomatwilight.com/static/og_image.png"
         key="ogimage"
       />
 
@@ -62,13 +56,16 @@ const SEO = (props) => {
       <meta
         property="twitter:image"
         content="tecomatwilight.com/static/og_image.png"
-        // href="https://tecomatwilight.com/static/og_image.png"
       />
       <meta
         property="twitter:image"
         content="tecomatwilight.com/static/og_image.png"
-        // href="https://tecomatwilight.com/static/og_image.png"
       />
+
+      <script
+        src="https://kit.fontawesome.com/f06f95e36e.js"
+        crossOrigin="anonymous"
+      ></script>
     </Head>
   );
 };
