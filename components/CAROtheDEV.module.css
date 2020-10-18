@@ -1,0 +1,16 @@
+.caroTheDevLink a {
+  color: #271f6b;
+
+  transition: all 0.2s ease-in-out;
+}
+.caroTheDevLink a:hover {
+  background: -webkit-linear-gradient(
+    right,
+    #fcb444,
+    #cd6600,
+    #8e2112,
+    #0e5b7f
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

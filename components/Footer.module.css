@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #271f6b;
+  text-align: center;
+  bottom: 0;
+  max-width: 100%;
+  padding: 1rem;
+}
+.footer p {
+  font-size: 1rem;
+}
+.copyrightContainer {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.copyrightContainer p {
+  margin: 0.5rem;
+}
+.socialsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialsContainer a {
+  padding: 0;
+  margin: 0.5rem;
+}

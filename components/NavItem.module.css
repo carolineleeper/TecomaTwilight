@@ -12,10 +12,10 @@ a.currentNavItem {
 
 a.navItem:hover,
 a.currentNavItem {
-  color: #e4b1dd;
-  text-shadow: 1px 0px 0px #e4b1dd, 1px 1px 0px #e4b1dd, 0px 1px 0px #e4b1dd,
-    -1px 1px 0px #e4b1dd, -1px 0px 0px #e4b1dd, -1px -1px 0px #e4b1dd,
-    0px -1px 0px #e4b1dd, 1px -1px 0px #e4b1dd, 1px 4px 5px #aeaeae;
+  color: #a33387;
+  text-shadow: 1px 0px 0px #a33387, 1px 1px 0px #a33387, 0px 1px 0px #a33387,
+    -1px 1px 0px #a33387, -1px 0px 0px #a33387, -1px -1px 0px #a33387,
+    0px -1px 0px #a33387, 1px -1px 0px #a33387, 1px 4px 5px #aeaeae;
 }
 
 a.navItem:active,
@@ -25,6 +25,10 @@ a.navItem:focus {
 
 .navItem img {
   width: 2.5rem;
+  transition: all 0.2s ease-in-out;
+}
+.navItem img:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 750px) {
