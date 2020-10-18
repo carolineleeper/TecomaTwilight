@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import style from "./NavItem.module.css";
 
 const Instagram = () => {
@@ -8,7 +7,7 @@ const Instagram = () => {
       href="https://www.instagram.com/tecomatwilightmarket/"
       target="_blank"
     >
-      <FontAwesomeIcon icon={["fab", "instagram"]} />
+      <img src="/images/instagram_logo.png" />
     </a>
   );
 };

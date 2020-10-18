@@ -12,11 +12,11 @@ const Nav = (props) => {
           <NavItem key={route.title} title={route.title} url={route.url} />
         );
       })}
-      <Donate />
-      <div>
+      <div className={style.socialsContainer}>
         <Facebook key="facebook" />
         <Instagram key="instagram" />
       </div>
+      <Donate />
     </nav>
   );
 };

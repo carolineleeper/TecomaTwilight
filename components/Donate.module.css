@@ -32,3 +32,9 @@
 .donateButton:active {
   transform: scale(0.99);
 }
+
+@media screen and (max-width: 750px) {
+  .donateButton {
+    margin: 0.5rem;
+  }
+}
