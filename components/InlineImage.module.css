@@ -1,0 +1,40 @@
+.imageContainer {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  max-height: 400px;
+  overflow: hidden;
+
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.imageContainer img {
+  width: 100%;
+  filter: brightness(0.35);
+  object-fit: cover;
+}
+.imageContainer p {
+  font-weight: bold;
+  font-size: 2rem;
+  position: absolute;
+  max-width: 80%;
+  top: 25%;
+}
+.imageRight {
+  float: right;
+}
+
+@media screen and (max-width: 750px) {
+  .imageContainer {
+    height: 700px;
+    align-items: stretch;
+  }
+  .imageContainer p {
+    top: 5%;
+    font-size: 1.2rem;
+  }
+}

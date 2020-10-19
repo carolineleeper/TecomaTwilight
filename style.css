@@ -423,7 +423,7 @@ body.menuToggled {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  max-width: 100%;
 }
 .stallsContainer {
   display: flex;
@@ -442,16 +442,33 @@ body.menuToggled {
   align-items: flex-start;
   padding: 1rem 2rem;
 }
-
 .galleryContainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   width: 100%;
   padding: 0;
 }
-
 .stallLink {
   display: flex;
+}
+.upperCase {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.emphasise {
+  color: #ffe685;
+}
+.textCenter {
+  text-align: center;
+}
+.aboutText {
+  padding: 1rem 3rem;
+}
+@media screen and (max-width: 750px) {
+  .aboutText {
+    padding: 1rem 0.5rem;
+  }
 }
 
 /* CAROUSEL */
@@ -500,7 +517,7 @@ body.menuToggled {
 }
 
 /*********************************************/
-/**************** F O O T E R ****************/
+/**************** I M A G E S ****************/
 /*********************************************/
 
 /*********************************************/

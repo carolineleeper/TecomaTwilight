@@ -21,7 +21,7 @@
   background: #e4b1dd;
   box-shadow: 1px 0px 0px #e4b1dd, 1px 1px 0px #e4b1dd, 0px 1px 0px #e4b1dd,
     -1px 1px 0px #e4b1dd, -1px 0px 0px #e4b1dd, -1px -1px 0px #e4b1dd,
-    0px -1px 0px #e4b1dd, 1px -1px 0px #e4b1dd, 1px 4px 5px #aeaeae;
+    0px -1px 0px #e4b1dd, 1px -1px 0px #e4b1dd, 1px 4px 5px #414141;
 }
 
 .donateButton:focus {
