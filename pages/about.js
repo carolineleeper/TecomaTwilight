@@ -1,7 +1,23 @@
 import SEO from "../components/SEO";
 import Ethics from "../components/Ethics";
+import Criteria from "../components/Criteria";
 import Donate from "../components/Donate";
 import InlineImage from "../components/InlineImage";
+
+const criteria = [
+  "vegan",
+  "plastic free",
+  "certified organic",
+  "waste free",
+  "plant based",
+  "carbon neutral",
+  "support female empowerment",
+  "support First Nations",
+  "social enterprise",
+  "20km Tecoma radius",
+  "refugee advocacy",
+  "support under 25 yo’s",
+];
 
 const About = () => {
   return (
@@ -22,24 +38,31 @@ const About = () => {
           We at Tecoma Twilight Online Market will be your{" "}
           <span className="emphasise">Ethical Directory</span>.
         </p>
-        <p>
+        <p className="textCenter">
           We have resourced stall holders that meet one or more of the
-          following: <span className="emphasise">Up cycled</span>,{" "}
-          <span className="emphasise">ethical</span>,{" "}
-          <span className="emphasise">handmade</span>,{" "}
-          <span className="emphasise">fair trade</span>,{" "}
-          <span className="emphasise">local produce/local artist</span>,{" "}
-          <span className="emphasise">eco-friendly</span> and{" "}
-          <span className="emphasise">community empowerment</span>.
+          following:
         </p>
         <Ethics />
         <p>
           We think ethical shopping can also include these specific aspects:
-          Vegan, plastic free, certified organic, waste free, plant based,
-          carbon neutral, support female empowerment, support First Nations,
-          social enterprise, 20km Tecoma radius, refugee advocacy, support under
-          25 yo’s.
         </p>
+        <div className="divCenter">
+          <Criteria criteria={criteria} />
+        </div>
+        {/* <ul>
+            <li>vegan</li>
+            <li>plastic free</li>
+            <li>certified organic</li>
+            <li>waste free</li>
+            <li>plant based</li>
+            <li>carbon neutral</li>
+            <li>support female empowerment</li>
+            <li>support First Nations</li>
+            <li>social enterprise</li>
+            <li>20km Tecoma radius</li>
+            <li>refugee advocacy</li>
+            <li>support under 25 yo’s</li>
+          </ul> */}
         <p className="upperCase">
           You can shop anytime you like by contacting the stallholders and
           ordering your gifts.{" "}

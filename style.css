@@ -462,6 +462,9 @@ body.menuToggled {
 .textCenter {
   text-align: center;
 }
+.divCenter div {
+  justify-content: center;
+}
 .aboutText {
   padding: 1rem 3rem;
 }
