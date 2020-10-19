@@ -500,6 +500,12 @@ body.menuToggled {
   .aboutText {
     padding: 1rem 0.5rem;
   }
+  .spotify,
+  .spotifyHidden,
+  .spotify iframe,
+  .spotifyHidden iframe {
+    width: 100%;
+  }
 }
 
 /* CAROUSEL */

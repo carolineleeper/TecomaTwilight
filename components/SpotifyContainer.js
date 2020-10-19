@@ -14,7 +14,6 @@ const SpotifyContainer = () => {
     }
   }, [isSpotifyHidden]);
 
-  console.log(isSpotifyHidden);
   return (
     <div
       className="spotify"

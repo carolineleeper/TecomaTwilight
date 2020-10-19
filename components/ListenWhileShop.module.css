@@ -2,7 +2,6 @@
   text-align: center;
   cursor: pointer;
 }
-
 .listen div {
   border: none;
   padding: 1rem;
@@ -20,12 +19,6 @@
   outline: 1px solid #fff;
   outline-offset: -4px;
 }
-
-/* .listen div::before {
-  font-family: FontAwesome;
-  content: "\f028";
-  padding-right: 1rem;
-} */
 .listen div::after {
   font-family: FontAwesome;
   content: "\f338";
