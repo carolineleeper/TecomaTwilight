@@ -1,3 +1,33 @@
 .listen {
+  text-align: center;
+  cursor: pointer;
+}
+
+.listen div {
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.listen div:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+/* .listen div::before {
+  font-family: FontAwesome;
+  content: "\f028";
+  padding-right: 1rem;
+} */
+.listen div::after {
+  font-family: FontAwesome;
+  content: "\f338";
   padding-left: 1rem;
 }
