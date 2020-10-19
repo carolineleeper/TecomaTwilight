@@ -43,26 +43,12 @@ const About = () => {
           following:
         </p>
         <Ethics />
-        <p>
+        <p className="textCenter">
           We think ethical shopping can also include these specific aspects:
         </p>
         <div className="divCenter">
           <Criteria criteria={criteria} />
         </div>
-        {/* <ul>
-            <li>vegan</li>
-            <li>plastic free</li>
-            <li>certified organic</li>
-            <li>waste free</li>
-            <li>plant based</li>
-            <li>carbon neutral</li>
-            <li>support female empowerment</li>
-            <li>support First Nations</li>
-            <li>social enterprise</li>
-            <li>20km Tecoma radius</li>
-            <li>refugee advocacy</li>
-            <li>support under 25 yo’s</li>
-          </ul> */}
         <p className="upperCase">
           You can shop anytime you like by contacting the stallholders and
           ordering your gifts.{" "}
