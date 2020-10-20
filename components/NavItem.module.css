@@ -1,6 +1,8 @@
 a.navItem,
 a.currentNavItem {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Lato;
   font-size: 2.5rem;
   color: #271f6b;
