@@ -1,8 +1,8 @@
 ---
 name: Flame Tree 2
 url: https://flametreeartisans.com.au/
-facebook: facebook.com
-instagram: instagram.com
+facebook: https://facebook.com
+instagram: https://instagram.com
 logo: /images/uploads/fb-designs-03-justine-cotter-salama.png
 description: Beautifully Unique and Eclectic Handblown Christmas Ornaments and
   Decorations Made By Egyptian Artisans

@@ -1,30 +1,14 @@
 import SEO from "../../components/SEO";
-import Departments from "../../components/Departments";
-import Criteria from "../../components/Criteria";
-import Categories from "../../components/Categories";
-import Products from "../../components/Products";
+import StallPage from "../../components/StallPage";
 import matter from "gray-matter";
 import fs from "fs";
-import Facebook from "../../components/Facebook";
-import Instagram from "../../components/Instagram";
 
 const Stall = (props) => {
   console.log(props);
   return (
     <>
       <SEO title={props.stall.name} />
-      <h2>{props.stall.name}</h2>
-      <p>
-        Website: <a href={props.stall.url}>{props.stall.url}</a>
-      </p>
-      <Facebook href="props." />
-      <Instagram href="" />
-      <Criteria criteria={props.stall.criteria} />
-      <Departments departments={props.stall.departments} />
-      {props.stall.categories && (
-        <Categories categories={props.stall.categories} />
-      )}
-      {props.stall.products && <Products products={props.stall.products} />}
+      <StallPage stall={props.stall} />
     </>
   );
 };

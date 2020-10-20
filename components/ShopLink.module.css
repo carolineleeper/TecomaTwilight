@@ -1,11 +1,12 @@
-.donateButton {
+.shopButton {
+  margin: 1rem;
+
   border-radius: 5px;
   border: none;
   padding: 0.75rem 1rem;
-  /* margin: 0 0 1rem; */
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
-  background: #271f6b;
+  background: #a33387;
   color: #ffffff;
   cursor: pointer;
   text-align: center;
@@ -16,24 +17,18 @@
   transition: all 0.2s ease-in-out;
 }
 
-.donateButton:hover,
-.donateButton:focus {
-  background: #a33387;
+.shopButton:hover,
+.shopButton:focus {
+  background: #271f6b;
   transform: translateX(-1px) translateY(-1px);
   box-shadow: 1px 4px 5px #414141;
 }
 
-.donateButton:focus {
+.shopButton:focus {
   outline: 1px solid #fff;
   outline-offset: -4px;
 }
 
-.donateButton:active {
+.shopButton:active {
   transform: scale(0.99);
-}
-
-@media screen and (max-width: 750px) {
-  .donateButton {
-    margin: 0.5rem;
-  }
 }

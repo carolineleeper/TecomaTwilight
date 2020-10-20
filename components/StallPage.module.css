@@ -1,0 +1,35 @@
+.stallInfo {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #271f6b;
+  width: 80vw;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+.nameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+.socials {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 0;
+}
+.stallInfo h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.stallInfo h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 1rem 0 0;
+}
