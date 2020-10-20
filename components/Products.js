@@ -1,10 +1,11 @@
 import Product from "./Product";
+import style from "./Products.module.css";
 
 const Products = (props) => {
   return (
     <>
       <h2>Products:</h2>
-      <div>
+      <div className={style.productsGallery}>
         {props.products.map((product) => {
           return (
             <Product

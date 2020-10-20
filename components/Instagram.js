@@ -1,12 +1,8 @@
 import style from "./NavItem.module.css";
 
-const Instagram = () => {
+const Instagram = (props) => {
   return (
-    <a
-      className={style.navItem}
-      href="https://www.instagram.com/tecomatwilightmarket/"
-      target="_blank"
-    >
+    <a className={style.navItem} href={props.href} target="_blank">
       <img src="/images/instagram_logo.png" />
     </a>
   );

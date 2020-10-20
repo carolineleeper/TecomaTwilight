@@ -1,12 +1,9 @@
+import { loadGetInitialProps } from "next/dist/next-server/lib/utils";
 import style from "./NavItem.module.css";
 
-const Facebook = () => {
+const Facebook = (props) => {
   return (
-    <a
-      className={style.navItem}
-      href="https://www.facebook.com/TecomaTwilightEthicalMarket/"
-      target="_blank"
-    >
+    <a className={style.navItem} href={props.href} target="_blank">
       <img src="/images/facebook_logo.png" />
     </a>
   );

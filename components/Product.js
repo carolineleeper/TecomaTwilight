@@ -1,12 +1,16 @@
-import Products from "./Products";
+import style from "./Product.module.css";
 
 const Product = (props) => {
   return (
-    <div>
-      <p>Name: {props.product_name}</p>
-      <p>Description: {props.product_description}</p>
-      <p>Price: {props.product_price}</p>
-      <img src={props.product_image}></img>
+    <div className={style.productCard}>
+      {/* <p>Price: {props.product_price}</p> */}
+      <div className={style.imageContainer}>
+        <img src={props.product_image}></img>
+      </div>
+      <div className={style.productInfo}>
+        <h2>{props.product_name}</h2>
+        <p>{props.product_description}</p>
+      </div>
     </div>
   );
 };

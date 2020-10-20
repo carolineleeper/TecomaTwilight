@@ -1,5 +1,5 @@
 import CheckboxesMenu from "../components/CheckboxesMenu";
-import Stall from "../components/Stall";
+import StallCard from "../components/StallCard";
 import StallSearch from "../components/StallSearch";
 import NoStalls from "../components/NoStalls";
 import SEO from "../components/SEO";
@@ -90,7 +90,7 @@ const Stalls = (props) => {
                 return (
                   <Link key={stall.filename} href={`stalls/${stall.filename}`}>
                     <a className="stallLink">
-                      <Stall stall={stall} />
+                      <StallCard stall={stall} />
                     </a>
                   </Link>
                 );

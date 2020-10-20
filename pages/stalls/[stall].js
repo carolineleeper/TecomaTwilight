@@ -5,8 +5,11 @@ import Categories from "../../components/Categories";
 import Products from "../../components/Products";
 import matter from "gray-matter";
 import fs from "fs";
+import Facebook from "../../components/Facebook";
+import Instagram from "../../components/Instagram";
 
 const Stall = (props) => {
+  console.log(props);
   return (
     <>
       <SEO title={props.stall.name} />
@@ -14,6 +17,8 @@ const Stall = (props) => {
       <p>
         Website: <a href={props.stall.url}>{props.stall.url}</a>
       </p>
+      <Facebook href="props." />
+      <Instagram href="" />
       <Criteria criteria={props.stall.criteria} />
       <Departments departments={props.stall.departments} />
       {props.stall.categories && (

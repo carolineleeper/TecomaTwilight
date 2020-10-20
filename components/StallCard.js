@@ -1,9 +1,9 @@
 import Departments from "./Departments";
 import Criteria from "./Criteria";
 import Categories from "./Categories";
-import style from "./Stall.module.css";
+import style from "./StallCard.module.css";
 
-const Stall = ({ stall }) => {
+const StallCard = ({ stall }) => {
   return (
     <div className={style.stallThumb}>
       <div className={style.name}>{stall.name}</div>
@@ -19,4 +19,4 @@ const Stall = ({ stall }) => {
   );
 };
 
-export default Stall;
+export default StallCard;

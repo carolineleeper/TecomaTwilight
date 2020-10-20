@@ -22,8 +22,14 @@ const NavMobileHidden = (props) => {
           />
         );
       })}
-      <Facebook key="facebook" />
-      <Instagram key="instagram" />
+      <Facebook
+        key="facebook"
+        href="https://www.facebook.com/TecomaTwilightEthicalMarket/"
+      />
+      <Instagram
+        key="instagram"
+        href="https://www.instagram.com/tecomatwilightmarket/"
+      />
       <Donate />
     </div>
   );
