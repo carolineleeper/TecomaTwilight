@@ -1,8 +1,28 @@
-<h2>Confirm your signup</h2>
+<h1 style="text-align: center">
+  <span style="color: #000080"
+    >Confirm your signup for Tecoma Twilight Online</span
+  >
+</h1>
 
 <p>Follow this link to confirm your user:</p>
-<p>
-  <a href="{{ .SiteURL }}/admin/#confirmation_token={{ .Token }}"
-    >Confirm your mail</a
+<p style="text-align: center">
+  <a
+    style="text-decoration: none"
+    href="{{ .SiteURL }}/admin/#confirmation_token={{ .Token }}"
+    ><button
+      style="
+        font-size: 1rem;
+        color: white;
+        background-color: purple;
+        border: none;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+        border-radius: 5px;
+      "
+    >
+      <strong>Confirm your email</strong>
+    </button></a
   >
 </p>

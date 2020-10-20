@@ -1,11 +1,30 @@
-<h2>You have been invited!</h2>
-
-<p>
-  You have been invited to create a user on {{ .SiteURL }}. Follow this link to
-  accept the invite:
+<h1 style="text-align: center">
+  <span style="color: #000080"
+    >You have been invited to be a Tecoma Twilight Online Admin</span
+  >
+</h1>
+<p style="text-align: left">
+  You have been invited to create an admin account for {{ .SiteURL }}. Follow
+  the below link to accept the invite and set your password.
 </p>
-<p>
-  <a href="{{ .SiteURL }}/admin/#invite_token={{ .Token }}"
-    >Accept the invite</a
+<p style="text-align: center">
+  <a
+    style="text-decoration: none"
+    href="{{ .SiteURL }}/admin/#invite_token={{ .Token }}"
+    ><button
+      style="
+        font-size: 1rem;
+        color: white;
+        background-color: purple;
+        border: none;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+        border-radius: 5px;
+      "
+    >
+      <strong>Accept the invite</strong>
+    </button></a
   >
 </p>

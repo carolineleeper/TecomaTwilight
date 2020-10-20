@@ -1,6 +1,28 @@
-<h2>Reset Password</h2>
+<h2></h2>
+
+<h1 style="text-align: center">
+  <span style="color: #000080">Reset Password for Tecoma Twilight Online</span>
+</h1>
 
 <p>Follow this link to reset the password for your user:</p>
-<p>
-  <a href="{{ .SiteURL }}/admin/#recovery_token={{ .Token }}">Reset Password</a>
+<p style="text-align: center">
+  <a
+    style="text-decoration: none"
+    href="{{ .SiteURL }}/admin/#recovery_token={{ .Token }}"
+    ><button
+      style="
+        font-size: 1rem;
+        color: white;
+        background-color: purple;
+        border: none;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+        border-radius: 5px;
+      "
+    >
+      <strong>Reset Password</strong>
+    </button></a
+  >
 </p>

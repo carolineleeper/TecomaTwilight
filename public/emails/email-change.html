@@ -1,11 +1,33 @@
 <h2>Confirm Change of Email</h2>
 
+<h1 style="text-align: center">
+  <span style="color: #000080"
+    >Confirm Change of Email for Tecoma Twilight Online</span
+  >
+</h1>
+
 <p>
   Follow this link to confirm the update of your email from {{ .Email }} to {{
   .NewEmail }}:
 </p>
-<p>
-  <a href="{{ .SiteURL }}/admin/#email_change_token={{ .Token }}"
-    >Change Email</a
+<p style="text-align: center">
+  <a
+    style="text-decoration: none"
+    href="{{ .SiteURL }}/admin/#email_change_token={{ .Token }}"
+    ><button
+      style="
+        font-size: 1rem;
+        color: white;
+        background-color: purple;
+        border: none;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+        border-radius: 5px;
+      "
+    >
+      <strong>Change Email</strong>
+    </button></a
   >
 </p>
