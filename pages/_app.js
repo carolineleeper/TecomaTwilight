@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import SpotifyContainer from "../components/SpotifyContainer";
+import MusicPlayer from "../components/MusicPlayer";
 import "../style.css";
 import Head from "next/head";
 import "slick-carousel/slick/slick.css";
@@ -18,7 +18,7 @@ const MyApp = ({ Component, pageProps }) => {
       <Header />
       <div className="pageContent">
         <Component {...pageProps} />
-        <SpotifyContainer />
+        {/* <MusicPlayer /> */}
       </div>
       <Footer />
     </>

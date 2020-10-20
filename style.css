@@ -471,27 +471,21 @@ body.menuToggled {
 .aboutText p {
   margin-bottom: 2rem;
 }
-.spotify {
+.playerWrapper {
   position: sticky;
-  bottom: 0;
+  bottom: -130px;
   right: 0;
   z-index: 22;
   line-height: 0;
-  width: min-content;
+  /* width: 350px; */
   background-color: #271f6b;
   border-radius: 0 5px 0 0;
 
   transition: all 0.2s ease-in-out;
 }
-.spotifyHidden {
-  position: sticky;
-  bottom: -80px;
-  right: 0;
-  z-index: 22;
-  line-height: 0;
-  width: min-content;
-  background-color: #271f6b;
-  border-radius: 0 5px 0 0;
+
+.playerWrapperHidden {
+  bottom: 0;
 
   transition: all 0.2s ease-in-out;
 }
@@ -500,10 +494,10 @@ body.menuToggled {
   .aboutText {
     padding: 1rem 0.5rem;
   }
-  .spotify,
-  .spotifyHidden,
-  .spotify iframe,
-  .spotifyHidden iframe {
+  .playerWrapper,
+  .playerWrapperHidden,
+  .playerWrapper iframe,
+  .playerWrapperHidden iframe {
     width: 100%;
   }
 }
