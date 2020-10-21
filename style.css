@@ -458,7 +458,7 @@ body.menuToggled {
   padding: 2rem 1rem;
 }
 .emphasise {
-  color: #ffe685;
+  /* color: #ffe685; */
 }
 .textCenter {
   text-align: center;
@@ -475,6 +475,9 @@ body.menuToggled {
 }
 .aboutText p {
   margin-bottom: 2rem;
+  max-width: 900px;
+  margin: 1rem auto 2rem;
+  text-align: center;
 }
 .playerWrapper {
   position: sticky;
