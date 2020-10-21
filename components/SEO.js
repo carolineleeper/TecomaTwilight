@@ -5,6 +5,7 @@ const SEO = (props) => {
     <Head>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="robots" content="all" />
       <link rel="icon" href="/static/favicon.ico" />
       <title>Tecoma Twilight | {props.title}</title>
 
