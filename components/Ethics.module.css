@@ -10,7 +10,7 @@
   text-transform: uppercase;
 }
 .ethicsContainer img {
-  max-width: 100%;
+  max-width: 64px;
   transition: all 0.2s ease-in-out;
 }
 .ethicsContainer img:hover {
