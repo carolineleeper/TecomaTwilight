@@ -1,3 +1,13 @@
+.imageContainer {
+  max-width: 300px;
+  margin: auto;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.imageContainer img {
+  max-width: 100%;
+}
 .stallInfo {
   display: flex;
   flex-direction: column;

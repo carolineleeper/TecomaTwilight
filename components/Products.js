@@ -3,8 +3,8 @@ import style from "./Products.module.css";
 
 const Products = (props) => {
   return (
-    <>
-      <h2>Products:</h2>
+    <div className={style.products}>
+      <h2>Product Spotlight</h2>
       <div className={style.productsGallery}>
         {props.products.map((product) => {
           return (
@@ -18,7 +18,7 @@ const Products = (props) => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
 

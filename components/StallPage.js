@@ -12,6 +12,9 @@ const StallPage = (props) => {
   return (
     <>
       <BackButton />
+      <div className={style.imageContainer}>
+        <img src={props.stall.logo} />
+      </div>
 
       <div className={style.stallInfo}>
         <div className={style.nameContainer}>
@@ -34,6 +37,7 @@ const StallPage = (props) => {
         <p>{props.stall.ethicalDescription}</p>
       </div>
       {props.stall.products && <Products products={props.stall.products} />}
+      <ShopLink url={props.stall.url} />
     </>
   );
 };

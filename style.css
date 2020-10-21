@@ -455,12 +455,17 @@ body.menuToggled {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 4px;
+  padding: 2rem 1rem;
 }
 .emphasise {
   color: #ffe685;
 }
 .textCenter {
   text-align: center;
+}
+.divCenter {
+  max-width: 950px;
+  margin: auto;
 }
 .divCenter div {
   justify-content: center;

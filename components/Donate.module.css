@@ -5,6 +5,8 @@
   /* margin: 0 0 1rem; */
   font-size: 2rem;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   background: #271f6b;
   color: #ffffff;
   cursor: pointer;
