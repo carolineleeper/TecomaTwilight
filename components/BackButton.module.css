@@ -1,11 +1,13 @@
-.shopButton {
-  margin: 1rem;
-  min-width: 300px;
+.backButton {
+  margin: 1rem 1rem 0;
+  width: fit-content;
   border-radius: 5px;
   border: none;
   padding: 0.75rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
   text-decoration: none;
+  letter-spacing: 2px;
   background: #a33387;
   color: #ffffff;
   cursor: pointer;
@@ -17,26 +19,18 @@
   transition: all 0.2s ease-in-out;
 }
 
-.shopButton:hover,
-.shopButton:focus {
+.backButton:hover,
+.backButton:focus {
   background: #271f6b;
   transform: translateX(-1px) translateY(-1px);
-  box-shadow: 1px 4px 5px #414141;
+  box-shadow: 1px 4px 5px #131313;
 }
 
-.shopButton:focus {
+.backButton:focus {
   outline: 1px solid #fff;
   outline-offset: -4px;
 }
 
-.shopButton:active {
+.backButton:active {
   transform: scale(0.99);
-}
-
-@media screen and (max-width: 750px) {
-  .form,
-  .shopButton {
-    width: 100%;
-    margin: 1rem auto 0.5rem;
-  }
 }

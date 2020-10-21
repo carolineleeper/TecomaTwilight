@@ -22,7 +22,9 @@
 
 .viewStallButton:hover,
 .viewStallButton:focus {
-  background: #e4b1dd;
+  background: #271f6b;
+  transform: translateX(-1px) translateY(-1px);
+  box-shadow: 1px 4px 5px #131313;
 }
 
 .viewStallButton:focus {
