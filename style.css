@@ -396,7 +396,12 @@ p {
   font-size: 1.5em;
 }
 a {
+  color: #fff;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  color: #ffe685;
 }
 
 #__next {
@@ -457,9 +462,9 @@ body.menuToggled {
   letter-spacing: 4px;
   padding: 2rem 1rem;
 }
-.emphasise {
-  /* color: #ffe685; */
-}
+/* .emphasise {
+  color: #ffe685;
+} */
 .textCenter {
   text-align: center;
 }
