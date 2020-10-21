@@ -62,10 +62,14 @@ const Stalls = (props) => {
         ...departmentsArray,
       ];
 
-      const intersectChecker = (array, target) =>
-        target.every((value) => array.includes(value));
+      const matched = checkArray.some((value) => mergedArray.includes(value));
 
-      return intersectChecker(mergedArray, checkArray);
+      return checkArray.length === 0 ? searchFiltered : matched;
+
+      // const intersectChecker = (array, target) =>
+      //   target.every((value) => array.includes(value));
+
+      // return intersectChecker(mergedArray, checkArray);
     });
 
     return filtered;
