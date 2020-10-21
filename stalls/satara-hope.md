@@ -1,6 +1,6 @@
 ---
 name: Satara Hope
-url: satarahope.com
+url: http://satarahope.com
 logo: /images/uploads/satara-hope-logo-green-claire-fawbert.png
 description: >-
   Satara is one of my favourite places in the world. Located in the African bush its Big Cat country where an early morning rise will more often than not treat you to a sighting of lion or leopard. Its my peaceful calm place.

@@ -1,6 +1,6 @@
 ---
 name: CAROtheDEV
-url: carothedev.com
+url: http://carothedev.com
 logo: /images/uploads/ctd-01.png
 description: CAROtheDEV is a web developer. She makes websites.
 ethicalDescription: >-

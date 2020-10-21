@@ -1,6 +1,6 @@
 ---
 name: Test Stall
-url: teststall.com
+url: http://teststall.com
 logo: /images/uploads/ctd-11.png
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

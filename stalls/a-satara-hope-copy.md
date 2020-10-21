@@ -1,6 +1,6 @@
 ---
 name: A Satara Hope 2
-url: satarahope.com
+url: http://satarahope.com
 facebook: https://facebook.com
 instagram: https://instagram.com
 logo: /images/uploads/satara-hope-logo-green-claire-fawbert.png
