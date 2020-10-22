@@ -1,30 +1,39 @@
 .checkboxesMenuMobile {
-  left: 0;
-  width: 100vw;
-  margin: auto;
-  position: fixed;
-  flex: 1 0;
+  /* left: 0;
+  top: 0;
+  max-width: 100%;
+  padding: 1rem;
+  position: absolute;
   display: flex;
   flex-direction: column;
   background-color: #1e243d;
-  padding: 4rem 0.5rem;
   z-index: 19;
-  overflow: scroll;
+  overflow: scroll; */
+
+  background-color: #1e243d;
+  padding: 1rem;
+  /* position: absolute; */
+  top: 0;
+  z-index: 19;
 
   transition: all 0.3s ease-in-out;
 }
 .checkboxesMenuMobileHidden {
-  left: -150vw;
-  width: 100vw;
-  margin: auto;
-  position: fixed;
-  flex: 1 0;
+  /* top: -150vh;
+  top: 0;
+  height: 0;
+  max-width: 100%;
+  position: absolute;
   display: flex;
   flex-direction: column;
   background-color: #1e243d;
-  padding: 4rem 2rem 2rem;
   z-index: 19;
-  overflow: scroll;
+  overflow: scroll; */
+
+  background-color: #1e243d;
+  position: absolute;
+  z-index: 19;
+  top: -200vh;
 
   transition: all 0.3s ease-in-out;
 }

@@ -10,7 +10,14 @@
   align-items: flex-start;
   justify-content: center;
   max-width: 100%;
+  padding: 0 0.5rem;
 }
 .header {
   flex-basis: 100%;
+}
+@media screen and (max-width: 750px) {
+  .header {
+    text-align: center;
+    flex-basis: 100%;
+  }
 }

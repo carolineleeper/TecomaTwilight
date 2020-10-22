@@ -431,13 +431,10 @@ body.menuToggled {
   max-width: 100%;
 }
 .stallsContainer {
+  position: relative;
   display: flex;
   flex-flow: row wrap;
-}
-
-.stallsContainer > * {
-  padding: 10px;
-  flex: 1 100%;
+  width: 100%;
 }
 .stallContentContainer {
   display: flex;
@@ -505,8 +502,12 @@ body.menuToggled {
 
 @media screen and (max-width: 750px) {
   .stallContentContainer {
-    width: 100%;
+    max-width: 100%;
     padding: 0.5rem;
+  }
+  .stallsContainer {
+    flex-direction: column;
+    width: 100%;
   }
   .aboutText {
     padding: 1rem 0.5rem;

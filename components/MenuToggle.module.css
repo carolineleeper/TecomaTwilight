@@ -1,14 +1,31 @@
-.menuToggle {
+.menuToggleOpen {
   text-align: center;
   z-index: 20;
+  flex: 1 100%;
 }
 
-.menuToggle button {
+.menuToggleOpen button {
   width: 100%;
   font-size: 1.5rem;
   cursor: pointer;
   color: #fff;
-  background-color: #a33387;
+  background-color: #353f6b;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+.menuToggleClosed {
+  text-align: center;
+  z-index: 20;
+  flex: 1 100%;
+}
+
+.menuToggleClosed button {
+  width: 100%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: #1e243d;
   border-radius: 5px;
   padding: 0.5rem 1rem;
   border: none;

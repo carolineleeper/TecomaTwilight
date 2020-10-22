@@ -11,10 +11,10 @@ const CheckboxesMenu = (props) => {
 
     if (isMenuToggled) {
       setIsMenuToggled(false);
-      body.classList.remove("menuToggled");
+      // body.classList.remove("menuToggled");
     } else {
       setIsMenuToggled(true);
-      body.classList.add("menuToggled");
+      // body.classList.add("menuToggled");
     }
   };
 

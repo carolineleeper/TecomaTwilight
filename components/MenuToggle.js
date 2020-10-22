@@ -1,12 +1,13 @@
 import style from "./MenuToggle.module.css";
 
 const MenuToggle = (props) => {
-  const buttontext = props.isMenuToggled ? "Close" : "Refine search";
-
-  return (
-    <div className={style.menuToggle}>
-      {/* <i aria-hidden className="fas fa-bars"></i> */}
-      <button onClick={props.handleMenuToggle}>{buttontext}</button>
+  return props.isMenuToggled ? (
+    <div className={style.menuToggleOpen}>
+      <button onClick={props.handleMenuToggle}>Close</button>
+    </div>
+  ) : (
+    <div className={style.menuToggleClosed}>
+      <button onClick={props.handleMenuToggle}>Refine search</button>
     </div>
   );
 };

@@ -13,9 +13,15 @@ import fs from "fs";
 import _ from "lodash";
 
 const Stalls = (props) => {
+  const [clientIsMobile, setClientIsMobile] = useState(null);
+
   const isMobile = useMediaQuery({
     query: "(max-width: 750px)",
   });
+
+  useEffect(() => {
+    setClientIsMobile(isMobile);
+  }, [isMobile]);
 
   const [search, setSearch] = useState("");
   const [checkArray, setCheckArray] = useState([]);
@@ -85,7 +91,7 @@ const Stalls = (props) => {
     <>
       <SEO title="Stalls" />
       <div className="stallsContainer">
-        {isMobile ? (
+        {clientIsMobile ? (
           <CheckboxesMenuMobile
             checkArray={checkArray}
             setCheckArray={setCheckArray}
