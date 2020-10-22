@@ -483,8 +483,9 @@ body.menuToggled {
 }
 .playerWrapper {
   position: sticky;
-  bottom: -130px;
+  bottom: -360px;
   right: 0;
+  width: max-content;
   z-index: 22;
   line-height: 0;
   /* width: 350px; */

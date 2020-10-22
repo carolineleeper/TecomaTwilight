@@ -18,7 +18,7 @@ const MyApp = ({ Component, pageProps }) => {
       <Header />
       <div className="pageContent">
         <Component {...pageProps} />
-        {/* <MusicPlayer /> */}
+        <MusicPlayer />
       </div>
       <Footer />
     </>
