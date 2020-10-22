@@ -4,7 +4,7 @@
   color: #8a8a8a;
   border-radius: 5px;
   white-space: nowrap;
-  margin: 4px 0px;
+  margin: 4px 2px;
   padding: 0.25rem 0.75rem;
   cursor: pointer;
   -webkit-touch-callout: none;
@@ -49,6 +49,6 @@
 }
 
 .checkboxInput[type="checkbox"] {
-  display: absolute;
+  display: none;
   opacity: 0;
 }

@@ -1,9 +1,11 @@
+import CheckboxesMenuMobile from "../components/CheckboxesMenuMobile";
 import CheckboxesMenu from "../components/CheckboxesMenu";
 import StallCard from "../components/StallCard";
 import StallSearch from "../components/StallSearch";
 import NoStalls from "../components/NoStalls";
 import SEO from "../components/SEO";
 
+import { useMediaQuery } from "react-responsive";
 import matter from "gray-matter";
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -11,6 +13,10 @@ import fs from "fs";
 import _ from "lodash";
 
 const Stalls = (props) => {
+  const isMobile = useMediaQuery({
+    query: "(max-width: 750px)",
+  });
+
   const [search, setSearch] = useState("");
   const [checkArray, setCheckArray] = useState([]);
   const [randomStalls, setRandomStalls] = useState([]);
@@ -79,11 +85,20 @@ const Stalls = (props) => {
     <>
       <SEO title="Stalls" />
       <div className="stallsContainer">
-        <CheckboxesMenu
-          checkArray={checkArray}
-          setCheckArray={setCheckArray}
-          stalls={randomStalls}
-        />
+        {isMobile ? (
+          <CheckboxesMenuMobile
+            checkArray={checkArray}
+            setCheckArray={setCheckArray}
+            stalls={randomStalls}
+            isMobile={isMobile}
+          />
+        ) : (
+          <CheckboxesMenu
+            checkArray={checkArray}
+            setCheckArray={setCheckArray}
+            stalls={randomStalls}
+          />
+        )}
 
         <div className="stallContentContainer">
           <StallSearch handleInput={handleInput} search={search} />

@@ -1,0 +1,15 @@
+.menuToggle {
+  text-align: center;
+  z-index: 20;
+}
+
+.menuToggle button {
+  width: 100%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: #a33387;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: none;
+}

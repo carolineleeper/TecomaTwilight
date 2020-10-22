@@ -31,11 +31,18 @@ const Checkboxes = (props) => {
 
   return (
     <>
-      <div className={style.checkboxesContainer}>
-        <p>Search by Department</p>
+      <div
+        className={
+          props.isMobile
+            ? style.checkboxesContainerMobile
+            : style.checkboxesContainer
+        }
+      >
+        <p className={style.header}>Search by Department</p>
         {uniqueDepartmentArray.map((department) => {
           return (
             <Checkbox
+              isMobile={props.isMobile}
               key={department}
               value={department}
               checkArray={props.checkArray}
@@ -44,11 +51,18 @@ const Checkboxes = (props) => {
           );
         })}
       </div>
-      <div className={style.checkboxesContainer}>
-        <p>Search by Ethical Category</p>
+      <div
+        className={
+          props.isMobile
+            ? style.checkboxesContainerMobile
+            : style.checkboxesContainer
+        }
+      >
+        <p className={style.header}>Search by Ethical Category</p>
         {uniqueCriteriaArray.map((criteria) => {
           return (
             <Checkbox
+              isMobile={props.isMobile}
               key={criteria}
               value={criteria}
               checkArray={props.checkArray}
@@ -57,10 +71,17 @@ const Checkboxes = (props) => {
           );
         })}
       </div>
-      <div className={style.checkboxesContainer}>
+      <div
+        className={
+          props.isMobile
+            ? style.checkboxesContainerMobile
+            : style.checkboxesContainer
+        }
+      >
         {uniqueCategoryArray.map((category) => {
           return (
             <Checkbox
+              isMobile={props.isMobile}
               key={category}
               value={category}
               checkArray={props.checkArray}

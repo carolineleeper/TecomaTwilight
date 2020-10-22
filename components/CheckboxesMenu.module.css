@@ -4,4 +4,5 @@
   flex-direction: column;
   background-color: #1e243d;
   padding: 2rem;
+  z-index: 20;
 }

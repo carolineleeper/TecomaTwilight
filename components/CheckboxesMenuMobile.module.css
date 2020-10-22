@@ -1,0 +1,30 @@
+.checkboxesMenuMobile {
+  left: 0;
+  width: 100vw;
+  margin: auto;
+  position: fixed;
+  flex: 1 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e243d;
+  padding: 4rem 0.5rem;
+  z-index: 19;
+  overflow: scroll;
+
+  transition: all 0.3s ease-in-out;
+}
+.checkboxesMenuMobileHidden {
+  left: -150vw;
+  width: 100vw;
+  margin: auto;
+  position: fixed;
+  flex: 1 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e243d;
+  padding: 4rem 2rem 2rem;
+  z-index: 19;
+  overflow: scroll;
+
+  transition: all 0.3s ease-in-out;
+}

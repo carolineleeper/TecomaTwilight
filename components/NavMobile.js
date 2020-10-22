@@ -19,18 +19,19 @@ const NavMobile = (props) => {
   };
 
   return (
-    <nav className={style.navMobileContainer}>
-      <NavMobileHidden
-        routes={props.routes}
-        isMenuToggled={isMenuToggled}
-        handleMenuToggle={handleMenuToggle}
-      />
-
+    <>
+      <nav className={style.navMobileContainer}>
+        <NavMobileHidden
+          routes={props.routes}
+          isMenuToggled={isMenuToggled}
+          handleMenuToggle={handleMenuToggle}
+        />
+      </nav>
       <NavToggle
         handleMenuToggle={handleMenuToggle}
         isMenuToggled={isMenuToggled}
       />
-    </nav>
+    </>
   );
 };
 
