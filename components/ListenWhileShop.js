@@ -1,9 +1,9 @@
 import style from "./ListenWhileShop.module.css";
 
-const ListenWhileShop = () => {
+const ListenWhileShop = (props) => {
   return (
-    <div className={style.listen}>
-      <div>Listen to locals while you shop </div>
+    <div className={props.isPlayerHidden ? style.listenHidden : style.listen}>
+      <div>Listen while you shop </div>
     </div>
   );
 };

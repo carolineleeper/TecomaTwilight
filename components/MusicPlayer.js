@@ -22,19 +22,12 @@ const MusicPlayer = () => {
         isPlayerHidden ? setIsPlayerHidden(false) : setIsPlayerHidden(true)
       }
     >
-      <ListenWhileShop />
+      <ListenWhileShop isPlayerHidden={isPlayerHidden} />
       <ReactPlayer
         url="https://www.youtube.com/embed/videoseries?list=PL6ogdCG3tAWjN3nOVWjA6DCwYYKAMk5-f"
-        // width="100%"
+        width="100%"
         // height="100%"
       />
-
-      {/* <SpotifyPlayer
-        uri="spotify:playlist:1rxwrZl10pVNyc9bbvzr1q"
-        size="compact"
-        view="list"
-        theme="white"
-      /> */}
     </div>
   );
 };

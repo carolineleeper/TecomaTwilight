@@ -8,7 +8,10 @@
   font-size: 1rem;
   text-decoration: none;
   background: transparent;
-  color: #ffffff;
+  color: #271f6b;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
   cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, transform 150ms ease;
@@ -19,8 +22,57 @@
   outline: 1px solid #fff;
   outline-offset: -4px;
 }
-.listen div::after {
+.listen div::before {
   font-family: FontAwesome;
-  content: "\f338";
+  content: "\f001";
+  padding-right: 1rem;
+}
+.listen div::after {
+  display: inline-block;
+  font-family: FontAwesome;
+  content: "\f078";
   padding-left: 1rem;
+  transform-origin: center center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* HIDDEN */
+
+.listenHidden {
+  text-align: center;
+  cursor: pointer;
+}
+.listenHidden div {
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  background: transparent;
+  color: #271f6b;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-align: center;
+  /* transition: background 250ms ease-in-out, transform 150ms ease; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.listenHidden div:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+.listenHidden div::before {
+  font-family: FontAwesome;
+  content: "\f001";
+  padding-right: 1rem;
+}
+.listenHidden div::after {
+  display: inline-block;
+  font-family: FontAwesome;
+  content: "\f078";
+  padding-left: 1rem;
+  transform: rotate(180deg);
+  transform-origin: center center;
+  transition: all 0.3s ease-in-out;
 }

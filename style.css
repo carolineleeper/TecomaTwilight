@@ -486,11 +486,16 @@ body.menuToggled {
   bottom: -360px;
   right: 0;
   width: max-content;
-  z-index: 22;
+  z-index: 20;
   line-height: 0;
   /* width: 350px; */
-  background-color: #271f6b;
+  /* background-color: #271f6b; */
+  background-color: #fff;
   border-radius: 0 5px 0 0;
+
+  -webkit-box-shadow: 3px 0px 10px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 0px 10px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 0px 10px -1px rgba(0, 0, 0, 0.75);
 
   transition: all 0.2s ease-in-out;
 }
