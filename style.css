@@ -486,6 +486,7 @@ body.menuToggled {
   bottom: -360px;
   right: 0;
   width: max-content;
+  min-width: 450px;
   z-index: 20;
   line-height: 0;
   /* width: 350px; */
@@ -523,6 +524,7 @@ body.menuToggled {
   .playerWrapper iframe,
   .playerWrapperHidden iframe {
     width: 100%;
+    min-width: unset;
   }
 }
 
