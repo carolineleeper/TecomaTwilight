@@ -68,3 +68,7 @@
   transform: translateX(-1px) translateY(-1px);
   -webkit-transform: translateX(-1px) translateY(-1px);
 }
+.closeButton:focus {
+  outline: 1px dotted white;
+  outline-offset: 2px;
+}

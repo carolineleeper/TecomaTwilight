@@ -41,7 +41,8 @@
 }
 
 .checkboxInput[type="checkbox"]:focus + label {
-  background-color: rgb(238, 238, 238);
+  outline: 1px dotted white;
+  outline-offset: 2px;
 }
 
 .checkboxInput[type="checkbox"]:checked + label {
