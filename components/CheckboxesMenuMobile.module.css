@@ -39,3 +39,32 @@
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
 }
+
+.closeButton {
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: #a33387;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: none;
+  box-shadow: 1px 1px 10px 1px #333333;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #1e243d;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: none;
+  box-shadow: 1px 1px 10px 1px #0e0e0e;
+  transform: translateX(-1px) translateY(-1px);
+  -webkit-transform: translateX(-1px) translateY(-1px);
+}

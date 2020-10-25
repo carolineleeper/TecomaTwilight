@@ -1,20 +1,40 @@
-.menuToggleOpen {
+.menuToggle {
   text-align: center;
   z-index: 20;
   flex: 1 100%;
 }
 
-.menuToggleOpen button {
-  width: 100%;
-  font-size: 1.5rem;
+.menuToggle button {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 90%;
+  margin: 1rem auto 0;
+  font-size: 1.2rem;
   cursor: pointer;
   color: #fff;
-  background-color: #353f6b;
+  background-color: #a33387;
   border-radius: 5px;
   padding: 0.5rem 1rem;
   border: none;
+  box-shadow: 1px 1px 10px 1px #333333;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
-.menuToggleClosed {
+.menuToggle button:hover {
+  /* width: 100%; */
+  cursor: pointer;
+  color: #1e243d;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: none;
+  box-shadow: 1px 1px 10px 1px #0e0e0e;
+  transform: translateX(-1px) translateY(-1px);
+  -webkit-transform: translateX(-1px) translateY(-1px);
+}
+
+/* .menuToggleClosed {
   text-align: center;
   z-index: 20;
   flex: 1 100%;
@@ -29,4 +49,4 @@
   border-radius: 5px;
   padding: 0.5rem 1rem;
   border: none;
-}
+} */

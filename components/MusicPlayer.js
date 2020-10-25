@@ -27,7 +27,6 @@ const MusicPlayer = () => {
         url="https://www.youtube.com/embed/videoseries?list=PLxkEptprzfQX2rQUy-JQlXq3DHF_5hPfj"
         width="100%"
         // height="100%"
-        onPlay={console.log("test")}
       />
     </div>
   );

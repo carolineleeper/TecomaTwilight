@@ -40,6 +40,10 @@
   -webkit-transition: transform 0.3s ease-in-out;
 }
 
+.checkboxInput[type="checkbox"]:focus + label {
+  background-color: rgb(238, 238, 238);
+}
+
 .checkboxInput[type="checkbox"]:checked + label {
   border: 2px solid #86bb9a;
   background-color: #9fdab5;
@@ -55,6 +59,6 @@
 }
 
 .checkboxInput[type="checkbox"] {
-  display: none;
+  visibility: none;
   opacity: 0;
 }

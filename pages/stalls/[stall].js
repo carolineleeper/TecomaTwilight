@@ -4,7 +4,6 @@ import matter from "gray-matter";
 import fs from "fs";
 
 const Stall = (props) => {
-  console.log(props);
   return (
     <>
       <SEO title={props.stall.name} />
