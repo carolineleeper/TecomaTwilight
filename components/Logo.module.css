@@ -45,7 +45,10 @@
 .h,
 .t {
   animation: twinkle 4s linear infinite;
-  -webkit-animation: twinkle 4s linear infinite;
+  -webkit-animation-name: twinkle;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
 }
 .m {
   animation-delay: 0s;
