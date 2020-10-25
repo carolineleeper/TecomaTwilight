@@ -19,6 +19,10 @@ const customStyles = {
   content: {
     position: "absolute",
     inset: "30px",
+    top: "30px",
+    left: "30px",
+    right: "30px",
+    bottom: "30px",
     background: "#1e243d",
     overflow: "scroll",
     WebkitOverflowScrolling: "touch",
