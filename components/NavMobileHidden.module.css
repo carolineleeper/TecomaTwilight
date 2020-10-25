@@ -13,6 +13,7 @@
   flex: 1;
 
   transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
 }
 
 .navMobileDisplayed {
@@ -30,4 +31,5 @@
   flex: 1;
 
   transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
 }

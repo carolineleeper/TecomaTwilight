@@ -12,10 +12,12 @@
 .SVGText {
   width: 100%;
   transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
 }
 .collapsedSVGText {
   width: 55%;
   transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
 }
 @media screen and (max-width: 750px) {
   .logoContainer {
@@ -43,41 +45,53 @@
 .h,
 .t {
   animation: twinkle 4s linear infinite;
+  -webkit-animation: twinkle 4s linear infinite;
 }
 .m {
   animation-delay: 0s;
+  -webkit-animation-delay: 0s;
 }
 .c,
 .i_2 {
   animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
 }
 .T {
   animation-delay: 0.8s;
+  -webkit-animation-delay: 0.8s;
 }
 .i {
   animation-delay: 1s;
+  -webkit-animation-delay: 1s;
 }
 .T_2 {
   animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
 }
 .o {
   animation-delay: 1.6s;
+  -webkit-animation-delay: 1.6s;
 }
 .w {
   animation-delay: 2s;
+  -webkit-animation-delay: 2s;
 }
 .e {
   animation-delay: 2.4s;
+  -webkit-animation-delay: 2.4s;
 }
 .l {
   animation-delay: 2.8s;
+  -webkit-animation-delay: 2.8s;
 }
 .g {
   animation-delay: 3.2s;
+  -webkit-animation-delay: 3.2s;
 }
 .a,
 .t {
   animation-delay: 3.6s;
+  -webkit-animation-delay: 3.6s;
 }
 
 @keyframes twinkle {
@@ -87,7 +101,25 @@
   10% {
     fill: #e4b1dd;
     filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
     filter: drop-shadow(8px 3px 2px rgba(248, 177, 255, 0.897));
+    -webkit-filter: drop-shadow(8px 3px 2px rgba(248, 177, 255, 0.897));
+  }
+  30%,
+  100% {
+    fill: #271f6b;
+  }
+}
+@-webkit-keyframes twinkle {
+  0% {
+    fill: #271f6b;
+  }
+  10% {
+    fill: #e4b1dd;
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+    filter: drop-shadow(8px 3px 2px rgba(248, 177, 255, 0.897));
+    -webkit-filter: drop-shadow(8px 3px 2px rgba(248, 177, 255, 0.897));
   }
   30%,
   100% {
@@ -97,4 +129,5 @@
 
 .ethical {
   filter: drop-shadow(8px 10px 6px #271f6b);
+  -webkit-filter: drop-shadow(8px 10px 6px #271f6b);
 }

@@ -17,6 +17,7 @@
   z-index: 19;
 
   transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 .checkboxesMenuMobileHidden {
   /* top: -150vh;
@@ -36,4 +37,5 @@
   top: -200vh;
 
   transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }

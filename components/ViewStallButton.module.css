@@ -15,16 +15,19 @@
   cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 
   transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
 }
 
 .viewStallButton:hover,
 .viewStallButton:focus {
   background: #271f6b;
   transform: translateX(-1px) translateY(-1px);
+  -webkit-transform: translateX(-1px) translateY(-1px);
   box-shadow: 1px 4px 5px #131313;
 }
 
@@ -35,4 +38,5 @@
 
 .viewStallButton:active {
   transform: scale(0.99);
+  -webkit-transform: scale(0.99);
 }

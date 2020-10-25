@@ -10,6 +10,7 @@ a.currentNavItem {
   margin: 0 1rem;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
 }
 
 a.navItem:hover,
@@ -28,9 +29,11 @@ a.navItem:focus {
 .navItem img {
   width: 2.5rem;
   transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
 }
 .navItem img:hover {
   transform: scale(1.1);
+  -webkit-transform: scale(1.1);
 }
 
 @media screen and (max-width: 750px) {

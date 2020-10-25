@@ -15,7 +15,9 @@
 .imageContainer img {
   width: 100%;
   filter: brightness(0.35);
+  -webkit-filter: brightness(0.35);
   object-fit: cover;
+  -o-object-fit: cover;
 }
 .imageContainer p {
   font-weight: bold;

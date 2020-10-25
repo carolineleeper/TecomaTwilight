@@ -12,9 +12,11 @@
 .ethicsContainer img {
   max-width: 64px;
   transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
 }
 .ethicsContainer img:hover {
   transform: scale(1.1);
+  -webkit-transform: scale(1.1);
 }
 .imageContainer {
   display: flex;

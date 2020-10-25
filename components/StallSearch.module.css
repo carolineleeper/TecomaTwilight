@@ -14,12 +14,14 @@
   border-radius: 5px;
   color: #1e243d;
   transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
 }
 
 .searchInput:focus {
   opacity: 1;
   outline: none;
   transform: translateX(-2px) translateY(-2px);
+  -webkit-transform: translateX(-2px) translateY(-2px);
   -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);

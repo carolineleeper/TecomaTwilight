@@ -15,6 +15,7 @@
   cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -27,6 +28,7 @@
   content: "\f001";
   padding-right: 1rem;
   animation: glow 2s infinite;
+  -webkit-animation: glow 2s infinite;
 }
 .listen div::after {
   display: inline-block;
@@ -35,6 +37,7 @@
   padding-left: 1rem;
   transform-origin: center center;
   transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 
 /* HIDDEN */
@@ -68,6 +71,7 @@
   content: "\f001";
   padding-right: 1rem;
   animation: glow 2s infinite;
+  -webkit-animation: glow 2s infinite;
 }
 .listenHidden div::after {
   display: inline-block;
@@ -75,11 +79,24 @@
   content: "\f078";
   padding-left: 1rem;
   transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
   transform-origin: center center;
   transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 
 @keyframes glow {
+  0% {
+    color: #271f6b;
+  }
+  50% {
+    color: #9bc28c;
+  }
+  100% {
+    color: #271f6b;
+  }
+}
+@-webkit-keyframes glow {
   0% {
     color: #271f6b;
   }
