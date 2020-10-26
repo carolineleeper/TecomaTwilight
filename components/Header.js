@@ -14,8 +14,12 @@ const routes = [
     url: "/about",
   },
   {
-    title: "Stalls",
+    title: "Browse",
     url: "/stalls",
+  },
+  {
+    title: "Eat",
+    url: "/eat",
   },
 ];
 

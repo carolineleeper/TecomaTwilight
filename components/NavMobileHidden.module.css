@@ -33,3 +33,14 @@
   transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
 }
+
+.mobileNavSocials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.mobileNavSocials a {
+  padding: 0;
+}

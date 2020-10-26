@@ -89,7 +89,7 @@ const Stalls = (props) => {
 
   return (
     <>
-      <SEO title="Stalls" />
+      <SEO title="Browse" />
       <div className="stallsContainer">
         {clientIsMobile ? (
           <CheckboxesMenuMobile
