@@ -22,7 +22,7 @@ const Nav = (props) => {
           href="https://www.instagram.com/tecomatwilightmarket/"
         />
       </div>
-      <Donate />
+      {/* <Donate /> */}
     </nav>
   );
 };
