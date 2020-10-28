@@ -12,9 +12,9 @@ const StallPage = (props) => {
   return (
     <>
       <BackButton />
-      <div className={style.imageContainer}>
+      {/* <div className={style.imageContainer}>
         <img src={props.stall.logo} />
-      </div>
+      </div> */}
 
       <div className={style.stallInfo}>
         <div className={style.nameContainer}>

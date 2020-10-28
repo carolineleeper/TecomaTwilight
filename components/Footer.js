@@ -3,6 +3,7 @@ import Acknowledgement from "./Acknowledgement";
 import CAROtheDEV from "./CAROtheDEV";
 import Facebook from "./Facebook";
 import Instagram from "./Instagram";
+import Donate from "./Donate";
 import style from "./Footer.module.css";
 
 const Footer = () => {
