@@ -7,7 +7,7 @@
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background: #271f6b;
+  background: #a33387;
   color: #ffffff;
   cursor: pointer;
   text-align: center;
@@ -22,10 +22,12 @@
 
 .donateButton:hover,
 .donateButton:focus {
-  background: #a33387;
+  background: #271f6b;
   transform: translateX(-1px) translateY(-1px);
   -webkit-transform: translateX(-1px) translateY(-1px);
-  box-shadow: 1px 4px 5px #414141;
+  box-shadow: 1px 2px 3px #3d3d3d;
+  -webkit-box-shadow: 1px 2px 3px #3d3d3d;
+  -moz-box-shadow: 1px 2px 3px #3d3d3d;
 }
 
 .donateButton:focus {
