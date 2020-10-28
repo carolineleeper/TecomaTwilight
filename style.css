@@ -385,7 +385,7 @@ ________/\\\\\\\\\__/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\____
 
 body {
   background: url("/images/background.jpg");
-  background-position: top;
+  background-position: right;
   background-attachment: fixed;
   font-family: Lato;
   color: #fff;
@@ -396,13 +396,13 @@ p {
   font-size: 1.5em;
 }
 a {
-  color: #fff;
+  color: #e4b1dd;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
 }
 a:hover {
-  color: #ffe685;
+  color: #9fdab5;
 }
 
 #__next {

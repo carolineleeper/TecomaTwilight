@@ -1,16 +1,11 @@
 import SEO from "../components/SEO";
+import DonatePage from "../components/DonatePage";
 
 const Donate = () => {
   return (
     <>
       <SEO title="Donate" />
-      <p>
-        Visit{" "}
-        <a href="https://foothills.raisely.com/" target="_blank">
-          https://foothills.raisely.com/
-        </a>{" "}
-        to donate.
-      </p>
+      <DonatePage />
     </>
   );
 };
