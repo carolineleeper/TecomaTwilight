@@ -409,6 +409,15 @@ a:hover {
   position: relative;
 }
 
+.title {
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffe685;
+  text-transform: uppercase;
+  align-self: center;
+}
+
 /*********************************************/
 /**************** H E A D E R ****************/
 /*********************************************/

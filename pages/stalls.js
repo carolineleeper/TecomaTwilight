@@ -92,18 +92,22 @@ const Stalls = (props) => {
       <SEO title="Browse" />
       <div className="stallsContainer">
         {clientIsMobile ? (
-          <CheckboxesMenuMobile
-            checkArray={checkArray}
-            setCheckArray={setCheckArray}
-            stalls={randomStalls}
-            isMobile={isMobile}
-          />
+          <>
+            <CheckboxesMenuMobile
+              checkArray={checkArray}
+              setCheckArray={setCheckArray}
+              stalls={randomStalls}
+              isMobile={isMobile}
+            />
+          </>
         ) : (
-          <CheckboxesMenu
-            checkArray={checkArray}
-            setCheckArray={setCheckArray}
-            stalls={randomStalls}
-          />
+          <>
+            <CheckboxesMenu
+              checkArray={checkArray}
+              setCheckArray={setCheckArray}
+              stalls={randomStalls}
+            />
+          </>
         )}
 
         <div className="stallContentContainer">

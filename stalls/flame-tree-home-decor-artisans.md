@@ -1,6 +1,6 @@
 ---
 name: "Flame Tree Home Decor Artisans"
-url: "http://www.flametreeartisans.com.au"
+url: "https://flametreeartisans.com.au"
 facebook: "https://www.facebook.com/flametreeartisans"
 instagram: "@flametreehomedecor"
 logo: "/images/uploads/flame-tree-home-decor-artisans/IMG_4260.jpg"

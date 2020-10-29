@@ -12,7 +12,7 @@ const Nav = (props) => {
           <NavItem key={route.title} title={route.title} url={route.url} />
         );
       })}
-      <div className={style.socialsContainer}>
+      {/* <div className={style.socialsContainer}>
         <Facebook
           key="facebook"
           href="https://www.facebook.com/TecomaTwilightEthicalMarket/"
@@ -21,8 +21,8 @@ const Nav = (props) => {
           key="instagram"
           href="https://www.instagram.com/tecomatwilightmarket/"
         />
-      </div>
-      {/* <Donate /> */}
+      </div> */}
+      <Donate />
     </nav>
   );
 };
