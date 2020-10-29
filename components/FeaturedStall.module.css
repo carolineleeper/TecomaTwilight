@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   width: 100%;
 }
 .stallInfoContainer h1 {
@@ -46,7 +46,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  overflow: hidden;
 }
+
 .keywordsContainer {
   flex: 1;
   display: flex;
@@ -58,6 +60,9 @@
 }
 .descriptionContainer {
   margin-bottom: 1rem;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 750px) {
@@ -70,9 +75,16 @@
   .imageContainer {
     max-width: 100%;
     max-height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
   }
   .imageContainer img {
     border-radius: 10px 10px 0 0;
+    max-height: 250px;
+  }
+  .stallInfoContainer {
+    max-height: 50%;
   }
   .stallInfoContainer h1 {
     font-size: 1.5rem;

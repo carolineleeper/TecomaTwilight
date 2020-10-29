@@ -6,7 +6,7 @@ instagram: https://instagram.com
 logo: /images/uploads/fb-designs-03-justine-cotter-salama.png
 description: Beautifully Unique and Eclectic Handblown Christmas Ornaments and
   Decorations Made By Egyptian Artisans
-ethicalDescription: This is the ethical description
+ethicalDescription: This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description This is the ethical description
 criteria:
   - Fair Trade
   - Locally Made
