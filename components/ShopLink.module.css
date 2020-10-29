@@ -1,5 +1,5 @@
 .shopButton {
-  margin: 1rem;
+  margin: 1rem 0;
   min-width: 300px;
   border-radius: 5px;
   border: none;
@@ -44,5 +44,8 @@
   .shopButton {
     width: 100%;
     margin: 1rem auto 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
