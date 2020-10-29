@@ -1,4 +1,3 @@
-import { Router } from "next/router";
 import style from "./Donate.module.css";
 import { useRouter } from "next/router";
 
