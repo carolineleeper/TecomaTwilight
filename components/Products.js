@@ -4,7 +4,7 @@ import style from "./Products.module.css";
 const Products = (props) => {
   return (
     <div className={style.products}>
-      <h2>Product Spotlight</h2>
+      <h2 className="title">Product Spotlight</h2>
       <div className={style.productsGallery}>
         {props.products.map((product) => {
           return (

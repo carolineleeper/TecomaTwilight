@@ -16,9 +16,9 @@ const StallPage = (props) => {
         <img src={props.stall.logo} alt={`${props.stall.name} logo`} />
       </div> */}
 
+      <h2 className="title">{props.stall.name}</h2>
       <div className={style.stallInfo}>
         <div className={style.nameContainer}>
-          <h2>{props.stall.name}</h2>
           <ShopLink url={props.stall.url} />
         </div>
         <div className={style.keywords}>

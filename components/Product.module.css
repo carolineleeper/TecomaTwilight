@@ -26,6 +26,7 @@
 .imageContainer img {
   object-fit: cover;
   -o-object-fit: cover;
+  max-height: 250px;
   height: 100%;
   width: 100%;
   border-radius: 8px 0 0 8px;
@@ -61,5 +62,13 @@
   }
   .productInfo {
     width: 100%;
+    padding: 0;
+  }
+  .productInfo h2 {
+    font-size: 1.2rem;
+  }
+  .productInfo p {
+    font-size: 1rem;
+    margin-top: 0;
   }
 }
