@@ -547,15 +547,21 @@ body.menuToggled {
 .slick-dots {
   bottom: -30px;
 }
+
+.slick-dots li.slick-active button::before {
+  color: #fff;
+}
+
 .slick-dots li button::before {
   font-size: 1rem;
   bottom: -2.5rem;
+  color: #fff;
 }
 .slick-prev::before,
 .slick-next::before {
   top: 50%;
   font-size: 40px;
-  color: #000000;
+  color: #fff;
   opacity: 0.6;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -577,6 +583,7 @@ body.menuToggled {
   .slick-prev::before,
   .slick-next::before {
     top: 40%;
+    color: #000;
   }
   .slick-prev {
     left: 3%;
