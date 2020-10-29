@@ -3,7 +3,7 @@ import style from "./InlineImage.module.css";
 const InlineImage = (props) => {
   return (
     <div className={style.imageContainer}>
-      <img src={props.src} />
+      <img src={props.src} alt="crowds at the tecoma twilight market 2019" />
       <p className="upperCase">
         Let us help you navigate the amazing world{" "}
         <span className="emphasise">without lockdown</span>. Take a few gentle

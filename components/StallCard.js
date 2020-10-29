@@ -8,7 +8,7 @@ const StallCard = ({ stall }) => {
     <div className={style.stallThumb}>
       <div className={style.name}>{stall.name}</div>
       <div className={style.stallImageContainer}>
-        <img src={stall.logo} />
+        <img src={stall.logo} alt={`${stall.name} logo`} />
       </div>
       <div className={style.keywordContainer}>
         <Criteria criteria={stall.criteria} />

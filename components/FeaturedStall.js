@@ -9,9 +9,12 @@ const FeaturedStall = (props) => {
     <div className={style.featuredStallContainer}>
       <div className={style.imageContainer}>
         {props.stall.products ? (
-          <img src={props.stall.products[0].product_image} />
+          <img
+            src={props.stall.products[0].product_image}
+            alt={`${props.stall.name} logo`}
+          />
         ) : (
-          <img src={props.stall.logo} />
+          <img src={props.stall.logo} alt={`${stall.name} logo`} />
         )}
         <ViewStallButton filename={props.stall.filename} />
       </div>
