@@ -5,9 +5,9 @@ const InlineImage = (props) => {
     <div className={style.imageContainer}>
       <img src={props.src} alt="crowds at the tecoma twilight market 2019" />
       <p className="upperCase">
-        Let us help you navigate the amazing world{" "}
-        <span className="emphasise">without lockdown</span>. Take a few gentle
-        steps this festive season by attending our online market.
+        Welcome to our virtual market – promoting living and buying ethically.
+        Here you will find the ethical and sustainable businesses of the hills –
+        all in one place!
       </p>
     </div>
   );

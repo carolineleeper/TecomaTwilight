@@ -3,6 +3,7 @@ import Ethics from "../components/Ethics";
 import Criteria from "../components/Criteria";
 import Donate from "../components/Donate";
 import InlineImage from "../components/InlineImage";
+import Link from "next/link";
 
 const criteria = [
   "vegan",
@@ -26,49 +27,61 @@ const About = () => {
       <InlineImage src="/images/DSC_0161.jpg" align="imageRight" />
       <div className="aboutText">
         <p>
-          We want to share another wonderful ethical event promoting{" "}
-          <span className="emphasise">local businesses</span>. To keep you safe
-          and happy we have decided to go online in 2020. Grab a coffee or chai
-          and some food from a local business, sit down with us and do your gift
-          shopping. We will even provide you with a playlist of{" "}
-          <span className="emphasise">local music</span>.
+          To keep you safe and happy we have decided to go online in 2020. So
+          grab yourself a drink and ideally some food from a{" "}
+          <Link href="/eat">
+            <a>local business</a>
+          </Link>
+          , and do all your gift shopping here. We have even provided you with a
+          playlist featuring our brilliant local musicians to accompany you
+          whilst you shop (see the ‘Listen while you shop’ below).
         </p>
         <p className="upperCase">
-          Ethical shopping includes a multitude of research and decision making.
-          We at Tecoma Twilight Online Market will be your{" "}
-          <span className="emphasise">Ethical Directory</span>.
-        </p>
-        <p className="textCenter">
-          We have resourced stall holders that meet one or more of the
-          following:
+          Ethical shopping can be challenging and time consuming. So allow the
+          Tecoma Twilight Ethical Market to make things much simpler by
+          highlighting only local and ethical businesses who meet one or more of
+          the following criteria:
         </p>
         <Ethics />
         <p className="textCenter">
-          We think ethical shopping can also include these specific aspects:
+          This site will also allow you to focus your shopping around the
+          ethical priorities most important to you!
         </p>
+        <p className="textCenter">These may include:</p>
         <div className="divCenter">
           <Criteria criteria={criteria} />
         </div>
         <p className="upperCase">
-          You can shop anytime you like by contacting the stallholders and
-          ordering your gifts.{" "}
-          <span className="emphasise">
-            Payment will be direct to the stall holder
-          </span>
-          , just like in any market.
+          So take a stroll through this virtual market and then click on each
+          stall holder to be taken to their website. Payment will be direct to
+          the stall holder, just like at any market.
         </p>
         <p>
-          As a special treat we invite you to buy something extra to{" "}
-          <span className="emphasise">donate</span> to the Hope in the Hills
-          Giving Tree. Simply order your gift and drop it at Tecoma Uniting
-          Church, 1566 Burwood Highway, Tecoma on Tuesday December 15th.
+          And why not consider not only purchasing good gifts, but giving a
+          gift! Foothills Community Care supports many local Dandenong Ranges
+          families and individuals throughout the year with meals and food
+          support. Each Christmas they host a special Christmas Day Lunch for
+          people who would otherwise be on their own.
         </p>
         <p className="textCenter">
-          If you are unable to do this, we invite you to donate by clicking the
-          donate button below.
-          <br />
-          <br />
-          <Donate />
+          This year you are invited to donate towards the Foothills Community
+          Care Christmas Appeal. You can do this in one of two ways:
+        </p>
+        <p className="textBox">
+          Donate gifts towards the Foothills Giving Tree. These gifts will go
+          towards their Christmas care-packages to local families in need of
+          some extra support this Christmas. Simply order your gift and drop it
+          at Tecoma Uniting Church, 1566 Burwood Highway, Tecoma before Tuesday
+          December 15th.
+        </p>
+        <p className="textBox">
+          Donate funds to them to help their support of vulnerable and isolated
+          people this Christmas. All donations over $2 are tax-deductible and
+          can be made securely via the Donate button above.
+        </p>
+        <p className="upperCase">
+          Thank you for supporting these wonderful businesses, and for sharing
+          the love through ethical gifts this year!
         </p>
       </div>
     </>
