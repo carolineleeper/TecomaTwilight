@@ -2,7 +2,6 @@ import SEO from "../components/SEO";
 import FeaturedStalls from "../components/FeaturedStalls";
 import LiveVideoContainer from "../components/LiveVideoContainer";
 import VideoPlaylistContainer from "../components/VideoPlaylistContainer";
-import Donate from "../components/Donate";
 
 import matter from "gray-matter";
 import fs from "fs";
