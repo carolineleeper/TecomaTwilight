@@ -1,6 +1,6 @@
 ---
 name: "Lilee & Willow"
-url: "www.lileeandwillow.com.au"
+url: "http://www.lileeandwillow.com.au"
 facebook: "https://facebook.com/lileeandwillow"
 instagram: "https://www.instagram.com/lileeandwillow"
 logo: "/images/uploads/lilee-willow/43B29C16-542B-4C35-B525-5A603720D1AE.jpeg"

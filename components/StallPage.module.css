@@ -1,9 +1,19 @@
+.stallProfile {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
 .imageContainer {
   max-width: 300px;
-  margin: auto;
+  margin: 1rem;
   background-color: #fff;
   padding: 1rem;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
 }
 .imageContainer img {
   max-width: 100%;
@@ -15,9 +25,10 @@
   color: #271f6b;
   width: 80vw;
   padding: 1rem;
-  margin: 1rem auto;
+  margin: 1rem;
   border-radius: 10px;
   box-sizing: border-box;
+  width: 70%;
 }
 .nameContainer {
   display: flex;
