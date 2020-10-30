@@ -20,14 +20,6 @@ categories:
   - Vegan
   - Women-run
 products:
-  - product_name: Doterra Holiday Joy
-    product_description:
-      We like to take this at night 20 minutes before bed for a
-      relaxed nights rest. Spray on bottom of the feet , behind the knees or
-      over your legs  We recommend leaving it either on the bathroom bench or
-      next to the bed for easy regular access.
-    product_price: 30
-    product_image: /images/uploads/satara-hope-doterra-holiday-joy-claire-fawbert.png
   - product_name: Rejuvenate Box
     product_description:
       The purple box for restorative sleep is an absolute  must
