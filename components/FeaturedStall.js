@@ -8,9 +8,9 @@ const FeaturedStall = (props) => {
   return (
     <div className={style.featuredStallContainer}>
       <div className={style.imageContainer}>
-        {props.stall.products ? (
+        {props.stall.products[1] ? (
           <img
-            src={props.stall.products[0].product_image}
+            src={props.stall.products[1].product_image}
             alt={`${props.stall.name} logo`}
           />
         ) : (
