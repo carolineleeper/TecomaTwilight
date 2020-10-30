@@ -488,8 +488,9 @@ body.menuToggled {
   text-align: center;
 }
 .divCenter {
+  display: flex;
   max-width: 950px;
-  margin: auto;
+  margin: 1rem auto;
 }
 .divCenter div {
   justify-content: center;
@@ -511,12 +512,12 @@ body.menuToggled {
   border-radius: 5px;
 }
 .playerWrapper {
-  position: sticky;
+  position: fixed;
   bottom: -360px;
-  right: 0;
+  left: 0;
   width: max-content;
   min-width: 450px;
-  z-index: 20;
+  z-index: 23;
   line-height: 0;
   /* width: 350px; */
   /* background-color: #271f6b; */

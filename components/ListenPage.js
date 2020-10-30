@@ -1,8 +1,12 @@
 const ListenPage = () => {
   return (
     <>
-      <h1 className="title">Listen</h1>
-      <p>List of local artists TBC</p>
+      <h1 className="title">LISTEN PAGE COMING SOON</h1>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
     </>
   );
 };

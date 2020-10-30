@@ -1,8 +1,12 @@
 const EatPage = () => {
   return (
     <>
-      <h1 className="title">EAT</h1>
-      <p>List of food vendors TBC</p>
+      <h1 className="title">EAT PAGE COMING SOON</h1>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
     </>
   );
 };

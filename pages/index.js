@@ -11,8 +11,12 @@ const Home = (props) => {
     <>
       <SEO title="Home" />
       <FeaturedStalls stalls={props.stalls} />
-      <LiveVideoContainer />
-      <VideoPlaylistContainer />
+      {/* <LiveVideoContainer />
+      <VideoPlaylistContainer /> */}
+      <h1 className="title">Watch Live</h1>
+      <div className="divCenter">
+        <img src="/images/live_vid.png" />
+      </div>
     </>
   );
 };
