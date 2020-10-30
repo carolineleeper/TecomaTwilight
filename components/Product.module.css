@@ -5,6 +5,7 @@
   background-color: #fff;
   color: #271f6b;
   max-width: 900px;
+  width: 100%;
   border-radius: 8px;
   margin: 1rem;
   -webkit-box-shadow: 3px 3px 10px -1px rgba(0, 0, 0, 0.75);
@@ -26,7 +27,7 @@
 .imageContainer img {
   object-fit: cover;
   -o-object-fit: cover;
-  max-height: 250px;
+  max-height: 450px;
   height: 100%;
   width: 100%;
   border-radius: 8px 0 0 8px;

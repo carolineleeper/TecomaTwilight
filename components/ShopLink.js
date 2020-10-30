@@ -9,7 +9,7 @@ const ShopLink = (props) => {
       target="_blank"
     >
       <button className={style.shopButton} type="submit">
-        Shop Now
+        GO TO SHOP NOW
       </button>
     </form>
   );
