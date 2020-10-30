@@ -53,6 +53,7 @@
 @media screen and (max-width: 750px) {
   .productCard {
     flex-direction: column;
+    width: unset;
   }
   .imageContainer {
     height: 50%;

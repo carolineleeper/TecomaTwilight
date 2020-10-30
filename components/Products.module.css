@@ -7,6 +7,13 @@
   width: 100%;
   padding: 0;
 }
+
+@media screen and (max-width: 750px) {
+  .productsGallery {
+    justify-content: center;
+    align-items: stretch;
+  }
+}
 /* .productsGallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));

@@ -1,6 +1,6 @@
 .carouselContainer {
   max-width: 100%;
-  max-height: 80vh;
+  /* max-height: 80vh; */
   margin: 1rem auto 2rem;
 }
 .title {

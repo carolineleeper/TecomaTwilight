@@ -14,7 +14,7 @@ const Home = (props) => {
       {/* <LiveVideoContainer />
       <VideoPlaylistContainer /> */}
       <h1 className="title">Watch Live</h1>
-      <div className="divCenter">
+      <div className="liveVidPlaceholder">
         <img src="/images/live_vid.png" />
       </div>
     </>
