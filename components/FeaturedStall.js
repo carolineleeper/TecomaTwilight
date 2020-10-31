@@ -5,7 +5,6 @@ import ViewStallButton from "./ViewStallButton";
 import style from "./FeaturedStall.module.css";
 
 const FeaturedStall = (props) => {
-  console.log(props);
   return (
     <div className={style.featuredStallContainer}>
       <div className={style.imageContainer}>

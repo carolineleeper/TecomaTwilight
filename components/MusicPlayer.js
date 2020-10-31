@@ -24,9 +24,24 @@ const MusicPlayer = () => {
     >
       <ListenWhileShop isPlayerHidden={isPlayerHidden} />
       <ReactPlayer
-        url="https://www.youtube.com/embed/videoseries?list=PLMq7xD7P5TDfwhj4r3CSWCqvhDQL55bAE"
+        url="https://www.youtube.com/embed/videoseries?list=PLMq7xD7P5TDfwhj4r3CSWCqvhDQL55bAE&modestbranding=1&rel=0&enablejsapi=1"
         width="100%"
+        pip={false}
         // height="100%"
+        config={{
+          youtube: {
+            playerVars: {
+              modestbranding: 1,
+              controls: 1,
+              rel: 0,
+              showinfo: 0,
+              enablejsapi: 1,
+              origin: "tecomatwilight.com",
+              iv_load_policy: 3,
+              loop: 1,
+            },
+          },
+        }}
       />
     </div>
   );

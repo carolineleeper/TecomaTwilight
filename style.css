@@ -527,7 +527,7 @@ body.menuToggled {
   bottom: -360px;
   left: 0;
   width: max-content;
-  min-width: 450px;
+  min-width: 480px;
   z-index: 23;
   line-height: 0;
   /* width: 350px; */
@@ -568,6 +568,7 @@ body.menuToggled {
   .playerWrapperHidden iframe {
     width: 100%;
     min-width: unset;
+    border-radius: 0;
   }
   .liveVidPlaceholder {
     margin: 2rem 0;
