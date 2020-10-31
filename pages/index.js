@@ -13,7 +13,7 @@ const Home = (props) => {
       <FeaturedStalls stalls={props.stalls} />
       {/* <LiveVideoContainer />
       <VideoPlaylistContainer /> */}
-      <h1 className="title">Watch the Market Live</h1>
+      <h1 className="title">Watch Live</h1>
       <div className="liveVidPlaceholder">
         <img src="/images/live_vid.png" />
       </div>
