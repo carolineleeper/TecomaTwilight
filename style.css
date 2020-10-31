@@ -488,11 +488,23 @@ body.menuToggled {
   text-align: center;
 }
 .divCenter {
+  display: flex;
   max-width: 950px;
-  margin: auto;
+  margin: 1rem auto;
 }
 .divCenter div {
   justify-content: center;
+}
+.liveVidPlaceholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.liveVidPlaceholder img {
+  width: 100%;
+  max-width: 900px;
 }
 .aboutText {
   padding: 1rem 3rem;
@@ -511,12 +523,12 @@ body.menuToggled {
   border-radius: 5px;
 }
 .playerWrapper {
-  position: sticky;
+  position: fixed;
   bottom: -360px;
-  right: 0;
+  left: 0;
   width: max-content;
-  min-width: 450px;
-  z-index: 20;
+  min-width: 480px;
+  z-index: 23;
   line-height: 0;
   /* width: 350px; */
   /* background-color: #271f6b; */
@@ -556,6 +568,10 @@ body.menuToggled {
   .playerWrapperHidden iframe {
     width: 100%;
     min-width: unset;
+    border-radius: 0;
+  }
+  .liveVidPlaceholder {
+    margin: 2rem 0;
   }
 }
 
