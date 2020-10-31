@@ -14,7 +14,7 @@ const FeaturedStall = (props) => {
             alt={`${props.stall.name} logo`}
           />
         ) : (
-          <img src={props.stall.logo} alt={`${stall.name} logo`} />
+          <img src={props.stall.logo} alt={`${props.stall.name} logo`} />
         )}
         <ViewStallButton filename={props.stall.filename} />
       </div>
