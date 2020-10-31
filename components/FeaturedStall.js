@@ -5,16 +5,17 @@ import ViewStallButton from "./ViewStallButton";
 import style from "./FeaturedStall.module.css";
 
 const FeaturedStall = (props) => {
+  console.log(props);
   return (
     <div className={style.featuredStallContainer}>
       <div className={style.imageContainer}>
-        {props.stall.products[1] ? (
+        {props.stall.products ? (
           <img
-            src={props.stall.products[1].product_image}
+            src={props.stall.products[0].product_image}
             alt={`${props.stall.name} logo`}
           />
         ) : (
-          <img src={props.stall.logo} alt={`${stall.name} logo`} />
+          <img src={props.stall.logo} alt={`${props.stall.name} logo`} />
         )}
         <ViewStallButton filename={props.stall.filename} />
       </div>
