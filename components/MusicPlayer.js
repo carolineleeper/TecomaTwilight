@@ -24,7 +24,7 @@ const MusicPlayer = () => {
     >
       <ListenWhileShop isPlayerHidden={isPlayerHidden} />
       <ReactPlayer
-        url="https://www.youtube.com/embed/videoseries?list=PLGBuKfnErZlBLNzS_JlDAeiH5aW26rvHc"
+        url="https://www.youtube.com/embed/videoseries?list=PLMq7xD7P5TDfwhj4r3CSWCqvhDQL55bAE"
         width="100%"
         // height="100%"
       />
