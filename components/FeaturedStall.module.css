@@ -95,4 +95,8 @@
     left: 0;
     bottom: unset;
   }
+  .keywordsContainer {
+    justify-content: center;
+    align-items: center;
+  }
 }

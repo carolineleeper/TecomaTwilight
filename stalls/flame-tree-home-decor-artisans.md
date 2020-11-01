@@ -1,6 +1,6 @@
 ---
 name: "Flame Tree Home Decor Artisans"
-url: "https://flametreeartisans.com.au"
+url: "www.flametreeartisans.com.au"
 facebook: "https://www.facebook.com/flametreeartisans"
 instagram: "@flametreehomedecor"
 logo: "/images/uploads/flame-tree-home-decor-artisans/IMG_4260.jpg"
@@ -14,7 +14,7 @@ departments:
 categories:
   - "Handmade"
   - "Social Enterprise"
-  - "Respect and Dignity"
+  - "Respect and dignity"
 products:
   - product_name: "Gold and Silver Art Deco Bauble"
     product_description: "Clear glass bauble with a stunning gold and silver art deco design. Also available in blue, red and green."

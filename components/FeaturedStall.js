@@ -27,8 +27,8 @@ const FeaturedStall = (props) => {
           </div>
         </div>
         <div className={style.keywordsContainer}>
-          <Criteria criteria={props.stall.criteria} />
           <Departments departments={props.stall.departments} />
+          <Criteria criteria={props.stall.criteria} />
           {props.stall.categories && (
             <Categories categories={props.stall.categories} />
           )}
