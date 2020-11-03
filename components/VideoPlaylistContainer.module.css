@@ -1,7 +1,7 @@
 .videoPlaylistContainer {
   margin: 0 2rem 2rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: stretch;
 }
@@ -13,8 +13,8 @@
 .videoPlaylistContainerText {
   flex: 1;
   padding: 1rem 2rem;
-  align-items: flex-end;
-  text-align: right;
+  align-items: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 750px) {

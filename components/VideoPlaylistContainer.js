@@ -5,7 +5,7 @@ const VideoPlaylistContainer = () => {
   return (
     <div className={style.videoPlaylistContainer}>
       <div className={style.videoPlaylistContainerText}>
-        <h1>Watch our playlist</h1>
+        <h1 className="title">Watch our playlist</h1>
         <p>
           Our stall holders talk about cool stuff. We discuss ethical approaches
           and other things.

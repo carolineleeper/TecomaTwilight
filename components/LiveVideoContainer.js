@@ -5,19 +5,14 @@ import ReactPlayer from "react-player";
 const LiveVideoContainer = () => {
   return (
     <div className={style.liveVideoContainer}>
+      <h1 class="title">Watch Live</h1>
       <div className={style.responsiveVideoContainer}>
         <ReactPlayer
-          url="https://www.facebook.com/PhillipIslandNatureParks/videos/388417159000165"
+          className={style.reactPlayer}
+          url="https://youtu.be/7hCBQmnnbQg"
           width="100%"
           height="100%"
         />
-      </div>
-      <div className={style.liveVideoContainerText}>
-        <h1>Watch Live!</h1>
-        <p>
-          Our stall holders talk about cool stuff. We discuss ethical approaches
-          and other things.
-        </p>
       </div>
     </div>
   );
