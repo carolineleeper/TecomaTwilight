@@ -1,4 +1,6 @@
 import ShopLink from "./ShopLink";
+import ShopPhone from "./ShopPhone";
+import ShopEmail from "./ShopEmail";
 import Facebook from "./Facebook";
 import Instagram from "./Instagram";
 import Departments from "./Departments";
@@ -19,7 +21,9 @@ const StallPage = (props) => {
       <h2 className="title">{props.stall.name}</h2>
       <div className={style.stallInfo}>
         <div className={style.nameContainer}>
-          <ShopLink url={props.stall.url} />
+          {props.stall.url && <ShopLink url={props.stall.url} />}
+          {props.stall.phone && <ShopPhone phone={props.stall.phone} />}
+          {props.stall.email && <ShopEmail email={props.stall.email} />}
         </div>
         <div className={style.keywords}>
           <Criteria criteria={props.stall.criteria} />

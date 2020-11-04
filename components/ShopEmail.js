@@ -1,18 +1,17 @@
-import style from "./ShopLink.module.css";
+import style from "./ShopEmail.module.css";
 
-const ShopLink = (props) => {
+const ShopEmail = (props) => {
   return (
     <form
       className={style.form}
-      action={"mailto:".concat(props.url)}
+      action={"mailto:".concat(props.email)}
       method="get"
       target="_blank"
     >
-      <button className={style.shopButton} type="submit">
-        CONTACT NOW
-      </button>
+      {/* <button className={style.shopButton} type="submit"> */}
+      <button type="submit">CONTACT NOW</button>
     </form>
   );
 };
 
-export default ShopLink;
+export default ShopEmail;
