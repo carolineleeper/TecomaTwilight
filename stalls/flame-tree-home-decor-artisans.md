@@ -1,8 +1,7 @@
 ---
 name: "Flame Tree Home Decor Artisans"
 url: "www.flametreeartisans.com.au"
-facebook: "https://www.facebook.com/flametreeartisans"
-instagram: "@flametreehomedecor"
+instagram: "https://instagram.com/flametreehomedecor"
 logo: "/images/uploads/flame-tree-home-decor-artisans/IMG_4260.jpg"
 description: "Flame Tree Home Décor Artisans is the culmination of our long term dream to start up a small business and bring this stunningly unique handblown glassware to you. Glass blowing is a dying art in Egypt and through our collaboration with the glassblowers we are supporting and ensuring the ethical treatment and financial security of a Cairo community.\r\nAll our Christmas baubles, ornaments and glassware are individually handblown and painted. They come in many different designs, shapes and sizes so please take a trip around our website and be blown away by our products."
 ethicalDescription: "After many years visiting Egypt we established a connection with the Cairo glassblowers. Glassblowing is a dying art in Egypt and many people are unaware of the stunning beauty of their handicraft. Many of these people are struggling so we decided to do what we could to support them and ensure these true artisans were treated ethically and with the respect and dignity they so deserve. Through our collaboration we are pleased to showcase their creativity and talent and ensure this stunning art of glass blowing continues on."

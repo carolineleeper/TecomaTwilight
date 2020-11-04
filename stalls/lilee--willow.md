@@ -1,7 +1,6 @@
 ---
 name: "Lilee & Willow"
 url: "www.lileeandwillow.com.au"
-facebook: "https://www.facebook.com/lileeandwillow"
 instagram: "https://www.instagram.com/lileeandwillow"
 logo: "/images/uploads/lilee--willow/43B29C16-542B-4C35-B525-5A603720D1AE.jpeg"
 description: "Lilee & Willow create beautiful small batch  handmade jewellery. Including unique, colourful & lightweight hypoallergenic earrings - Dangles & Studs. We also create beautiful lanyards, perfect for teacher gifts! \r\n\r\nAll of our products are handmade locally in the Yarra Valley by Kelly."

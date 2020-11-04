@@ -1,7 +1,6 @@
 ---
 name: "Babaji's Kitchen"
 url: "mryum.com/babajispicnics"
-facebook: "https://www.facebook.com/babajiskitchen"
 instagram: "https://www.instagram.com/babajiskitchen"
 logo: "/images/uploads/babajis-kitchen/Ooty Indian picnic for two.jpg"
 description: "We're Babajis Kitchen, Belgrave's South Indian village cooks.  \r\n\r\nOur 'Picnics in the Forest' are inspired by hot summers spent relaxing in Indian ‘hill stations’, escaping the heat and connecting with nature.\r\n\r\nFrom Indian influenced baguettes, salads, dips, Indian street food dishes, regional cheeses, olives & craft beer, our hampers are freshly made to order and packed into handcrafted & fair trade colourful Burmese Pali baskets."

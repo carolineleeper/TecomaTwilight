@@ -1,8 +1,7 @@
 ---
 name: "Artful Splodgers"
 url: "www.artfulsplodgers.com.au"
-facebook: "www.facebook.com/artfulsplodgers1"
-instagram: "www.instagram.com/artful_splodgers"
+instagram: "https://www.instagram.com/artful_splodgers"
 logo: "/images/uploads/artful-splodgers/ARTFUL SPLODGERS_FACEBOOK_PROFILE PIC_A.jpg"
 description: "We offer fun, educational art and craft packs for children. Our art packs are inspired by artists from different times, backgrounds and cultures to help educate children about the world of art. Art materials are included in the pack as well as fun fact sheets on the artist and a guide to help them start their projects. Our craft packs are fun and creative! They are a great way for children to practice mindfulness and concentration skills. They are also perfect gifts ideas!\r\n\r\nWe also have a special edition Christmas Pack full of fun, creative and engaging projects to decorate your home with."
 ethicalDescription: "Our mission is to inspire creativity and develop children's learning through art and craft activities, anywhere, anytime. \r\n\r\nWe want to take your child on a creative learning journey. Our packs encourage children to explore artistic ideas and materials. The projects allow children to develop skills in problem solving, analytical thinking and creativity, and promote children's curiosity and confidence. Plus they are really fun!\r\n\r\n\r\nWe strive to make our packs as eco-friendly as possible. We use biodegradable bags to package loose items, our kraft box can be up-cycled and used for activities, and our packaging tape is eco-friendly and recyclable."

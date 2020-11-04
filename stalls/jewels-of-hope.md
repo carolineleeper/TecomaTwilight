@@ -1,8 +1,6 @@
 ---
 name: "Jewels of Hope"
 url: "dawntaylor6491@gmail.com"
-facebook: ""
-instagram: ""
 logo: "/images/uploads/jewels-of-hope/Jewels of Hope Logo.JPG"
 description: "‘Jewels of Hope’, a not-for-profit organisation based in Lesotho in southern Africa, reaches out to vulnerable teenagers with the love of Jesus, giving them hope by discipling each one through the Word of God and empowering them with life skills towards a safe and secure future. It seeks to grow the participants into champion citizens to supplement family income through jewellery-making, skills and sales. Dawn Taylor, who lived in Lesotho for three years, takes meetings and seeks opportunities for selling the jewellery in Australia."
 ethicalDescription: "‘Jewels of Hope’ is a law-abiding organisation with a commitment to excellence. Honesty, loyalty, fairness, reliability, concern and respect for others are all qualities that are encouraged in the project. Integrity and accountability are actively promoted."

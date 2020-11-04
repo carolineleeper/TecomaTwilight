@@ -1,8 +1,7 @@
 ---
 name: "Hello Cards and Paper Art"
 url: "www.hellocardsandpaperart.com.au"
-facebook: "www.facebook.com/hellocardsandpaperart"
-instagram: "www.instagram.com/hellocardsandpaperart"
+instagram: "https://www.instagram.com/hellocardsandpaperart"
 logo: "/images/uploads/hello-cards-and-paper-art/Hello cards and paper art Pilea.jpg"
 description: "Hello Cards and Paper Art is a small business dedicated to making beautiful, affordable and unique handmade greeting cards, tags and framed paper art."
 ethicalDescription: "As the maker at Hello Cards and Paper Art working predominately with paper, I try to source my materials from local Australian sellers. I use reusable plastic sleeves to protect my cards, which I retain at point of sale. My tags are sold in little draw string bags that can be repurposed too. All my cards and tags are handmade, can be recycled, repurposed and reused, such as my Christmas Ornament Cards. The ornament can be slipped out of the card and hung on the tree when finished with the card!"
