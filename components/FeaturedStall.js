@@ -11,10 +11,10 @@ const FeaturedStall = (props) => {
         {props.stall.products && props.stall.products[0] ? (
           <img
             src={props.stall.products[0].product_image}
-            alt={`${props.stall.name} logo`}
+            alt={`${props.stall.name}`}
           />
         ) : (
-          <img src={props.stall.logo} alt={`${props.stall.name} logo`} />
+          <img src={props.stall.logo} alt={`${props.stall.name}`} />
         )}
         <ViewStallButton filename={props.stall.filename} />
       </div>

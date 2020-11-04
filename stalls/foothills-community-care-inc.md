@@ -1,6 +1,9 @@
 ---
 name: "Foothills Community Care Inc."
 url: "https://www.foothillscare.org.au/foothills-coffee/"
+phone: null
+email: null
+facebook: "https://www.facebook.com/FoothillsCommunityCare"
 instagram: "https://instagram.com/foothills_care"
 logo: "/images/uploads/foothills-community-care-inc/coffee-image-1kg-only.jpg"
 description: "Certified faritrade and organic coffee beans"

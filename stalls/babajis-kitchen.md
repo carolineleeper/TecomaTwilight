@@ -1,6 +1,9 @@
 ---
 name: "Babaji's Kitchen"
-url: "mryum.com/babajispicnics"
+url: "https://mryum.com/babajispicnics"
+phone: null
+email: null
+facebook: "https://www.facebook.com/babajiskitchen"
 instagram: "https://www.instagram.com/babajiskitchen"
 logo: "/images/uploads/babajis-kitchen/Ooty Indian picnic for two.jpg"
 description: "We're Babajis Kitchen, Belgrave's South Indian village cooks.  \r\n\r\nOur 'Picnics in the Forest' are inspired by hot summers spent relaxing in Indian ‘hill stations’, escaping the heat and connecting with nature.\r\n\r\nFrom Indian influenced baguettes, salads, dips, Indian street food dishes, regional cheeses, olives & craft beer, our hampers are freshly made to order and packed into handcrafted & fair trade colourful Burmese Pali baskets."
@@ -17,7 +20,8 @@ departments:
 categories:
   - "Plastic Free"
   - "20km Tecoma Radius"
-  - "International Students   Community Meals"
+  - "International Students"
+  - "Community Meals"
 products:
   - product_name: "SHIMLA Picnic in the forest' Hamper for two. GIFT VOUCHER. $90"
     product_description: "Inspired by North India's most famous summer refuge, 'Shimla' surrounded by snow topped peaks ... like the Warburton ranges seen throughout our Dandenong Ranges.\r\n\r\nINCLUDED IN THE HAMPER\r\n\r\nPANI PURI DIY (Quite possibly India's most loved street food)\r\n\r\nEight pani puri balls, spiced potato, chickpeas, red onion, coriander, crunchy noodles, Babaji's house made date & mint chutneys, tangy cumin & chilli pani water.\r\n\r\nFill the balls with your choice of filling, add pani and BOOM!\r\n\r\nPAPDI CHAAT (INDIAN NACHOS)\r\nSpiced potato, chickpeas, red onion, crunchy noodles & coriander. Piled high on Indian papdi crackers.\r\n\r\nBabajis own chutneys & yoghurt will come separately to keep them fresh (Medium).\r\n\r\nONION BHAJIS WITH RAITA\r\nFour crispy onion fritters served with raita, cucumber, tomato & pomegranate (Mild).\r\n\r\nWATERMELON, CUCUMBER & STRAWBERRY SALAD.\r\nWith scattered pistachios, mint & a touch of spice (Mild).\r\n\r\nComes with a handwoven colourful BURMESE HANDWOVEN PALI PICNIC BASKET, made from recycled pallet strapping (these are super strong and will last a long time).\r\n\r\nA PICNIC MAP to help you plan your picnic, showing our favourite spots, some secret, along with those that are child and dog friendly.\r\n\r\nTwo sets of environmentally friendly cutlery included.\r\n\r\nDrinks available to purchase separately.\r\n\r\nPlates & glasses not included.\r\n\r\nHAMPER GIFT VOUCHERS WILL BE SENT BY EMAIL."

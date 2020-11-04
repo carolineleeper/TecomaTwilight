@@ -1,6 +1,9 @@
 ---
 name: "Hello Cards and Paper Art"
-url: "www.hellocardsandpaperart.com.au"
+url: "https://www.hellocardsandpaperart.com.au"
+phone: null
+email: null
+facebook: "https://www.facebook.com/hellocardsandpaperart"
 instagram: "https://www.instagram.com/hellocardsandpaperart"
 logo: "/images/uploads/hello-cards-and-paper-art/Hello cards and paper art Pilea.jpg"
 description: "Hello Cards and Paper Art is a small business dedicated to making beautiful, affordable and unique handmade greeting cards, tags and framed paper art."

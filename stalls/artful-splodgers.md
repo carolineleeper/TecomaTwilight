@@ -1,6 +1,9 @@
 ---
 name: "Artful Splodgers"
-url: "www.artfulsplodgers.com.au"
+url: "https://www.artfulsplodgers.com.au"
+phone: null
+email: null
+facebook: "https://www.facebook.com/artfulsplodgers1"
 instagram: "https://www.instagram.com/artful_splodgers"
 logo: "/images/uploads/artful-splodgers/ARTFUL SPLODGERS_FACEBOOK_PROFILE PIC_A.jpg"
 description: "We offer fun, educational art and craft packs for children. Our art packs are inspired by artists from different times, backgrounds and cultures to help educate children about the world of art. Art materials are included in the pack as well as fun fact sheets on the artist and a guide to help them start their projects. Our craft packs are fun and creative! They are a great way for children to practice mindfulness and concentration skills. They are also perfect gifts ideas!\r\n\r\nWe also have a special edition Christmas Pack full of fun, creative and engaging projects to decorate your home with."
