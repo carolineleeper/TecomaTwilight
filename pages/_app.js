@@ -3,8 +3,6 @@ import Footer from "../components/Footer";
 import MusicPlayer from "../components/MusicPlayer";
 import "../style.css";
 import Head from "next/head";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const MyApp = ({ Component, pageProps }) => {
   return (

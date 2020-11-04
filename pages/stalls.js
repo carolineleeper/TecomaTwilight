@@ -38,6 +38,7 @@ const Stalls = (props) => {
   // search bar filtering
   const filteredStalls = () => {
     const searchFiltered = randomStalls.filter((stall) => {
+      console.log(`${stall.criteria}${stall.name}`);
       const criteriaArray = stall.criteria.map((criteria) =>
         criteria.toLowerCase()
       );

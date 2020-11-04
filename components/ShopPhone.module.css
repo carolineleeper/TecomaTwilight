@@ -14,15 +14,16 @@
   text-align: center;
   transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-transition: background 250ms ease-in-out, transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
+}
+.shopButtonContainer {
+  margin: 1rem 0 2rem;
 }
 
 .shopButton:hover,
 .shopButton:focus {
+  color: #fff;
   background: #271f6b;
   transform: translateX(-1px) translateY(-1px);
   -webkit-transform: translateX(-1px) translateY(-1px);
@@ -40,7 +41,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .form,
+  .shopButtonContainer,
   .shopButton {
     min-width: unset;
     width: 100%;
