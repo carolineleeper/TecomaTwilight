@@ -41,9 +41,12 @@ const StallPage = (props) => {
         <p>{props.stall.ethicalDescription}</p>
       </div>
       {props.stall.products && <Products products={props.stall.products} />}
-      {props.stall.url && <ShopLink url={props.stall.url} />}
-      {props.stall.phone && <ShopPhone phone={props.stall.phone} />}
-      {props.stall.email && <ShopEmail email={props.stall.email} />}
+      <div className={style.shopNowContainer}>
+        <h1 className="title">For all this and more</h1>
+        {props.stall.url && <ShopLink url={props.stall.url} />}
+        {props.stall.phone && <ShopPhone phone={props.stall.phone} />}
+        {props.stall.email && <ShopEmail email={props.stall.email} />}
+      </div>
     </>
   );
 };
