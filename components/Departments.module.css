@@ -5,8 +5,8 @@
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   .departmentsContainer {
     justify-content: center;
   }
-}
+} */
