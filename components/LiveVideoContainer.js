@@ -1,4 +1,3 @@
-import Video from "./Video";
 import style from "./LiveVideoContainer.module.css";
 import ReactPlayer from "react-player";
 
@@ -9,7 +8,7 @@ const LiveVideoContainer = () => {
       <div className={style.responsiveVideoContainer}>
         <ReactPlayer
           className={style.reactPlayer}
-          url="https://youtu.be/7hCBQmnnbQg"
+          url="https://youtu.be/PE1cydrvvXo"
           width="100%"
           height="100%"
         />
