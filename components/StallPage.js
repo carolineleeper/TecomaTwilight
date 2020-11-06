@@ -9,7 +9,6 @@ import Categories from "./Categories";
 import Products from "./Products";
 import BackButton from "./BackButton";
 import style from "./StallPage.module.css";
-import Image from "next/image";
 
 const StallPage = (props) => {
   return (
@@ -20,7 +19,6 @@ const StallPage = (props) => {
       <div className={style.stallProfile}>
         <div className={style.imageContainer}>
           <img src={props.stall.logo} alt={`${props.stall.name}`} />
-          <Image src={props.stall.logo} alt={`${props.stall.name}`} />
         </div>
         <div className={style.stallInfo}>
           <div className={style.nameContainer}>
