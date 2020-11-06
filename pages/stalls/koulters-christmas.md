@@ -1,0 +1,47 @@
+---
+name: "Koulters Christmas"
+url: "https://instagram.com/koulterschristmas"
+phone: null
+email: null
+facebook: "https://facebook.com/koulterschristmas"
+instagram: "https://instagram.com/koulterschristmas"
+logo: "/images/uploads/koulters-christmas/Koulters_Christmas[1].jpg"
+description: "Here at Koulters Christmas we sell 3 different varieties of locally grown, live potted Christmas trees and various handmade beaded decorations.\r\nWe are a young family located in Monbulk in the beautiful Dandenong ranges.\r\nBrhydi is a horticulturist who specialised in native indigenous plants before becoming a stay at home mum to our 2 boys. Sam also works in the industry and plants are a big part of our lives.\r\nNormally at this time of year our young family would be participating in local markets and fetes, getting involved with the local communities, but we are still excited to be involved in this adaptive way.\r\nWe enjoy providing people with a more ethical Christmas and saving trees from being cut down each year. Our products also make wonderful gifts for the tricky to buy for!"
+ethicalDescription: "These locally grown, live potted Christmas trees are a great ethical alternative to cutting down a live tree or putting up a fake plastic tree.\r\nA potted tree is so much more environmentally friendly and can be used again every year, bigger and better than the last. It not only saves carbon from being released back into the atmosphere when a tree is cut down, but instead stores it and reduces the amount of green waste once Christmas is over.\r\nOur beaded Christmas decorations are made from beads that we saved from going into landfill after a business closed down and they were no longer able to store them. We then started making beaded jewellery and Christmas decorations to add to our seasonal stall."
+criteria:
+  - "Local Produce/Local Artist"
+  - "Eco-friendly"
+departments:
+  - "Plants"
+categories:
+  - "Handmade"
+  - "Waste Free"
+  - "Plant Based"
+  - "Carbon Neutral"
+  - "20km Tecoma Radius"
+products:
+  - product_name: "Picea glauca 'Christmas Star'"
+    product_description: "This is a dwarf variety and within 10 years they will grow to around 1.5m tall and 80cm wide, the perfect height for a Christmas tree. \r\nThe trees don’t need much work to maintain them, just sun, water and a bigger pot each year. No green thumb required! \r\nAfter Christmas, slowly reintroduce to full sun, fertilise in spring and trim to keep the shape if needed.\r\nThese Christmas trees are great for growing with your family throughout the years and make wonderful gifts for the hard to buy for.\r\n\r\n5 pot sizes available\r\n\r\n6\" - $15 each\r\n8\" - $25 each\r\n10\" - $40 each\r\n12\" - $55 each\r\n13\" - $65 each\r\n\r\nCollection from Monbulk 3793"
+    product_image: "/images/uploads/koulters-christmas/IMG_20201022_181946_282[2].jpg"
+  - product_name: "Picea pungens 'Blue Star'"
+    product_description: "This is a dwarf variety with a beautiful blueish foliage, within 10 years they will grow to around 1.5m tall and 1m wide, the perfect height for a Christmas tree. \r\nThe trees don’t need much work to maintain them, just sun, water and a bigger pot each year. No green thumb required! \r\nAfter Christmas, slowly reintroduce to full sun, fertilise in spring and trim to keep the shape if needed.\r\nThese Christmas trees are great for growing with your family throughout the years and make wonderful gifts for the hard to buy for.\r\n\r\nAvailable in 1 pot size only! \r\n\r\n10\" - $50 each\r\n\r\nPick up from Monbulk VIC 3793"
+    product_image: "/images/uploads/koulters-christmas/IMG_20201022_185417_516[1].jpg"
+  - product_name: "Picea pungens 'Blue Diamond'"
+    product_description: "This is a dwarf variety with a beautiful blueish silver foliage, within 10 years they will grow to around 2m tall and 1m wide, within 20 years they will grow to a max of 4m tall.\r\nHardy and frost tolerant, these trees don’t need much work to maintain them, just sun, water and a bigger pot each year. No green thumb required! \r\nAfter Christmas, slowly reintroduce to full sun, fertilise in spring and trim to keep the shape if needed.\r\nThese Christmas trees are great for growing with your family throughout the years and make wonderful gifts for the hard to buy for.\r\n\r\n2 pot sizes available\r\n\r\n10\" - $55 each\r\n13\" - $100 each\r\n\r\nPick up from Monbulk 3793"
+    product_image: "/images/uploads/koulters-christmas/IMG_20201022_190539_913[1].jpg"
+  - product_name: "Diamond Drop Decorations"
+    product_description: "Handmade with clear and metallic gold acrylic beads. \r\nThese look stunning when the lights shine through them.\r\nAll sets come with a gift bag.\r\nAlso available in green and gold.\r\nSets of 10 for $15, all sets come with a gift bag."
+    product_image: "/images/uploads/koulters-christmas/20201102_215835[1].jpg"
+  - product_name: "Metallic Star Decorations."
+    product_description: "Metallic Star Decorations.\r\nHandmade with metallic pony beads and your choice of clear or jute hangers.\r\nAvailable in metallic silver, gold, copper and bronze.\r\nSets of 10 for $15, all sets come with a gift bag."
+    product_image: "/images/uploads/koulters-christmas/20201020_130834[1].jpg"
+  - product_name: "AB Star Decorations"
+    product_description: "Handmade with AB (Aroura Borealis) beads and your choice of clear or jute hangers.\r\nAvailable in AB purple, pink, blue, yellow, clear or white.\r\nSets of 10 for $15, all sets come with a gift bag."
+    product_image: "/images/uploads/koulters-christmas/20201020_130429[1].jpg"
+  - product_name: "Translucent Star Decorations."
+    product_description: "Handmade with translucent pony beads and your choice of clear or jute hangers.\r\nAvailable in sapphire blue, deep green and deep red.\r\nSets of 10 for $15, all sets come with a gift bag."
+    product_image: "/images/uploads/koulters-christmas/20201102_215632[1].jpg"
+  - product_name: "Christmas Themed Beaded Bracelets"
+    product_description: "Kids love to visit our stall, and our own kids insist on having a bowl of Christmas bracelets on offer.\r\nThese come in kids and adult sizes. They're made with strong stretch string so they're flexible.\r\nVarious Christmas colours, including metallic gold and silver, and translucent green, red and clear.\r\n$2 each or 3 for $5"
+    product_image: "/images/uploads/koulters-christmas/20201105_193621[1].jpg"
+---
