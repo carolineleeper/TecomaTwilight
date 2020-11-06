@@ -14,32 +14,37 @@ const StallPage = (props) => {
   return (
     <>
       <BackButton />
-      {/* <div className={style.imageContainer}>
-        <img src={props.stall.logo} alt={`${props.stall.name}`} />
-      </div> */}
 
       <h2 className="title">{props.stall.name}</h2>
-      <div className={style.stallInfo}>
-        <div className={style.nameContainer}>
-          {props.stall.url && <ShopLink url={props.stall.url} />}
-          {props.stall.phone && <ShopPhone phone={props.stall.phone} />}
-          {props.stall.email && <ShopEmail email={props.stall.email} />}
+      <div className={style.stallProfile}>
+        <div className={style.imageContainer}>
+          <img src={props.stall.logo} alt={`${props.stall.name}`} />
         </div>
-        <div className={style.keywords}>
-          <Criteria criteria={props.stall.criteria} />
-          <Departments departments={props.stall.departments} />
-          {props.stall.categories && (
-            <Categories categories={props.stall.categories} />
-          )}
+        <div className={style.stallInfo}>
+          <div className={style.nameContainer}>
+            {props.stall.url && <ShopLink url={props.stall.url} />}
+            {props.stall.phone && <ShopPhone phone={props.stall.phone} />}
+            {props.stall.email && <ShopEmail email={props.stall.email} />}
+          </div>
+          <div className={style.keywords}>
+            <Criteria criteria={props.stall.criteria} />
+            <Departments departments={props.stall.departments} />
+            {props.stall.categories && (
+              <Categories categories={props.stall.categories} />
+            )}
+          </div>
+          <div className={style.socials}>
+            {props.stall.facebook && <Facebook href={props.stall.facebook} />}
+            {props.stall.instagram && (
+              <Instagram href={props.stall.instagram} />
+            )}
+          </div>
+          <p>{props.stall.description}</p>
+          <h3>Ethical Standpoint</h3>
+          <p>{props.stall.ethicalDescription}</p>
         </div>
-        <div className={style.socials}>
-          {props.stall.facebook && <Facebook href={props.stall.facebook} />}
-          {props.stall.instagram && <Instagram href={props.stall.instagram} />}
-        </div>
-        <p>{props.stall.description}</p>
-        <h3>Ethical Standpoint</h3>
-        <p>{props.stall.ethicalDescription}</p>
       </div>
+
       {props.stall.products && <Products products={props.stall.products} />}
       <div className={style.shopNowContainer}>
         <h1 className="title">For all this and more</h1>

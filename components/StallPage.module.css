@@ -1,9 +1,17 @@
+.stallProfile {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 .imageContainer {
   max-width: 300px;
-  margin: auto;
+  margin: 1rem;
   background-color: #fff;
   padding: 1rem;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imageContainer img {
   max-width: 100%;
@@ -15,10 +23,11 @@
   color: #271f6b;
   width: 80vw;
   padding: 1rem;
-  margin: 1rem auto;
+  margin: 1rem;
   border-radius: 10px;
   box-sizing: border-box;
   white-space: pre-wrap;
+  width: 70%;
 }
 .nameContainer {
   display: flex;
@@ -67,6 +76,14 @@
 @media screen and (max-width: 750px) {
   .stallInfo {
     width: 90%;
+  }
+  .stallProfile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageContainer {
+    width: unset;
   }
   .nameContainer {
     flex-direction: column;
