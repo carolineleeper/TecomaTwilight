@@ -22,7 +22,7 @@ categories:
   - "Plant Based"
   - "Female Empowerment"
   - "20km Tecoma Radius"
-  - "Woman owned small business"
+  - "Woman Owned"
 products:
   - product_name: "Vegan Spirilina Soap"
     product_description: "Lush,  Moisturising Saponified Organic Coconut and Olive Oils with a deep green colour added using Spirilina Powder. Available in Soap Bars or Hearts. Always Palm Oil Free."

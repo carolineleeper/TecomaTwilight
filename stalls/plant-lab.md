@@ -9,7 +9,8 @@ logo: "/images/uploads/plant-lab/plantlab1.jpg"
 description: "Based near the Dandenong Ranges, Plant Lab is here to meet all your creative indoor plant and candle needs! We offer a range of kokedama, indoor plants, terrariums, succulents, and scented soy candles. All of our products are hand-made or arranged, and ready to light up your home, or make a beautiful gift for a loved one."
 ethicalDescription: "We are passionate about supporting local economy, and prioritising sustainable business practices. Our kokedama are entirely biodegradable, our candles are made with natural soy and coconut waxes, and we are always happy to re-wrap an older plant, or re-fill an empty candle jar - please don't hesitate to get in touch!"
 criteria:
-  - "Local Produce/Local Artist,\nEco-friendly"
+  - "Local Produce/Local Artist"
+  - "Eco-friendly"
 departments:
   - "Plants"
 categories:

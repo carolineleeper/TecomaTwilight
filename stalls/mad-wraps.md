@@ -17,5 +17,4 @@ categories:
   - "Plastic Free"
   - "Handmade"
   - "Waste Free"
-products: []
 ---

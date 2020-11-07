@@ -15,5 +15,4 @@ departments:
   - "Food"
 categories:
   - "20km Tecoma Radius"
-products: []
 ---

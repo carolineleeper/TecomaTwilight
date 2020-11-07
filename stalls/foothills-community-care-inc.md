@@ -15,11 +15,9 @@ criteria:
 departments:
   - "Food"
   - "Coffee"
-  - "drinks"
-  - "beverage"
+  - "Drinks"
 categories:
   - "Certified Organic"
   - "Social Enterprise"
   - "20km Tecoma Radius"
-products: []
 ---
