@@ -507,7 +507,7 @@ body.menuToggled {
   max-width: 900px;
 }
 .aboutText {
-  padding: 1rem 3rem;
+  padding: 0 3rem 1rem;
 }
 .aboutText p {
   margin-bottom: 2rem;

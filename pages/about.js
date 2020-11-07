@@ -24,7 +24,8 @@ const About = () => {
   return (
     <>
       <SEO title="About" />
-      <InlineImage src="/images/DSC_0161.jpg" align="imageRight" />
+      <h1 className="title">About</h1>
+      {/* <InlineImage src="/images/DSC_0161.jpg" align="imageRight" /> */}
       <div className="aboutText">
         <p>
           To keep you safe and happy we have decided to go online in 2020. So
@@ -34,7 +35,7 @@ const About = () => {
           </Link>
           , and do all your gift shopping here. We have even provided you with a
           playlist featuring our brilliant local musicians to accompany you
-          whilst you shop (see the ‘Listen while you shop’ below).
+          whilst you shop (see the ‘Listen while you shop’ tab below).
         </p>
         <p className="upperCase">
           Ethical shopping can be challenging and time consuming. So allow the

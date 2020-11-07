@@ -2,6 +2,7 @@ import SEO from "../components/SEO";
 import FeaturedStalls from "../components/FeaturedStalls";
 import LiveVideoContainer from "../components/LiveVideoContainer";
 import VideoPlaylistContainer from "../components/VideoPlaylistContainer";
+import InlineImage from "../components/InlineImage";
 
 import matter from "gray-matter";
 import fs from "fs";
@@ -10,14 +11,13 @@ const Home = (props) => {
   return (
     <>
       <SEO title="Home" />
-      <FeaturedStalls stalls={props.stalls} />
+      <InlineImage src="/images/DSC_0161.jpg" align="imageRight" />
       <LiveVideoContainer />
+      <FeaturedStalls stalls={props.stalls} />
       <VideoPlaylistContainer />
     </>
   );
 };
-
-// channel id: UCFsqNXY_8Ab3yFDOdZTKKbA
 
 export const getStaticProps = () => {
   const directory = `${process.cwd()}/stalls`;
