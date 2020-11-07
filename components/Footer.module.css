@@ -8,7 +8,7 @@
   bottom: 0;
   max-width: 100%;
   padding: 1rem;
-  z-index: 22;
+  /* z-index: 22; */
 }
 .footer p {
   font-size: 1rem;
