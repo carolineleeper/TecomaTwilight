@@ -1,6 +1,6 @@
 ---
 name: "Honeysuckle & Rose"
-url: "https://www.honeysuckleandrose.wixsite.com/florist"
+url: "https://honeysuckleandrose.wixsite.com/florist"
 phone: null
 email: null
 facebook: "https://www.facebook.com/honeysuckleandrose"
