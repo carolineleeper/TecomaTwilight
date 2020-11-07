@@ -1,6 +1,11 @@
 import style from "./Product.module.css";
 
 const Product = (props) => {
+  const replaceImgWithError = (e) => {
+    e.target.onerror = null;
+    e.target.src = "http://placekitten.com/g/200/300";
+  };
+
   return (
     <>
       {props.product_name ? (
@@ -10,6 +15,7 @@ const Product = (props) => {
             {props.product_image && (
               <img
                 src={props.product_image}
+                onError={replaceImgWithError}
                 // alt={`picture of ${props.product_name}`}
               ></img>
             )}
@@ -24,6 +30,7 @@ const Product = (props) => {
           <div className={style.imageOnlyContainer}>
             <img
               src={props.product_image}
+              onError={replaceImgWithError}
               // alt={`picture of ${props.product_name}`}
             ></img>
           </div>
