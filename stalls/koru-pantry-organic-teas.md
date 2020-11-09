@@ -14,6 +14,9 @@ criteria:
   - "Eco-friendly"
 departments:
   - "Gifts"
+  - "Drinks"
+  - "Coffee"
+  - "Health"
 categories:
   - "Vegan"
   - "Handmade"
