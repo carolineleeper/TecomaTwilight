@@ -8,7 +8,7 @@ const LiveVideoContainer = () => {
       <div className={style.responsiveVideoContainer}>
         <ReactPlayer
           className={style.reactPlayer}
-          url="https://youtu.be/PE1cydrvvXo"
+          url="https://youtu.be/H0nUceZ5Uts"
           width="100%"
           height="100%"
         />
