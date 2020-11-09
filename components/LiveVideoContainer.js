@@ -14,13 +14,13 @@ const LiveVideoContainer = () => {
         /> */}
         <ReactPlayer
           className={style.reactPlayer}
-          url="https://player.twitch.tv/?channel=carothedev&parent=tecomatwilight.com"
+          url="https://player.twitch.tv/?channel=carothedev&parent=netlify.app"
           width="100%"
           height="100%"
         />
 
         <iframe
-          src="https://player.twitch.tv/?channel=carothedev&parent=tecomatwilight.com"
+          src="https://player.twitch.tv/?channel=carothedev&parent=netlify.app"
           width="100%"
           height="315"
           frameBorder="0"
