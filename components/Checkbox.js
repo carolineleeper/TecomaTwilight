@@ -1,9 +1,6 @@
 import style from "./Checkbox.module.css";
 
 const Checkbox = (props) => {
-  console.log(props.checkArray);
-  console.log(props.value);
-  console.log(props.checkArray.includes(props.value));
   return (
     <>
       <input
