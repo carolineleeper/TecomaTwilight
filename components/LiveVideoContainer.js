@@ -7,7 +7,7 @@ const LiveVideoContainer = () => {
     <div className={style.liveVideoContainer}>
       <h1 className="title">Watch Live</h1>
       <div className={style.responsiveVideoContainer}>
-        <TwitchPlayer
+        {/* <TwitchPlayer
           channel="tecomatwilight"
           id="tecomatwilight"
           theme="light"
@@ -15,14 +15,15 @@ const LiveVideoContainer = () => {
           width="100%"
           // withChat={false}
           onOffline={() => console.log("offline")}
-        />
+        /> */}
 
-        {/* <ReactPlayer
+        <ReactPlayer
           className={style.reactPlayer}
           url="https://youtu.be/sDqaRiUJ_qo"
           width="100%"
           height="100%"
-        /> */}
+          controls={false}
+        />
         {/* <ReactPlayer
           className={style.reactPlayer}
           url="https://player.twitch.tv/?channel=carothedev&parent=netlify.app"

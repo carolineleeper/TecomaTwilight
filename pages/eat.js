@@ -2,22 +2,28 @@ import SEO from "../components/SEO";
 import EatPage from "../components/EatPage";
 import matter from "gray-matter";
 import fs from "fs";
+import { useState, useEffect } from "react";
+import _ from "lodash";
 
 const featuredFoodVendorNames = [
   "The Eatery Tecoma",
   "Proserpina Bakehouse",
   "Babaji's Kitchen",
-  "The Dolly Bus",
-  "Nevedya",
+  "Nevedya-Food For the Spirit",
   "Blacksmith",
   "Sushi Express",
 ];
 
 const Eat = (props) => {
+  const [randomStalls, setRandomStalls] = useState([]);
+  useEffect(() => {
+    setRandomStalls(_.shuffle(props.stalls));
+  }, [props.stalls]);
+
   return (
     <>
       <SEO title="Eat" />
-      <EatPage stalls={props.stalls} />
+      <EatPage stalls={randomStalls} />
     </>
   );
 };

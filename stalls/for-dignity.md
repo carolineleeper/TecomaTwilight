@@ -3,7 +3,7 @@ name: "For Dignity"
 url: "https://www.fordignity.com.au"
 phone: null
 email: null
-facebook: "https://@fordignityau"
+facebook: "https://facebook.com/fordignityau"
 instagram: "https://instagram.com/fordignityau"
 logo: "/images/uploads/for-dignity/For Dignity website banner.png"
 description: "At for Dignity, each purchase provides live-giving income to people at risk, rescued & restored from slavery and 50% of our profits go to charities working to end slavery.\r\nAs an award winning ethical enterprise, we offer you a range of quality gifts, Christmas decorations, homewares and fashion accessories that are eco friendly, fair trade certified and artisan.\r\nJoin us in our commitment to help give freedom from exploitation both for people and our planet. Visit our beautiful online boutique today."
