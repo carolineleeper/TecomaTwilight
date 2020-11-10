@@ -2,12 +2,12 @@ import style from "./Product.module.css";
 
 const Product = (props) => {
   const replaceImgWithError = (e) => {
-    e.target.onerror = null;
-    e.target.src = "http://placekitten.com/g/200/300";
+    e.target.onError = null;
+    e.target.src = "/images/image_placeholder.png";
   };
 
   const hideImgWhenError = (e) => {
-    e.target.onerror = null;
+    e.target.onError = null;
     e.target.style.display = "none";
   };
 
@@ -20,7 +20,7 @@ const Product = (props) => {
             {props.product_image && (
               <img
                 src={props.product_image}
-                onError={hideImgWhenError}
+                onError={replaceImgWithError}
                 // alt={`picture of ${props.product_name}`}
               ></img>
             )}
@@ -35,7 +35,7 @@ const Product = (props) => {
           <div className={style.imageOnlyContainer}>
             <img
               src={props.product_image}
-              onError={hideImgWhenError}
+              onError={replaceImgWithError}
               // alt={`picture of ${props.product_name}`}
             ></img>
           </div>

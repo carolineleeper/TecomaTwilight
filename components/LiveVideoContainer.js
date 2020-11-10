@@ -14,7 +14,7 @@ const LiveVideoContainer = () => {
           muted
           width="100%"
           // withChat={false}
-          onVideoPause={() => console.log(":(")}
+          onOffline={() => console.log("offline")}
         />
 
         {/* <ReactPlayer
