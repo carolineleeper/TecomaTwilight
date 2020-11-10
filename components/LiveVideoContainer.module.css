@@ -13,21 +13,50 @@
   height: 0;
   overflow: hidden;
 }
-.reactPlayer {
+.reactPlayer,
+.twitchPlayer {
   position: absolute;
   top: 0;
   left: 0;
 }
+.twitchPlayer iframe,
 .reactPlayer iframe,
 .responsiveVideoContainer iframe {
   width: 100%;
   height: 315;
   border-radius: 10px;
 }
+.socialContainer {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialContainer p {
+  display: inline;
+  margin-right: 1rem;
+}
 
 @media screen and (max-width: 750px) {
   .liveVideoContainer {
     margin: 2rem 0 0;
+  }
+  .reactPlayer iframe,
+  .twitchPlayer iframe,
+  .responsiveVideoContainer iframe {
+    border-radius: 0;
+  }
+  .socialContainer {
+    flex-wrap: wrap;
+  }
+  .socialContainer p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 0.5rem 0 0;
+  }
+  .socialContainer a {
+    margin: 0;
+    padding: 0.5rem;
   }
 }
 /* 
