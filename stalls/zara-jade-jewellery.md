@@ -6,7 +6,7 @@ email: null
 facebook: "https://www.facebook.com/zarajadejewellery"
 instagram: "https://instagram.com/zarajadejewellery"
 logo: "/images/uploads/zara-jade-jewellery/ZaraJade logo.png"
-description: "Linda is the creator behind Zara Jade Jewellery!  Linda has a love for colour as you will see by her designs. Each earring is designed and handmade by Linda. They are all unique and not mass produced. Linda prides herself on creating one off bespoke pieces. Earrings are made with stainless steel components and are extremely light weight. \r\n"
+description: "Linda is the creator behind Zara Jade Jewellery!  Linda has a love for colour as you will see by her designs. Each earring is designed and handmade by Linda. They are all unique and not mass produced. Linda prides herself on creating one off bespoke pieces. Earrings are made with stainless steel components and are extremely light weight. \r\n\nTake 10% off store wide using code word TECOMA10 also FREE EXPRESS shipping on orders over $80"
 ethicalDescription: "To support the Australian economy Linda sources all her materials locally from Melbourne and Perth. They are all designed and made by Linda in her home studio in Blackburn."
 criteria:
   - "Local Produce/Local Artist"

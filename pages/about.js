@@ -84,6 +84,11 @@ const About = () => {
           Thank you for supporting these wonderful businesses, and for sharing
           the love through ethical gifts this year!
         </p>
+        <p>
+          Tecoma Twilight is an initiative of the Tecoma Uniting Church in
+          collaboration with a host of community groups and other key members of
+          the surrounding community.
+        </p>
       </div>
     </>
   );

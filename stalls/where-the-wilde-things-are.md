@@ -1,0 +1,45 @@
+---
+name: "Where The Wilde Things Are"
+url: "https://www.wherethewildethingsare.com.au/"
+phone: null
+email: null
+facebook: "https://www.facebook.com/WildeThingsAU"
+instagram: "https://www.instagram.com/wherethewildethingsare_au/"
+logo: "/images/uploads/where-the-wilde-things-are/Where The Wilde Things Are.png"
+description: "Shop Ethically to Live Sustainably ...\r\n\r\nSustainable and ethically made products are at the core of all we do! Beautiful products and enjoyable shopping should not be at the expense of people or the planet.\r\n\r\nWe curate and bring you ethically sourced fashion from Australia and around the world. Every product sourced for its unique beauty and authenticity."
+ethicalDescription: "Where The Wilde Things Are was created to share our personal travel experiences with our community, through unique and meaningful products, sourced sustainably from our travels, both around Australia and the world. We source products for their beauty and authenticity, which tell a story about the people who created them and/or the places where we find them. Whether created through age old techniques, or ethical modern methods, all the products we bring to our community are ethical and meaningful.\r\n\r\nOur aim is to give our customers the same joy that we feel when we discover value aligned products from our journeys around the globe.\r\n\r\nAt the core of everything we stand for, you will find sustainable and ethically made products, ensuring that you can shop for, wear and gift beautiful pieces, knowing that your pleasure doesn't come at the expense of our planet, or its global citizens. \r\n\r\nWith the exception of the last few months, I travel to the source of our products, to discover makers, meet the artisans and create meaningful relationships.  \r\n\r\nI have been designing & creating fashion accessories since 1990. I still am very hands on with my own creations under the Wilde at Heart label, also on my website. Everything you see under that label is made in my Melbourne studio, in the Dandenong Ranges."
+criteria:
+  - "Upcycled"
+  - "Eco-friendly"
+  - "Community Empowerment"
+departments:
+  - "Clothing/Accessories/Jewellery"
+categories:
+  - "Handmade"
+  - "Plastic Free"
+  - "Female Empowerment"
+  - "20km Tecoma Radius"
+  - "Clothing/Accessories/Jewellery"
+products:
+  - product_name: "Island Escape Cotton scarf"
+    product_description: "Dream of holidays beachside, or poolside with this beautifully lightweight, soft pure scarf, or maybe you're lucky enough to be living the costal life every day!  You may choose to wear this scarf around your neck, hair or possibly your waist, as it is soft and fine enough to tie easily. A clean fresh white background, with a choice of 4 colours screenprinted in a tropical floral design. \r\n\r\nChoose mango, hibiscus, forest green, black.\r\n\r\nHandloomed in 100% soft fine cotton, hand screen printed, hemmed on all four sides.\r\n\r\nSize: 50 x 198cms\r\nCare: Cool hand wash in mild detergent, steam iron on reverse side\r\nDesigned in Australia, fabric handloomed & digitally printed in ethical workshops in India"
+    product_image: "/images/uploads/where-the-wilde-things-are/CopyofUntitled_7.png"
+  - product_name: "Kids' Après Swim Cotton Poncho"
+    product_description: "The warmer weather is fast approaching and soon the children will be in the pool, or at the beach. Make life easy by having these ready to throw over their swimmers. Great gifts for the kids, grand children, nephews, nieces and as they are free size, it won't matter how much they've grown over the past few months!\r\n\r\nHandloomed in Turkey from 100% pure cotton, with a terry towelling lining for extra drying power, a hood to dry their hair and easy to run through the washing machine.\r\n\r\nKids' Après Swim Cotton Poncho details:\r\n\r\nFabric: 100% cotton\r\nLength approx: 62cms\r\nCare: Cool or warm machine wash on daily cycle. \r\nHandloomed & sewn in a family run business in Turkey.\r\n\r\nChoice Sky blue or yellow."
+    product_image: "/images/uploads/where-the-wilde-things-are/Untitled design (51).png"
+  - product_name: "Tahiti Beach Bag"
+    product_description: "Fun Summer striped beach tote. Striped tote, in screen printed stonewashed jute and navy cotton lining, featuring an internal zip pocket and hidden zip across the top to help keep out the sand! \r\n\r\nAt this price, it might be a good opportunity to do some early Christmas shopping.\r\n\r\nStonewashed heavy weave jute outer, navy unpatterned cotton lining & woven shoulder straps.\r\nInternal zip pocket & top zip.\r\nWidth 42cms x Height 32cms. Base width x 10cms.\r\n\r\nColours may vary & designed to fade with wear, due to nature of stonewashed finished.\r\nJute beach bag designed in Australia, manufactured by our ethical partner in India.\r\nAvailable in one colourway as pictured."
+    product_image: "/images/uploads/where-the-wilde-things-are/x2-bag-00003.jpg"
+  - product_name: ""
+    product_description: ""
+    product_image: "/images/uploads/where-the-wilde-things-are/57_Untitled design (49)_7674.png"
+  - product_name: "Once I Was A Sari"
+    product_description: "There is no beauty in the finest cloth if it makes hunger and unhappiness.\r\n-Mahatma Ghandi\r\n \r\n\r\n*** Supporting Zero Waste Fashion \r\n\r\nBecome part of a new chapter in the life of a vintage silk sari jacket or scarf, by choosing from our Once I Was A Sari Collection, where no two pieces are the same.\r\n\r\nThe Once I Was A Sari Collection is a story that spans two continents. Saree traders travel through India, visiting homes to obtain saris no longer required by the original owner. These saris often arrive in textile markets having passed through several hands, where they are graded and sorted for quality, condition, pattern and desirability. Any with threads of silver or gold are most highly prized."
+    product_image: "/images/uploads/where-the-wilde-things-are/60_Untitled design (49)_3220.png"
+  - product_name: "Tidal Tie Dye Modal/Cotton Scarf"
+    product_description: "Resembling the ripple pattern left in the sand by the ebbing tide, this scarf is a perfect holiday piece for you to enjoy this summer. If you are a fan of tie-dye and a bohemian vibe this is the scarf for you, bringing colour and a bit of fun to your Summer wardrobe. \r\n\r\nDue to the handmade nauture of this design, each scarf is unique in pattern, and so very soft, being a handloomed blend of 50% cotton/50% modal, with a delicate fringed edging.\r\n\r\nRed as pictured, or green"
+    product_image: "/images/uploads/where-the-wilde-things-are/SS20scarvesweb_1_45c75004-0ddd-40dd-86c2-a88b0976cee4.png"
+  - product_name: "Endless Summer Cotton Sarong"
+    product_description: "Full sized sarong pure, soft cotton ideal for the beach, pool or travelling as it takes up almost no room in your luggage. Very lightweight and quick to dry, these pieces are handloomed and made in a small female run (mother and daughter team) workshop in New Delhi.\r\n\r\nThere are 3 colours available on the website... sunset, lagoon and dusk"
+    product_image: "/images/uploads/where-the-wilde-things-are/20201110_154814.jpg"
+---
