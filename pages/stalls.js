@@ -52,8 +52,6 @@ const Stalls = (props) => {
         ? stall.products.map((product) => product.product_name.toLowerCase())
         : [];
 
-      console.log(productsArray);
-
       return (
         stall.name.toLowerCase().includes(search.toLowerCase()) ||
         criteriaArray.find((a) => a.includes(search.toLowerCase())) ||
