@@ -13,11 +13,26 @@ criteria:
   - "Community Empowerment"
 departments:
   - "Cleaning"
-  - "Raw"
-  - "natural personal care products"
+  - "Personal Care"
 categories:
   - "Waste Free"
   - "Plant Based"
   - "Handmade"
   - "BYO container refill service"
+products:
+  - product_name: "Raw Natural Tooth Powder"
+    product_description: "Locally made natural raw healthy alternative to commercial tooth paste.\r\nNatural, Vegan, Cruelty Free, Australian made.\r\nAvailable in a whitening and remineralizing options in peppermint or spearmint flavours."
+    product_image: ""
+  - product_name: "Natural Clay Face Masks"
+    product_description: "Locally made clay face masks help purify, cleanse and detoxify the skin, while drawing out free radicals and other toxins. \r\nNatural, Vegan, Cruelty Free, Australian made.\r\nAvailable in a gentle clay face mask, detox clay face mask and revitalizing clay face mask."
+    product_image: ""
+  - product_name: "Luxurious Bath Salts"
+    product_description: "Locally made, custom scented luxurious ritualizing bath salts that promote relaxation, detoxification and promote proper sleep patterns.\r\nNatural, Vegan, Cruelty Free, Australian made.\r\nAvailable in a ritual rose, relax lavender and detox clay options."
+    product_image: ""
+  - product_name: "Home Essential Cleaners"
+    product_description: "A variety of gentle earth friendly multi-purpose use cleaning liquids and powders with no nasties for use around the home and garden including; castile soap, dishwashing and laundry liquids and powders, window cleaners, disinfectants, cleaning vinegar, citric acid, borax and much more."
+    product_image: ""
+  - product_name: "Shampoo, Conditioner, Hand/Body Wash"
+    product_description: "A variety of gentle, eco-friendly shampoos, conditioners and hand/body washes in an assortment of pre-mixed scents or in a custom build-your-own-scent options."
+    product_image: ""
 ---

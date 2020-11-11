@@ -16,4 +16,11 @@ departments:
 categories:
   - "Social Enterprise"
   - "Certified Organic"
+products:
+  - product_name: "Organic newborn gift set"
+    product_description: "The perfect ethical gift set for expectant parents or a newborn especially if you don’t know what their favourite colours are! Set includes:\n\n3 X long sleeve bodysuits, size 0-3 months\nMade from 100% undyed Organic Certified cotton, perfect for babies with sensitive skin\n\n1 X organic cotton knitted monkey\nHand knitted using African grown organic cotton\nScarf colour on monkey varies\n\nBeautifully presented in an up-cycled and reusable drawstring gift bag with a our signature bird applique of My Fair Baby logo."
+    product_image: "/images/uploads/my-fair-baby/"
+  - product_name: "Organic baby gift set"
+    product_description: "Find the perfect summer gift set for babies. Hand batik printed in Ghana, 100% certified organic cotton. Size for 12 month old.\n\n100% organic cotton baby romper with adjustable straps with buttons at the back. Snap closure at inseam.\n\nOrganic cotton bucket shaped baby sun hat with tie strings (to prevent the hat from flying off on a windy day).\n\nOrganic cotton baby bib with velcro closure. Up-cycled flour sack backing.\n\nBeautifully presented in an up-cycled and reusable drawstring gift bag with a our signature bird applique of My Fair Baby logo, made by Second Chance Bangkok."
+    product_image: "/images/uploads/my-fair-baby/"
 ---
