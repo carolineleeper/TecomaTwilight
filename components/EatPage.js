@@ -16,9 +16,9 @@ const EatPage = (props) => {
           into our homes.
         </p>
         <p className="upperCase">
-          Tecoma Ethical Market wanted to say thank you to some of them. Please
-          support these eateries as a way of thanking them for feeding you
-          during the tough times.
+          Tecoma Ethical Market wanted to say thank you to some of them and the
+          other ethical gems of the hills. Please support these eateries as a
+          way of thanking them for feeding you during the tough times.
         </p>
       </div>
       <div className={style.eatGalleryContainer}>

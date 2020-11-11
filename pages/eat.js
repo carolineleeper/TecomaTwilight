@@ -12,6 +12,7 @@ const featuredFoodVendorNames = [
   "Nevedya-Food For the Spirit",
   "Blacksmith",
   "Sushi Express",
+  "The Dolly Bus",
 ];
 
 const Eat = (props) => {
