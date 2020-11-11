@@ -10,7 +10,7 @@ const Test = () => {
       muted
       width="100%"
       height="100%"
-      autoplay={false}
+      // autoplay={false}
     />
   );
 };
