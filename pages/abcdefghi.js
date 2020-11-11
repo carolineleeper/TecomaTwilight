@@ -1,5 +1,4 @@
 // import style from "./LiveVideoContainer.module.css";
-import ReactPlayer from "react-player";
 import { TwitchPlayer } from "react-twitch-embed";
 
 const Test = () => {
