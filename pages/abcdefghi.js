@@ -8,7 +8,12 @@ const Test = () => {
       url="https://www.twitch.tv/tecomatwilight"
       width="100%"
       height="100%"
-      controls={false}
+      controls={true}
+      config={{
+        twitch: {
+          options: { autoplay: false },
+        },
+      }}
     />
 
     // <TwitchPlayer
