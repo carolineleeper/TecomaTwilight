@@ -38,7 +38,6 @@ const Stalls = (props) => {
   // search bar filtering
   const filteredStalls = () => {
     const searchFiltered = randomStalls.filter((stall) => {
-      console.log(stall);
       const criteriaArray = stall.criteria.map((criteria) =>
         criteria.toLowerCase()
       );
@@ -48,13 +47,19 @@ const Stalls = (props) => {
       const departmentsArray = stall.departments.map((department) =>
         department.toLowerCase()
       );
-      // const productsArray = stall.products.
+
+      const productsArray = stall.products
+        ? stall.products.map((product) => product.product_name.toLowerCase())
+        : [];
+
+      console.log(productsArray);
 
       return (
         stall.name.toLowerCase().includes(search.toLowerCase()) ||
         criteriaArray.find((a) => a.includes(search.toLowerCase())) ||
         departmentsArray.find((a) => a.includes(search.toLowerCase())) ||
-        categoriesArray.find((a) => a.includes(search.toLowerCase()))
+        categoriesArray.find((a) => a.includes(search.toLowerCase())) ||
+        productsArray.find((a) => a.includes(search.toLowerCase()))
       );
     });
 
