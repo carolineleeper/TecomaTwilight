@@ -1,5 +1,6 @@
 const Copyright = () => {
-  return <p>&copy; 2020 Tecoma Twilight</p>;
+  const year = new Date();
+  return <p>&copy; {`${year.getFullYear()}`} Tecoma Twilight</p>;
 };
 
 export default Copyright;
