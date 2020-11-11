@@ -89,6 +89,14 @@
   -webkit-transition: all 0.3s ease-in-out;
 }
 
+@media screen and (max-width: 750px) {
+  .listen div,
+  .listenHidden div {
+    padding: 1.3rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
 @keyframes glow {
   0% {
     color: #271f6b;
