@@ -6,7 +6,7 @@ const Test = () => {
     <TwitchPlayer
       channel="tecomatwilight"
       id="tecomatwilight"
-      theme="light"
+      theme="dark"
       muted
       width="100%"
       height="100%"
