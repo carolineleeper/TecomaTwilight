@@ -5,6 +5,7 @@
   justify-content: center;
   max-height: 400px;
   overflow: hidden;
+  height: 400px;
 
   width: 100vw;
   left: 50%;
@@ -18,6 +19,7 @@
   -webkit-filter: brightness(0.35);
   object-fit: cover;
   -o-object-fit: cover;
+  object-position: top;
 }
 .imageContainer p {
   font-weight: bold;
