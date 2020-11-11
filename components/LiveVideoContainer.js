@@ -13,6 +13,7 @@ const LiveVideoContainer = () => {
           channel="tecomatwilight"
           className={style.twitchPlayer}
           id="tecomatwilight"
+          autoplay={false}
           theme="light"
           muted
           width="100%"
