@@ -1,10 +1,11 @@
 import ListenWhileShop from "./ListenWhileShop";
 // import SpotifyPlayer from "react-spotify-player";
 import ReactPlayer from "react-player/youtube";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const MusicPlayer = () => {
   const [isPlayerHidden, setIsPlayerHidden] = useState(true);
+  const videoRef = useRef();
 
   useEffect(() => {
     const player = document.querySelector(".playerWrapper");
@@ -14,6 +15,10 @@ const MusicPlayer = () => {
       player.classList.add("playerWrapperHidden");
     }
   }, [isPlayerHidden]);
+
+  useEffect(() => {
+    videoRef?.current?.player?.player?.player?.setShuffle?.(true);
+  }, [videoRef.current]);
 
   return (
     <div
@@ -27,7 +32,7 @@ const MusicPlayer = () => {
         url="https://www.youtube.com/embed/videoseries?list=PLMq7xD7P5TDfwhj4r3CSWCqvhDQL55bAE&modestbranding=1&rel=0&enablejsapi=1"
         width="100%"
         pip={false}
-        // height="100%"
+        ref={videoRef}
         config={{
           youtube: {
             playerVars: {
@@ -40,6 +45,7 @@ const MusicPlayer = () => {
               iv_load_policy: 3,
               loop: 1,
             },
+            events: {},
           },
         }}
       />
