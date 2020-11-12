@@ -13,13 +13,13 @@ criteria:
   - "Upcycled"
   - "Eco-friendly"
   - "Community Empowerment"
-departments: []
+departments:
+  - "Gifts"
 categories:
   - "Female Empowerment"
   - "Handmade"
   - "Vegan"
   - "Social Enterprise"
-  - "Gifts"
 products:
   - product_name: "Recycled Cotton Stockings"
     product_description: "Beautiful Christmas stocking handmade from recycled cotton. Layers of fabric Kantha stitched together with precision and patience.\r\n-A range of patterns in either green or red tones.\r\n-Standard and mini stockings\r\n-Each stocking unique \r\n-Limited stock\r\n-Made in Bangladesh by the artisans at Basha"

@@ -11,7 +11,8 @@ criteria:
   - "Fair Trade"
   - "Local Produce/Local Artist"
   - "Eco-friendly"
-departments: []
+departments:
+  - "Food"
 categories:
   - "Certified Organic"
   - "Vegan"
@@ -19,7 +20,6 @@ categories:
   - "Female Empowerment"
   - "20km Tecoma Radius"
   - "Plant Based"
-  - "Food"
 products:
   - product_name: ""
     product_description: ""

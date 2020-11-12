@@ -15,7 +15,6 @@ criteria:
   - "Community Empowerment"
 departments:
   - "Homewares"
-  - "Handmade"
 categories:
   - "Female Empowerment"
   - "Handmade"

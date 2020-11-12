@@ -13,13 +13,14 @@ criteria:
   - "Eco-friendly"
   - "Community Empowerment"
 departments:
-  - "Clothing/Accessories/Jewellery"
+  - "Clothing"
+  - "Accessories"
+  - "Jewellery"
 categories:
   - "Handmade"
   - "Plastic Free"
   - "Female Empowerment"
   - "20km Tecoma Radius"
-  - "Clothing/Accessories/Jewellery"
 products:
   - product_name: "Island Escape Cotton scarf"
     product_description: "Dream of holidays beachside, or poolside with this beautifully lightweight, soft pure scarf, or maybe you're lucky enough to be living the costal life every day!  You may choose to wear this scarf around your neck, hair or possibly your waist, as it is soft and fine enough to tie easily. A clean fresh white background, with a choice of 4 colours screenprinted in a tropical floral design. \r\n\r\nChoose mango, hibiscus, forest green, black.\r\n\r\nHandloomed in 100% soft fine cotton, hand screen printed, hemmed on all four sides.\r\n\r\nSize: 50 x 198cms\r\nCare: Cool hand wash in mild detergent, steam iron on reverse side\r\nDesigned in Australia, fabric handloomed & digitally printed in ethical workshops in India"
