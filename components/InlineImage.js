@@ -1,14 +1,11 @@
 import style from "./InlineImage.module.css";
-import Image from "next/image";
 
 const InlineImage = (props) => {
   return (
     <div className={style.imageContainer}>
-      <Image
+      <img
         className={style.imageComponent}
         src={props.src}
-        layout="fill"
-        priority={true}
         alt="crowds at the tecoma twilight market 2019"
       />
       <p className="upperCase">
