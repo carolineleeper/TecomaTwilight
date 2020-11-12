@@ -10,7 +10,7 @@ const featuredFoodVendorNames = [
   "Proserpina Bakehouse",
   "Babaji's Kitchen",
   "Nevedya-Food For the Spirit",
-  "Blacksmith",
+  "The Blacksmith Bakery",
   "Sushi Express",
   "The Dolly Bus",
 ];
