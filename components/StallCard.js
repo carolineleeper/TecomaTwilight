@@ -2,7 +2,6 @@ import Departments from "./Departments";
 import Criteria from "./Criteria";
 import Categories from "./Categories";
 import style from "./StallCard.module.css";
-import Image from "next/image";
 
 const StallCard = ({ stall }) => {
   const replaceImgWithError = (e) => {
@@ -18,12 +17,6 @@ const StallCard = ({ stall }) => {
     <div className={style.stallThumb}>
       <div className={style.name}>{stall.name}</div>
       <div className={style.stallImageContainer}>
-        {/* <Image
-          src={stall.logo}
-          alt={`${stall.name}`}
-          layout="fill"
-          onError={replaceImgWithError}
-        /> */}
         <img
           src={stall.logo}
           alt={`${stall.name}`}
