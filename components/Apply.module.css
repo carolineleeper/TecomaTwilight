@@ -1,0 +1,51 @@
+.applyContainer {
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+}
+.applyBtn button {
+  border-radius: 5px;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: #a33387;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.applyBtn button:hover,
+.applyBtn button:focus {
+  background: #271f6b;
+  transform: translateX(-1px) translateY(-1px);
+  -webkit-transform: translateX(-1px) translateY(-1px);
+  box-shadow: 1px 2px 3px #292929;
+  -webkit-box-shadow: 1px 2px 3px #292929;
+  -moz-box-shadow: 1px 2px 3px #292929;
+}
+
+.applyBtn button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.applyBtn button:active {
+  transform: scale(0.99);
+  -webkit-transform: scale(0.99);
+}
+
+@media screen and (max-width: 750px) {
+  .applyBtn button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

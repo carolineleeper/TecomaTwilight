@@ -2,6 +2,7 @@ import SEO from "../components/SEO";
 import FeaturedStalls from "../components/FeaturedStalls";
 import LiveVideoContainer from "../components/LiveVideoContainer";
 import VideoPlaylistContainer from "../components/VideoPlaylistContainer";
+import Apply from "../components/Apply";
 import InlineImage from "../components/InlineImage";
 
 import matter from "gray-matter";
@@ -15,6 +16,7 @@ const Home = (props) => {
       <LiveVideoContainer />
       <FeaturedStalls stalls={props.stalls} />
       <VideoPlaylistContainer />
+      <Apply />
     </>
   );
 };
