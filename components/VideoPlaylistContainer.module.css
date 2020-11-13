@@ -1,30 +1,41 @@
 .videoPlaylistContainer {
-  margin: 0 2rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: stretch;
-}
-
-.videoPlaylistContainer div {
-  flex: 1;
-  border-radius: 10px;
-}
-
-.videoPlaylistContainerText {
-  flex: 1;
-  padding: 1rem 2rem;
-  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 2rem;
   text-align: center;
+}
+
+.responsiveVideoContainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.reactPlayer,
+.twitchPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.twitchPlayer iframe,
+.reactPlayer iframe,
+.responsiveVideoContainer iframe {
+  width: 100%;
+  height: 315;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 750px) {
   .videoPlaylistContainer {
-    flex-direction: column;
-    margin: 0 0 2rem;
+    margin: 2rem 0 0;
   }
-  .videoPlaylistContainerText {
-    text-align: left;
-    /* margin: 2rem 0 0; */
+  .reactPlayer iframe,
+  .twitchPlayer iframe,
+  .responsiveVideoContainer iframe {
+    border-radius: 0;
   }
 }
