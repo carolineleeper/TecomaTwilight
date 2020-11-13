@@ -9,17 +9,17 @@ import style from "./Footer.module.css";
 const Footer = () => {
   return (
     <footer className={style.footer}>
+      <div className={style.socialsContainer}>
+        <Facebook
+          key="facebook"
+          href="https://www.facebook.com/TecomaTwilightEthicalMarket/"
+        />
+        <Instagram
+          key="instagram"
+          href="https://www.instagram.com/tecomatwilightmarket/"
+        />
+      </div>
       <div className={style.contactsContainer}>
-        <div className={style.socialsContainer}>
-          <Facebook
-            key="facebook"
-            href="https://www.facebook.com/TecomaTwilightEthicalMarket/"
-          />
-          <Instagram
-            key="instagram"
-            href="https://www.instagram.com/tecomatwilightmarket/"
-          />
-        </div>
         <p>
           <i aria-hidden className="far fa-envelope"></i>{" "}
           <a href="mailto:tecomatwilightmarket@gmail.com">
