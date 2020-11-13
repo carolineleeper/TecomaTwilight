@@ -23,6 +23,20 @@
 .copyrightContainer p {
   margin: 0.5rem;
 }
+.contactsContainer {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.contactsContainer p {
+  margin: 0.5rem 1rem 0.5rem;
+}
+.contactsContainer i {
+  margin-right: 0.5rem;
+}
 .socialsContainer {
   display: flex;
   align-items: center;
@@ -34,6 +48,9 @@
 }
 
 @media screen and (max-width: 750px) {
+  .footer {
+    padding-bottom: 3rem;
+  }
   .copyrightContainer {
     padding: 0rem;
   }
