@@ -1,5 +1,4 @@
 import SEO from "../components/SEO";
-import Logo from "../components/Logo";
 
 const Home = () => {
   return (

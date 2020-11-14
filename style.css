@@ -506,7 +506,8 @@ body.menuToggled {
   width: 100%;
   max-width: 900px;
 }
-.aboutText {
+.aboutText,
+.collectText {
   padding: 0 3rem 1rem;
 }
 .aboutText p {
@@ -515,6 +516,14 @@ body.menuToggled {
   margin: 1rem auto 2rem;
   text-align: center;
   line-height: 1.5;
+}
+.collectText p,
+.collectText ul {
+  margin-bottom: 2rem;
+  max-width: 900px;
+  margin: 1rem auto 2rem;
+  line-height: 1.5;
+  font-size: 1.2rem;
 }
 .aboutText .textBox {
   background-color: #fff;
