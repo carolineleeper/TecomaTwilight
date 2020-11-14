@@ -13,7 +13,7 @@ criteria:
 departments:
   - "Gifts"
 categories:
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Female Empowerment"
 products:
   - product_name: "Cushion - Changing woman"

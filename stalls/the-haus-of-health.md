@@ -12,9 +12,9 @@ criteria:
   - "Local Produce/Local Artist"
   - "Eco-friendly"
 departments:
-  - "Food"
+  - "Food/Drinks"
 categories:
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Plastic Free"
   - "Handmade"
   - "Vegan"

@@ -12,13 +12,13 @@ criteria:
   - "Local Produce/Local Artist"
   - "Eco-friendly"
 departments:
-  - "Food"
+  - "Food/Drinks"
 categories:
   - "Certified Organic"
   - "Vegan"
   - "Plastic Free"
   - "Female Empowerment"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Plant Based"
 products:
   - product_name: ""

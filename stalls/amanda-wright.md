@@ -11,11 +11,11 @@ ethicalDescription: "Painting runs through my blood."
 criteria:
   - "Local Produce/Local Artist"
 departments:
-  - "Wall Art"
+  - "Art"
 categories:
   - "First Nations"
   - "Female Empowerment"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Spirit of cockatoo. 2020"
     product_description: "76cm by 59cm. Aerosol and acrylic paint and posca pen on canvas. $300 plus postage. Free delivery within 20 km of Tecoma"

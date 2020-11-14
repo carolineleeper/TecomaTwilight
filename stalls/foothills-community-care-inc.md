@@ -13,11 +13,9 @@ criteria:
   - "Local Produce/Local Artist"
   - "Community Empowerment"
 departments:
-  - "Food"
-  - "Coffee"
-  - "Drinks"
+  - "Food/Drinks"
 categories:
   - "Certified Organic"
   - "Social Enterprise"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 ---

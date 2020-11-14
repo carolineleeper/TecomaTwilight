@@ -15,18 +15,15 @@ criteria:
   - "Eco-friendly"
   - "Community Empowerment"
 departments:
-  - "Clothing/Footwear"
-  - "Accessories"
-  - "Beauty"
-  - "Candles"
+  - "Clothing/Accessories"
+  - "Health/Beauty"
+  - "Gifts"
 categories:
   - "Vegan"
   - "Plastic Free"
   - "Certified Organic"
   - "Handmade"
   - "Plant Based"
-  - "Ethically Made"
-  - "Sustainable"
 products:
   - product_name: "LISBON GREEN WRAP LINEN DRESS"
     product_description: "SUSTAINABLE LINEN DRESS\r\nHandmade\r\n100 % wished and softened Lithuanian linen\r\n 205 g/m2\r\nColour: dark green\r\nInner pockets\r\nPerfect for maternity\r\nLength of the dress - 132 cm (top - 42 cm, skirt - 90 cm)\r\nLength of the sleeves - 23 cm"

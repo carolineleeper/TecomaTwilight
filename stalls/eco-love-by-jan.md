@@ -12,10 +12,10 @@ criteria:
   - "Eco-friendly"
 departments:
   - "Cleaning"
-  - "Health/beauty"
+  - "Health/Beauty"
 categories:
   - "Vegan"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Plant Based"
 products:
   - product_name: "Kitchen range"

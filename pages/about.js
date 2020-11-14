@@ -15,9 +15,8 @@ const criteria = [
   "support female empowerment",
   "support First Nations",
   "social enterprise",
-  "20km Tecoma radius",
+  "< 20km Tecoma radius",
   "refugee advocacy",
-  "support under 25 yo’s",
 ];
 
 const About = () => {

@@ -14,5 +14,5 @@ departments:
   - "Health/Beauty"
 categories:
   - "Female Empowerment"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 ---

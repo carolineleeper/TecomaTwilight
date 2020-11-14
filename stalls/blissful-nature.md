@@ -12,12 +12,12 @@ criteria:
   - "Eco-friendly"
 departments:
   - "Gifts"
+  - "Health/Beauty"
 categories:
   - "Plastic Free"
   - "Vegan"
   - "Handmade"
   - "Palm Oil Free"
-  - "Health/Beauty"
 products:
   - product_name: "Handmade Vegan Soap"
     product_description: "All Blissful Nature soap is made with Victorian olive oil, coconut oil & Shea butter to cleanse & nurture your skin. \r\nThere are seven vegan soap types;\r\n-Chocolate Mint\r\n-Lemon Myrtle\r\n-Chai\r\n-Rose Geranium\r\n-Calendula/Chamomile \r\n-Lavender\r\n-Orange & Poppy Seed\r\nAll soap bars are approximately 120g\r\n$6 each or 3 bars for $15"

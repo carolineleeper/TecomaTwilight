@@ -14,7 +14,7 @@ criteria:
   - "Eco-friendly"
   - "Community Empowerment"
 departments:
-  - "Wall Art"
+  - "Art"
 categories:
   - "Plastic Free"
   - "Waste Free"

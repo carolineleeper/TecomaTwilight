@@ -52,17 +52,16 @@ collections:
         required: false
         options:
           [
-            "Clothing/Footwear",
-            "Accessories",
+            "Clothing/Accessories",
             "Jewellery",
             "Homewares",
-            "Food",
+            "Food/Drinks",
             "Health/Beauty",
             "Plants",
-            "Wall Art",
+            "Art",
             "Gifts",
             "Cleaning",
-            "Children and Baby",
+            "Children/Babies",
             "Pets",
           ]
         hint: "Choose one or many."
@@ -84,9 +83,8 @@ collections:
             "Female Empowerment",
             "First Nations",
             "Social Enterprise",
-            "20km Tecoma Radius",
+            "< 20km Tecoma Radius",
             "Refugee Advocacy",
-            "Under 25 Years",
           ]
         hint: "Choose one or many."
       - label: "Available Products"

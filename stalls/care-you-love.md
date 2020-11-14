@@ -15,13 +15,12 @@ criteria:
   - "Community Empowerment"
 departments:
   - "Health/Beauty"
-  - "Cruelty Free"
 categories:
   - "Certified Organic"
   - "Plastic Free"
   - "Handmade"
   - "First Nations"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "CYL Deluxe Avocado Night Replenishment Cream"
     product_description: "Our deluxe cream for those that value deep hydration. Our richest cream in the range that will totally replenish the skin overnight.\r\n\r\nThe Avocado oil is rich in vitamin A & D to which we have added additional Natural Tocopherol (Vit E) as well as extra beta-carotene from Carrot CO2 extract. So it is packed with anti-oxidants.\r\n\r\nThe rich combination of Shea, Babassu and Cocoa Butters nourish the skin deeply and with the help of the phytosterols the replenishment of collagen can be encouraged. The high lauric acid content of Babassu Butter has antibacterial benefits to the skin.\r\n\r\nA blend of essential oils not only provides care to the skin but also creates a soft and exquisite perfume."

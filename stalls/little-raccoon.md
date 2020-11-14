@@ -15,7 +15,7 @@ criteria:
 departments:
   - "Gifts"
 categories:
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Handmade"
   - "Female Empowerment"
   - "Waste Free"

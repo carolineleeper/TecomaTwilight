@@ -18,7 +18,6 @@ categories:
   - "Female Empowerment"
   - "First Nations"
   - "Social Enterprise"
-  - "Under 25 Years"
 products:
   - product_name: "Jewels of Hope Christmas Angel"
     product_description: "An unusual hanging for the Christmas tree made from traditional seshoeshoe material held in place with various coloured seed beads. A wooden bead is used for the face. Colours available:  red, pink, green orange and yellow. $7.00"

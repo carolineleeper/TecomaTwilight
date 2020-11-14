@@ -14,10 +14,10 @@ criteria:
   - "Local Produce/Local Artist"
   - "Eco-friendly"
 departments:
-  - "Children and Baby"
+  - "Children/Babies"
 categories:
   - "Plastic Free"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Handmade"
   - "Waste Free"
 products:

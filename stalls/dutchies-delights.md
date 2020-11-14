@@ -12,12 +12,13 @@ criteria:
   - "Upcycled"
   - "Local Produce/Local Artist"
   - "Eco-friendly"
-departments: []
+departments:
+  - "Jewellery"
 categories:
   - "Waste Free"
   - "Handmade"
   - "Vegan"
-  - "Jewellery"
+
 products:
   - product_name: '"Luna" - Angel Aura quartz Macrame Necklace'
     product_description: "Beautiful hand made macrame necklace\r\n\r\n\"Luna\" is made out of a hand beaten brass choker, macrame design using vegan waxed cord, bras beads and a beautiful Angel Aura Quartz shaped crescent moon.\r\n\r\n\r\nAngel aura calms the emotions and the emotional body. It is said to be a powerful stress reliever. It is also a strong energy for reducing or eliminating anger. It is said to help process emotional disturbances, grief, and traumas to a point where they are no longer stressful."

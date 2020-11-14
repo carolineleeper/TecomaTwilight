@@ -18,7 +18,7 @@ categories:
   - "Waste Free"
   - "Plant Based"
   - "Carbon Neutral"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Picea glauca 'Christmas Star'"
     product_description: "This is a dwarf variety and within 10 years they will grow to around 1.5m tall and 80cm wide, the perfect height for a Christmas tree. \r\nThe trees don’t need much work to maintain them, just sun, water and a bigger pot each year. No green thumb required! \r\nAfter Christmas, slowly reintroduce to full sun, fertilise in spring and trim to keep the shape if needed.\r\nThese Christmas trees are great for growing with your family throughout the years and make wonderful gifts for the hard to buy for.\r\n\r\n5 pot sizes available\r\n\r\n6\" - $15 each\r\n8\" - $25 each\r\n10\" - $40 each\r\n12\" - $55 each\r\n13\" - $65 each\r\n\r\nCollection from Monbulk 3793"

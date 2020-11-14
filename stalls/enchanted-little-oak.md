@@ -13,13 +13,13 @@ criteria:
   - "Local Produce/Local Artist"
   - "Eco-friendly"
 departments:
-  - "Children and Baby"
+  - "Children/Babies"
 categories:
   - "Vegan"
   - "Plastic Free"
   - "Certified Organic"
   - "Handmade"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Vintage Silk Creations Playsilks"
     product_description: "Our range of playsilks are 100% natural hand-rolled Habatoi silk. All silks have been evenly hand dyed with love and care by Kim Pavli of Vintage Silk Creation, based in the Bellarine Peninsula, Victoria. Professional non toxic and colour fast dyes have been used.\r\n\r\nThese silks have been sourced from Sewards Handkerchief factory and are circa mid 80's. This vintage silk is in perfect condition, and is light, soft and has a beautiful sheen. Hence the silks are one of a kind, and thoughtfully repurposed to create a wonderfully diverse toy for babies and children. \r\n\r\nUse for sensory & imaginary play, costumes, landscapes and more."

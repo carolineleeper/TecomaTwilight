@@ -12,10 +12,9 @@ criteria:
 departments:
   - "Art"
   - "Gifts"
-  - "Handicraft"
 categories:
   - "Handmade"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Flower spirit maidens"
     product_description: "Flower spirits, maidens and goddesses made from wool with silk highlights. They stand approx 18-20cm tall with a 7-10cm base diameter. Custom designs are always welcome, please just message me!\n\nHandmade in the Dandenong Ranges, Victoria, Australia.\r\nPlease enjoy :)"

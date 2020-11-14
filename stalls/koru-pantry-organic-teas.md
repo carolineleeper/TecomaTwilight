@@ -14,17 +14,14 @@ criteria:
   - "Eco-friendly"
 departments:
   - "Gifts"
-  - "Drinks"
-  - "Coffee"
-  - "Health"
+  - "Food/Drinks"
 categories:
   - "Vegan"
   - "Handmade"
   - "Plant Based"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Female Empowerment"
   - "Certified Organic"
-  - "nutritional support"
 products:
   - product_name: "Mistress of Spice Organic Rooibos Chai"
     product_description: "The boss has you tethered to your desk, but try as you might, your spreadsheets keep dissolving into daydreams of an exotic escape to India – yoga on a beach in Goa, the hustle of Deli, or romantic visions of seeing the Taj Mahal at dawn, clad in a vibrant, bejewelled sari. It’s time to sneak off to the tea room, switch your playlist to “Bollywood” & brew a pot of Mistress of Spice, letting the seductive wafting perfume of spices & roses transport you in an instant. Caffeine free, vegan friendly and utterly, deliciously addictive – no vaccines, airport taxes or lost luggage – just a divine mini break in a mouthful."

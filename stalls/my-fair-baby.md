@@ -12,7 +12,7 @@ criteria:
   - "Fair Trade"
   - "Eco-friendly"
 departments:
-  - "Children and Baby"
+  - "Children/Babies"
 categories:
   - "Social Enterprise"
   - "Certified Organic"

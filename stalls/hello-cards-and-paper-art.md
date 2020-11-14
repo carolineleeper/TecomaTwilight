@@ -15,8 +15,7 @@ departments:
   - "Gifts"
 categories:
   - "Handmade"
-  - "20km Tecoma Radius"
-  - "Recyclable"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "3 Fans"
     product_description: "Greeting Card - 3 Fans For You $7"

@@ -14,7 +14,7 @@ criteria:
 departments:
   - "Pets"
 categories:
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Waste Free"
   - "Handmade"
   - "Plant Based"

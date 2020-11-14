@@ -13,12 +13,12 @@ criteria:
   - "Community Empowerment"
 departments:
   - "Art"
+  - "Jewellery"
 categories:
   - "Waste Free"
   - "Handmade"
   - "Female Empowerment"
-  - "20km Tecoma Radius"
-  - "Jewellery"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Cosmopolitan"
     product_description: "Materials: \r\n\r\nPolymer clay\r\nSurgical steel nickel free posts \r\n10mm gold jump rings \r\nComfort stoppers (earring backs)\r\n\r\nWidth: 25mm\r\nLength: 37mm\r\n\r\nOur creations: Polymer clay is a wonderful, easy to wear, lightweight option. Many of you have ear sensitivity, so that is why I always use surgical steel ear-posts when I handcrafting your new jewellery."

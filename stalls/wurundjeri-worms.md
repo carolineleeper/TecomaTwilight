@@ -14,7 +14,7 @@ departments:
   - "Plants"
 categories:
   - "First Nations"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Female Empowerment"
   - "Social Enterprise"
 ---

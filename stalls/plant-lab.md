@@ -16,7 +16,7 @@ departments:
 categories:
   - "Vegan"
   - "Handmade"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Scented Soy Candle"
     product_description: "Hand poured soy candle. A range of scents are available to browse on our website.\n\nMinimum burn time 25 hours."

@@ -13,13 +13,12 @@ criteria:
   - "Local Produce/Local Artist"
   - "Eco-friendly"
 departments:
-  - "Children and Baby"
+  - "Children/Babies"
 categories:
   - "Handmade"
   - "Female Empowerment"
   - "Social Enterprise"
-  - "20km Tecoma Radius"
-  - "Under 25 Years"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Pablo Picasso Art Pack"
     product_description: "Did you know Picasso’s first words were ‘Can I have a pencil, please?’. Discover the wonderful world of Picasso! Learn about his Cubist Portraits and his Rose Period when he was in love. Explore ‘collage’ techniques, colour and shape. The projects encourage creative learning, critical thinking, and develop hand-eye coordination skills. This pack is for 3+ years."

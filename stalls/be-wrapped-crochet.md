@@ -10,15 +10,15 @@ ethicalDescription: "Be Wrapped Crochet offers handcrafted items made from quali
 criteria:
   - "Local Produce/Local Artist"
   - "Eco-friendly"
-departments: []
+departments:
+  - "Health/Beauty"
 categories:
   - "Plastic Free"
   - "Waste Free"
   - "Plant Based"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Female Empowerment"
   - "Handmade"
-  - "Health/Beauty"
 products:
   - product_name: "Paprika"
     product_description: "80% Bamboo 20% Wool\r\n\r\nMade to Order. Limited Stock."

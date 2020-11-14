@@ -11,7 +11,7 @@ ethicalDescription: "Jocelin hopes the human soul connects vulnerably with diffe
 criteria:
   - "Local Produce/Local Artist"
 departments:
-  - "Wall Art"
+  - "Art"
 categories:
   - "Handmade"
 products:

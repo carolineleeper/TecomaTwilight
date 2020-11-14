@@ -17,7 +17,7 @@ departments:
 categories:
   - "Handmade"
   - "Female Empowerment"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "toiletry bag by Khushbu"
     product_description: "Made by women in Delhi India, this block printed toiletry bag is beautifully lined with a zip closing.  Size 28x22cms.  $20"

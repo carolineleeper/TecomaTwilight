@@ -13,12 +13,10 @@ criteria:
   - "Community Empowerment"
 departments:
   - "Cleaning"
-  - "Personal Care"
 categories:
   - "Waste Free"
   - "Plant Based"
   - "Handmade"
-  - "BYO container refill service"
 products:
   - product_name: "Raw Natural Tooth Powder"
     product_description: "Locally made natural raw healthy alternative to commercial tooth paste.\r\nNatural, Vegan, Cruelty Free, Australian made.\r\nAvailable in a whitening and remineralizing options in peppermint or spearmint flavours."

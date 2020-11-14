@@ -11,10 +11,10 @@ criteria:
   - "Local Produce/Local Artist"
   - "Eco-friendly"
 departments:
-  - "Sound & Meditation"
+  - "Homewares"
 categories:
   - "Handmade"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Sarah' Chimes"
     product_description: "48mm diameter chimes with a deep, resonant, tone"

@@ -13,12 +13,12 @@ criteria:
   - "Eco-friendly"
   - "Community Empowerment"
 departments:
-  - "Food"
+  - "Food/Drinks"
 categories:
   - "Plastic Free"
   - "Vegan"
   - "Handmade"
   - "Plant Based"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Waste Free"
 ---

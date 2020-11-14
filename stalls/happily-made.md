@@ -18,7 +18,6 @@ departments:
 categories:
   - "Female Empowerment"
   - "Handmade"
-  - "Low plastic use"
 products:
   - product_name: "Handwoven Vegan Blanket"
     product_description: "These 100% Pure Cotton blankets are beautiful to use all year around. Perfect as a meaningful gift for socially conscious friends and family. \r\n130x190cms \r\nComes in a lovely cotton gift bag"

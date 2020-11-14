@@ -16,7 +16,6 @@ departments:
 categories:
   - "Handmade"
   - "Social Enterprise"
-  - "Respect and dignity"
 products:
   - product_name: "Gold and Silver Art Deco Bauble"
     product_description: "Clear glass bauble with a stunning gold and silver art deco design. Also available in blue, red and green."

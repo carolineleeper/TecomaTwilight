@@ -12,11 +12,11 @@ criteria:
   - "Local Produce/Local Artist"
   - "Eco-friendly"
 departments:
-  - "Children and Baby"
+  - "Children/Babies"
 categories:
   - "Handmade"
   - "Plastic Free"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Waste Free"
 products:
   - product_name: "Mini Treehouse"

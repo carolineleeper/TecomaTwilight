@@ -12,12 +12,11 @@ criteria:
   - "Local Produce/Local Artist"
   - "Community Empowerment"
 departments:
-  - "Food"
-  - "Gift"
+  - "Food/Drinks"
+  - "Gifts"
 categories:
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Handmade"
-  - "Under 25 Years"
 products:
   - product_name: "Beeswax Alphabet Crayons"
     product_description: "Our beeswax crayons have all natural ingredients and are totally safe for kids...so if they try to eat them, that’s (kind of) ok. Available in 6 or 9 pieces - great for birthday or Christmas gifts for any your artist!"

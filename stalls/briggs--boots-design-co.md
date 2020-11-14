@@ -12,13 +12,12 @@ criteria:
   - "Local Produce/Local Artist"
   - "Eco-friendly"
 departments:
-  - "Accessories"
+  - "Clothing/Accessories"
 categories:
   - "Handmade"
   - "Female Empowerment"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Certified Organic"
-  - "recycled"
 products:
   - product_name: "Coin Purse"
     product_description: "Our useful coin purse will hold all of your money and cards and still fit into your smallest bag.\r\n\r\nWe are conscious about the environment we live in and have used 100% organic fabrics, other recycled materials, and eco friendly inks to make this product."

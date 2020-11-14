@@ -18,9 +18,8 @@ categories:
   - "Handmade"
   - "Carbon Neutral"
   - "Vegan"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Waste Free"
-  - "Under 25 Years"
 products:
   - product_name: "Sante By ENJO Face Essentials Mint Or Pink"
     product_description: "This Limited Edition Sante by ENJO pack is used to clean your face simply with water. It replaces the need for cleanser, toner and wipes. They last 250 washes, and will work for a full face of makeup, sunscreen , zinc and general dirt. Includes 4 x make up Removers, I x face cleanser glove One bamboo Face towel, 2x Sante Hooks -  $89 (Value $126)"

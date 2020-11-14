@@ -13,7 +13,6 @@ criteria:
   - "Community Empowerment"
 departments:
   - "Health/Beauty"
-  - "Personal Care"
 categories:
   - "Vegan"
   - "Plastic Free"
@@ -21,8 +20,7 @@ categories:
   - "Waste Free"
   - "Plant Based"
   - "Female Empowerment"
-  - "20km Tecoma Radius"
-  - "Woman Owned"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Vegan Spirilina Soap"
     product_description: "Lush,  Moisturising Saponified Organic Coconut and Olive Oils with a deep green colour added using Spirilina Powder. Available in Soap Bars or Hearts. Always Palm Oil Free."

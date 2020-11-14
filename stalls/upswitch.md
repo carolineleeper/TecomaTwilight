@@ -16,7 +16,7 @@ departments:
   - "Homewares"
 categories:
   - "Handmade"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Vintage Jar Lantern"
     product_description: "Our reclaimed 'Fowler's Vacola' jar lanterns feature copper LED wire fairy lights and run on batteries, making them completely stand alone and portable.\r\n\r\nEach jar lantern features a vintage style toggle on/off switch, located on top of the lid for easy access. The LED colour is warm white.\r\n\r\nThese make perfect addition to any outdoor sitting area, picnic or camping trip, adding a touch of ambience and charm, as if you were surrounded by glow worms or fireflies. Your very own stars in a jar! \r\n\r\nUses 2 x CR2302 batteries (included), and runs for approx 50 continuous hours\r\n\r\n \r\n\r\nSizes -\r\n\r\nSmall - No. 20 Jar - W 9cm x H 13cm\r\n\r\nMedium - No. 31 Jar - W 11cm x H 18cm\r\n\r\nLarge - No. 27 Jar - W 9cm x H 22cm\r\n\r\nExtra Large - No 36 Jar - W 11cm x H 26cm"
