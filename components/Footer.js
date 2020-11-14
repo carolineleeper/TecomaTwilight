@@ -28,7 +28,7 @@ const Footer = () => {
         </p>
         <p>
           <i aria-hidden className="fas fa-map-marker-alt"></i> Tecoma Uniting
-          Church, 1566 Burwood Highway, Tecoma
+          Church, 1566 Burwood Highway, Tecoma, 3160
         </p>
         <p>
           <i aria-hidden className="fas fa-phone"></i>{" "}
