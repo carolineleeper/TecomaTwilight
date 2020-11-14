@@ -499,6 +499,53 @@ body.menuToggled {
 .stallLink {
   display: flex;
 }
+.aboutText,
+.collectText {
+  padding: 0 3rem 1rem;
+}
+.aboutText p {
+  margin-bottom: 2rem;
+  max-width: 900px;
+  margin: 1rem auto 2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.collectText p,
+.collectText ul {
+  margin-bottom: 2rem;
+  max-width: 900px;
+  margin: 1rem auto 2rem;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.title {
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffe685;
+  text-transform: uppercase;
+  align-self: center;
+  margin: 2rem 1rem;
+}
+.collectText a {
+  text-decoration: none;
+  color: rgb(255, 138, 230);
+  transition: all 0.2s ease-in-out;
+}
+.collectText a:hover {
+  color: rgb(125, 253, 142);
+}
+
+@media screen and (max-width: 750px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
 
 /*********************************************/
 /****************** F O R M ******************/
