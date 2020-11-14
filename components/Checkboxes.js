@@ -70,6 +70,7 @@ const Checkboxes = (props) => {
             />
           );
         })}
+        <div className={style.borderDiv}></div>
       </div>
       <div
         className={

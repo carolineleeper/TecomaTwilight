@@ -15,9 +15,18 @@
 .header {
   flex-basis: 100%;
 }
+.borderDiv {
+  padding: 0.5rem;
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px solid #4c5b96;
+}
 @media screen and (max-width: 750px) {
   .header {
     text-align: center;
     flex-basis: 100%;
+  }
+  .borderDiv {
+    margin-bottom: 1rem;
   }
 }
