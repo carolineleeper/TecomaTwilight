@@ -15,13 +15,26 @@ collections:
     create: true # Allow users to create new stalls
     fields: # The fields each document in this collection have
       - { label: "Stall Name", name: "name", widget: "string", tagname: "h1" }
-      - { label: "Website", name: "url", widget: "string", tagname: "h1" }
-      - { label: "Facebook", name: "facebook", widget: "string", tagname: "h1" }
+      - {
+          label: "Website",
+          name: "url",
+          widget: "string",
+          tagname: "h1",
+          hint: "ensure you include full link - i.e. http:// at the beginning of the link",
+        }
+      - {
+          label: "Facebook",
+          name: "facebook",
+          widget: "string",
+          tagname: "h1",
+          hint: "ensure you include full link - i.e. http:// at the beginning of the link",
+        }
       - {
           label: "Instagram",
           name: "instagram",
           widget: "string",
           tagname: "h1",
+          hint: "ensure you include full link - i.e. http:// at the beginning of the link",
         }
       - { label: "Logo", name: "logo", widget: "image" }
       - { label: "Stall Description", name: "description", widget: "text" }
