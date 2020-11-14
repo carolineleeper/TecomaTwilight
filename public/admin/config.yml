@@ -5,8 +5,8 @@ media_folder: "/public/images/uploads"
 public_folder: "/images/uploads"
 logo_url: "cms-logo.png"
 collections:
-  - name: "stall" # used in routes
-    label: "Stalls" # used in the UI
+  - label: "Stalls" # used in the UI
+    name: "stall" # used in routes
     label_singular: "Stall" # Used in the UI, ie: "New Stall"
     identifier_field: name
     description: >
@@ -114,14 +114,14 @@ collections:
               widget: "text",
             }
           - { label: "Product Image", name: "product_image", widget: "image" }
-    - name: "musician" # used in routes
-      label: "Musicians" # used in the UI
-      label_singular: "Musician" # Used in the UI, ie: "New Stall"
-      identifier_field: name
-      description: >
-        Add a new musician by clicking the 'New Musician' button, or edit existing musicians below by selecting the musican below. NOTE changes made here will update the LIVE SITE.
-      folder: "musicians"
-      create: true # Allow users to create new stalls
-        - { label: "Muscian Name", name: "name", widget: "string", tagname: "h1" }
-        - { label: "Image", name: "image", widget: "image" }
-        - { label: "Bio", name: "body", widget: "markdown"}
+  - label: "Musicians" # used in the UI
+    name: "musician" # used in routes
+    label_singular: "Musician" # Used in the UI, ie: "New Stall"
+    identifier_field: name
+    description: >
+      Add a new musician by clicking the 'New Musician' button, or edit existing musicians below by selecting the musican below. NOTE changes made here will update the LIVE SITE.
+    folder: "musicians"
+    create: true # Allow users to create new stalls
+      - { label: "Muscian Name", name: "name", widget: "string", tagname: "h1" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Bio", name: "body", widget: "markdown"}
