@@ -1,7 +1,5 @@
 import NavItem from "./NavItem";
 import Donate from "./Donate";
-import Facebook from "./Facebook";
-import Instagram from "./Instagram";
 import style from "./Nav.module.css";
 
 const Nav = (props) => {

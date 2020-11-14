@@ -1,9 +1,9 @@
-import CheckboxesMenuMobile from "../components/CheckboxesMenuMobile";
-import CheckboxesMenu from "../components/CheckboxesMenu";
-import StallCard from "../components/StallCard";
-import StallSearch from "../components/StallSearch";
-import NoStalls from "../components/NoStalls";
-import SEO from "../components/SEO";
+import CheckboxesMenuMobile from "../../components/CheckboxesMenuMobile";
+import CheckboxesMenu from "../../components/CheckboxesMenu";
+import StallCard from "../../components/StallCard";
+import StallSearch from "../../components/StallSearch";
+import NoStalls from "../../components/NoStalls";
+import SEO from "../../components/SEO";
 
 import { useMediaQuery } from "react-responsive";
 import matter from "gray-matter";

@@ -5,7 +5,14 @@ const ListenPage = () => {
     <>
       <h1 className="title">Listen</h1>
       <div className={style.textContainer}>
-        <p className="upperCase">List of local artists TBC</p>
+        {/* {musicians.map((musician) => {
+          return (
+            <>
+              <p className={style.name}>{musician.name}</p>
+              <p>{musician.description}</p>
+            </>
+          );
+        })} */}
       </div>
     </>
   );

@@ -6,7 +6,6 @@ const VideoPlaylistContainer = () => {
   const videoRef = useRef();
 
   const onReady = (e) => {
-    console.log(e.player.player.player.setShuffle());
     e.player.player.player.setShuffle(true);
     // videoRef?.current?.player?.player?.player?.setShuffle?.(true);
   };

@@ -23,7 +23,7 @@ const routes = [
   },
   {
     title: "Listen",
-    url: "/listen",
+    url: "/musicians",
   },
 ];
 

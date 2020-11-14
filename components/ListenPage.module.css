@@ -7,4 +7,10 @@
   margin: 1rem auto 2rem;
   text-align: center;
   line-height: 1.5;
+  white-space: pre-wrap;
+}
+.name {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
 }

@@ -18,6 +18,12 @@ const DonatePage = () => {
         up. Each Christmas they host a special Christmas Day Lunch for people
         who would otherwise be on their own.
       </p>
+      <p className="upperCase">
+        <strong>
+          Last year we raised over $1,000 in support and we’d love to do the
+          same again this year!
+        </strong>
+      </p>
       <p>You can support them in one of two ways:</p>
       <ol>
         <li>

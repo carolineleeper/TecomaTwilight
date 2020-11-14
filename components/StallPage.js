@@ -8,11 +8,13 @@ import Criteria from "./Criteria";
 import Categories from "./Categories";
 import Products from "./Products";
 import BackButton from "./BackButton";
+import SEO from "./SEO";
 import style from "./StallPage.module.css";
 
 const StallPage = (props) => {
   return (
     <>
+      <SEO title={props.stall.name} />
       <BackButton />
 
       <h2 className="title">{props.stall.name}</h2>
