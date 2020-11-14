@@ -39,7 +39,7 @@ const Checkboxes = (props) => {
         }
       >
         <p className={style.header}>Search by Department</p>
-        {uniqueDepartmentArray.map((department) => {
+        {uniqueDepartmentArray.sort().map((department) => {
           return (
             <Checkbox
               isMobile={props.isMobile}
@@ -59,7 +59,7 @@ const Checkboxes = (props) => {
         }
       >
         <p className={style.header}>Search by Ethical Category</p>
-        {uniqueCriteriaArray.map((criteria) => {
+        {uniqueCriteriaArray.sort().map((criteria) => {
           return (
             <Checkbox
               isMobile={props.isMobile}
@@ -78,7 +78,7 @@ const Checkboxes = (props) => {
             : style.checkboxesContainer
         }
       >
-        {uniqueCategoryArray.map((category) => {
+        {uniqueCategoryArray.sort().map((category) => {
           return (
             <Checkbox
               isMobile={props.isMobile}
