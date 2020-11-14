@@ -122,6 +122,7 @@ collections:
       Add a new musician by clicking the 'New Musician' button, or edit existing musicians below by selecting the musican below. NOTE changes made here will update the LIVE SITE.
     folder: "musicians"
     create: true # Allow users to create new stalls
+    fields:
       - { label: "Muscian Name", name: "name", widget: "string", tagname: "h1" }
       - { label: "Image", name: "image", widget: "image" }
-      - { label: "Bio", name: "body", widget: "markdown"}
+      - { label: "Bio", name: "body", widget: "markdown" }
