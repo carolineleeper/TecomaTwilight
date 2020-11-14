@@ -10,7 +10,7 @@ collections:
     label_singular: "Stall" # Used in the UI, ie: "New Stall"
     identifier_field: name
     description: >
-      Add a new stall by clicking the 'New Stall' button, or edit existing stalls below.
+      Add a new stall by clicking the 'New Stall' button, or edit existing stalls below by selecting the stall below. NOTE changes made here will update the LIVE SITE.
     folder: "stalls"
     create: true # Allow users to create new stalls
     fields: # The fields each document in this collection have
@@ -39,8 +39,8 @@ collections:
           [
             "Fair Trade",
             "Upcycled",
-            "Eco Friendly",
-            "Local Produce/Artist",
+            "Eco-friendly",
+            "Local Produce/Local Artist",
             "Community Empowerment",
           ]
         hint: "Which ethical criteria does this stall meet? Choose at least one"
@@ -49,19 +49,19 @@ collections:
         name: "departments"
         widget: "select"
         multiple: true
-        required: false
+        required: true
         options:
           [
-            "Clothing/Accessories",
-            "Jewellery",
-            "Homewares",
-            "Food/Drinks",
             "Health/Beauty",
+            "Food/Drinks",
+            "Clothing/Accessories",
             "Plants",
+            "Jewellery",
+            "Children/Babies",
             "Art",
+            "Homewares",
             "Gifts",
             "Cleaning",
-            "Children/Babies",
             "Pets",
           ]
         hint: "Choose one or many."
@@ -85,6 +85,7 @@ collections:
             "Social Enterprise",
             "< 20km Tecoma Radius",
             "Refugee Advocacy",
+            "Palm Oil Free",
           ]
         hint: "Choose one or many."
       - label: "Available Products"
@@ -98,11 +99,5 @@ collections:
               label: "Product Description",
               name: "product_description",
               widget: "text",
-            }
-          - {
-              label: "Product Price",
-              name: "product_price",
-              widget: "number",
-              hint: "Enter value without dollar symbol e.g. 25.50",
             }
           - { label: "Product Image", name: "product_image", widget: "image" }
