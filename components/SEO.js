@@ -62,10 +62,6 @@ const SEO = (props) => {
         property="twitter:image"
         content="tecomatwilight.com/static/og_image.png"
       />
-      <meta
-        name="google-site-verification"
-        content="9uDLJF378FoOce23lDVo9JvSu8qF_j1wtvtVSM7kWkg"
-      />
     </Head>
   );
 };

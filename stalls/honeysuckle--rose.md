@@ -18,6 +18,7 @@ categories:
   - "Plastic Free"
   - "Handmade"
   - "Plant Based"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Christmas Wreath"
     product_description: "This long lasting wreath is made from locally grown and dried vines, banksia, grapefruit, foliage, cinnamon sticks, thistle and finished off with a wooden Christmas tree decoration. The perfect addition for your Christmas decorations or to send as a gift to a loved one. $50"
