@@ -9,7 +9,7 @@ const LiveVideoContainer = () => {
     <div className={style.liveVideoContainer}>
       <h1 className="title">Watch Live</h1>
       <div className={style.responsiveVideoContainer}>
-        <TwitchPlayer
+        {/* <TwitchPlayer
           channel="tecomatwilight"
           className={style.twitchPlayer}
           id="tecomatwilight"
@@ -18,7 +18,7 @@ const LiveVideoContainer = () => {
           muted
           width="100%"
           height="100%"
-        />
+        /> */}
 
         {/* CAROLINE CHANNEL */}
         {/* <ReactPlayer
@@ -39,14 +39,14 @@ const LiveVideoContainer = () => {
         /> */}
 
         {/* FACEBOOK NEED TO UPDATE URL */}
-        {/* <ReactPlayer
+        <ReactPlayer
           className={style.reactPlayer}
-          url="https://www.facebook.com/PhillipIslandNatureParks/videos/1050357245480289"
+          url="https://www.facebook.com/TecomaTwilightEthicalMarket/videos/2805249676465004"
           width="100%"
           height="100%"
           controls={true}
           pip={false}
-        /> */}
+        />
       </div>
       <div className={style.socialContainer}>
         <p>Watch On</p>
