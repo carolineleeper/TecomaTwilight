@@ -99,6 +99,7 @@ collections:
             "< 20km Tecoma Radius",
             "Refugee Advocacy",
             "Palm Oil Free",
+            "Click and Collect Tecoma",
           ]
         hint: "Choose one or many."
       - label: "Available Products"
