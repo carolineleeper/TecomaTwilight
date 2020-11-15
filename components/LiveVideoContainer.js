@@ -30,23 +30,23 @@ const LiveVideoContainer = () => {
         /> */}
 
         {/* TT CHANNEL */}
-        {/* <ReactPlayer
+        <ReactPlayer
           className={style.reactPlayer}
           url="https://youtu.be/H0nUceZ5Uts"
           width="100%"
           height="100%"
           controls={false}
-        /> */}
+        />
 
         {/* FACEBOOK NEED TO UPDATE URL */}
-        <ReactPlayer
+        {/* <ReactPlayer
           className={style.reactPlayer}
-          url="https://www.facebook.com/TecomaTwilightEthicalMarket/videos/2805249676465004"
+          url="https://fb.watch/1MyjgxHscc/"
           width="100%"
           height="100%"
           controls={true}
           pip={false}
-        />
+        /> */}
       </div>
       <div className={style.socialContainer}>
         <p>Watch On</p>
