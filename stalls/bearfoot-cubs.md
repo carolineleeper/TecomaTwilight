@@ -18,7 +18,7 @@ departments:
   - "Children/Babies"
   - "Pets"
 categories:
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Social Enterprise"
   - "Certified Organic"
 products:

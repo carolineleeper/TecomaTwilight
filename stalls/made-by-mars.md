@@ -16,7 +16,7 @@ departments:
 categories:
   - "Plastic Free"
   - "Handmade"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
   - "Waste Free"
   - "Carbon Neutral"
   - "Vegan"

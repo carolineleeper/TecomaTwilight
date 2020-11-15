@@ -13,7 +13,7 @@ departments:
   - "Art"
 categories:
   - "Handmade"
-  - "20km Tecoma Radius"
+  - "< 20km Tecoma Radius"
 products:
   - product_name: "Jellyfish Cave"
     product_description: "Triple pour resin art piece, infused with pigments, alcohol inks and paint.\r\nSides have been painted white.\r\nMade on a primed art board, dimensions are 60cm x 120cm."
