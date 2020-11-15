@@ -57,4 +57,7 @@ products:
   - product_name: "Bumbu Toys"
     product_description: "Bumbu Toys are handmade with love in Brasov County in Romania, keeping traditional woodworking alive. These toys are made predominantly using sustainable maple wood. All designs begin with a sketch, and are inspired by wanting to stimulate a child's desire for knowledge and keeping designs as simple as possible using attractive and simple shapes."
     product_image: "/images/uploads/enchanted-little-oak/oak tree.jpg"
+  - product_name: "Sharing Kindness Advent Calendars"
+    product_description: "Enchanted Little Oak have stunning Sharing Kindness Advent calendars which have been created in Burleigh Heads by Tess Bell.\n\nThey are interactive and fun including: lift the flap doors, reusable stickers, kindness activities each day, affirmations, a Christmas scene to decorate, kindness cards and thank you notes to give out.\n\nBeautifully illustrated and designed to encourage values of self belief, resilience, appreciating everyone’s differences and talking about feelings amongst children and families.\n\nThey are $25 including postage/local delivery."
+    product_image: "/images/uploads/enchanted-little-oak/advent_cal.jpeg"
 ---
