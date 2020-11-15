@@ -4,7 +4,7 @@ url: "https://www.facebook.com/BeWrappedCrochet"
 phone: null
 email: null
 facebook: "https://www.facebook.com/BeWrappedCrochet"
-logo: "/images/uploads/be-wrapped-crochet/Bathroom Sets.jpg"
+logo: "/images/uploads/be-wrapped-crochet/Be Wrapped Crochet Logo.png"
 description: "Be Wrapped Crochet offers handcrafted items made from quality yarns. Having grown up in a creative household and being introduced to yarn at very early age, my love of fibres has only grown over time. Most yarns I use are from natural fibres whether that be Wool, Bamboo, Cotton or a blend of these gorgeous earth fibres."
 ethicalDescription: "Be Wrapped Crochet offers handcrafted items made from quality yarns with much focus on natural fibres ie/ 100% Cotton, 100% Organic Cotton, 100% Wool, 100% Bamboo as well as blends of these fibres. \r\n\r\nThis year I have introduced Be Wrapped Bathroom Sets which consist of a face-washer, soap holder/saver, 6 x makeup removers in a variety of colours all made from a blend of 80% Bamboo and 20% Wool which is perfect to look after your delicate skin. Great for the environment also as they are 100% washable and reusable."
 criteria:
