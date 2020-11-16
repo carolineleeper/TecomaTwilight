@@ -3,7 +3,12 @@ import style from "./NavItem.module.css";
 
 const Facebook = (props) => {
   return (
-    <a className={style.navItem} href={props.href} target="_blank">
+    <a
+      className={style.navItem}
+      href={props.href}
+      target="_blank"
+      rel="noopener"
+    >
       <img src="/images/facebook_logo.png" alt="facebook logo" />
     </a>
   );

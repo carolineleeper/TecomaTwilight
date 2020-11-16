@@ -4,7 +4,7 @@ const CAROtheDEV = () => {
   return (
     <p className={style.caroTheDevLink}>
       Made by{" "}
-      <a href="https://carothedev.com" target="_blank">
+      <a href="https://carothedev.com" target="_blank" rel="noopener">
         CAROtheDEV///
       </a>
     </p>

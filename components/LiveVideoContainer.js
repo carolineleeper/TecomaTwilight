@@ -50,8 +50,11 @@ const LiveVideoContainer = () => {
       </div>
       <div className={style.socialContainer}>
         <p>Watch On</p>
-        <Facebook href="https://www.facebook.com/TecomaTwilightEthicalMarket" />
-        <Youtube href="https://youtu.be/H0nUceZ5Uts" />
+        <Facebook
+          href="https://www.facebook.com/TecomaTwilightEthicalMarket"
+          rel="noopener"
+        />
+        <Youtube href="https://youtu.be/H0nUceZ5Uts" rel="noopener" />
       </div>
     </div>
   );
