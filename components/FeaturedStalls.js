@@ -11,7 +11,7 @@ const getWrappedIndex = (collection, index) => {
 };
 
 const FeaturedStalls = ({ stalls }) => {
-  const goLiveDate = new Date("2020-10-26");
+  const goLiveDate = new Date("2020-10-29");
   const today = new Date();
   const diffTime = today - goLiveDate;
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
@@ -26,7 +26,7 @@ const FeaturedStalls = ({ stalls }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
   };
 
   return (
