@@ -108,13 +108,24 @@ collections:
         widget: "list"
         allow_add: true
         fields:
-          - { label: "Product Name", name: "product_name", widget: "string" }
+          - {
+              label: "Product Name",
+              name: "product_name",
+              widget: "string",
+              required: false,
+            }
           - {
               label: "Product Description",
               name: "product_description",
               widget: "text",
+              required: false,
             }
-          - { label: "Product Image", name: "product_image", widget: "image" }
+          - {
+              label: "Product Image",
+              name: "product_image",
+              widget: "image",
+              required: false,
+            }
   - label: "Musicians" # used in the UI
     name: "musician" # used in routes
     label_singular: "Musician" # Used in the UI, ie: "New Stall"
