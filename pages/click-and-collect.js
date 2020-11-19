@@ -12,8 +12,8 @@ const ClickCollect = () => {
         </p>
         <ul>
           <li>Tuesday 9am – 5pm</li>
-          <li>Friday 9am – 5pm</li>
-          <li>Wednesday 7pm – 8pm</li>
+          <li>Friday 9am – 7pm</li>
+          {/* <li>Wednesday 7pm – 8pm</li> */}
         </ul>
 
         <p>
@@ -81,8 +81,8 @@ const ClickCollect = () => {
         <p>The limited collection times for this service are:</p>
         <ul>
           <li>Tuesday 9am – 5pm</li>
-          <li>Friday 9am – 5pm</li>
-          <li>Wednesday 7pm – 8pm</li>
+          <li>Friday 9am – 7pm</li>
+          {/* <li>Wednesday 7pm – 8pm</li> */}
         </ul>
 
         <p>
