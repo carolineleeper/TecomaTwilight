@@ -17,6 +17,7 @@ const MusicianPage = (props) => {
         <ReactMarkdown
           className={style.musicianInfo}
           source={props.musician.content}
+          linkTarget="_blank"
         />
         {/* <div
           className={style.musicianInfo}
