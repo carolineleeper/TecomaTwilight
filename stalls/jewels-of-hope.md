@@ -16,7 +16,6 @@ categories:
   - "Plastic Free"
   - "Handmade"
   - "Female Empowerment"
-  - "First Nations"
   - "Social Enterprise"
 products:
   - product_name: "Jewels of Hope Christmas Angel"
