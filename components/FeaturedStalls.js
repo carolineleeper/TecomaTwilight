@@ -1,6 +1,7 @@
 import FeaturedStall from "./FeaturedStall";
 import style from "./FeaturedStalls.module.css";
 import Carousel from "react-slick";
+import { useState, useEffect } from "react";
 
 const getWrappedIndex = (collection, index) => {
   let wrappedIndex = Math.abs(index);
@@ -11,14 +12,20 @@ const getWrappedIndex = (collection, index) => {
 };
 
 const FeaturedStalls = ({ stalls }) => {
-  const goLiveDate = new Date("2020-11-15");
-  const today = new Date();
-  const diffTime = today - goLiveDate;
-  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  const [stallLeft, setStallLeft] = useState({});
+  const [stallMiddle, setStallMiddle] = useState({});
+  const [stallRight, setStallRight] = useState({});
 
-  const stallLeft = stalls[getWrappedIndex(stalls, diffDays - 1)];
-  const stallMiddle = stalls[getWrappedIndex(stalls, diffDays)];
-  const stallRight = stalls[getWrappedIndex(stalls, diffDays + 1)];
+  useEffect(() => {
+    const goLiveDate = new Date("2020-11-15");
+    const today = new Date();
+    const diffTime = today - goLiveDate;
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+    setStallLeft(stalls[getWrappedIndex(stalls, diffDays - 1)]);
+    setStallMiddle(stalls[getWrappedIndex(stalls, diffDays)]);
+    setStallRight(stalls[getWrappedIndex(stalls, diffDays + 1)]);
+  }, []);
 
   const settings = {
     dots: true,
@@ -29,6 +36,7 @@ const FeaturedStalls = ({ stalls }) => {
     autoplay: true,
   };
 
+  console.log(stallLeft);
   return (
     <>
       <h1 className="title">STALL SPOTLIGHT</h1>

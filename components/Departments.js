@@ -4,9 +4,10 @@ import style from "./Departments.module.css";
 const Departments = (props) => {
   return (
     <div className={style.departmentsContainer}>
-      {props.departments.map((department) => {
-        return <Department key={department} department={department} />;
-      })}
+      {props.departments &&
+        props.departments.map((department) => {
+          return <Department key={department} department={department} />;
+        })}
     </div>
   );
 };
