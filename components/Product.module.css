@@ -16,7 +16,8 @@
   -webkit-transition: all 0.2s ease-in-out;
 }
 
-.imageContainer {
+.imageContainer,
+.jewelsOfHopeImageContainer {
   position: relative;
   display: flex;
   justify-content: center;
@@ -25,13 +26,25 @@
   background-color: #100d2f;
   border-radius: 8px 0 0 8px;
 }
-.imageContainer img {
+.imageContainer img,
+.jewelsOfHopeImageContainer img {
   object-fit: cover;
   -o-object-fit: cover;
   max-height: 450px;
   height: 100%;
   width: 100%;
   border-radius: 8px 0 0 8px;
+}
+.jewelsOfHopeImageContainer {
+  justify-content: flex-start;
+  width: unset;
+}
+.jewelsOfHopeImageContainer img {
+  object-fit: unset;
+  width: unset;
+}
+.jewelsOfHopeImageContainer + .productInfo {
+  width: unset;
 }
 .imageOnlyContainer {
   position: relative;
@@ -74,13 +87,22 @@
   .productCard {
     flex-direction: column;
   }
-  .imageContainer {
+  .imageContainer,
+  .jewelsOfHopeImageContainer {
     height: 50%;
     width: 100%;
     border-radius: 8px 8px 0 0;
   }
-  .imageContainer img {
+  .imageContainer img,
+  .jewelsOfHopeImageContainer img {
     border-radius: 8px 8px 0 0;
+  }
+  .jewelsOfHopeImageContainer {
+    justify-content: center;
+    align-items: center;
+  }
+  .jewelsOfHopeImageContainer img {
+    border-radius: 0;
   }
   .productInfo {
     width: 100%;
