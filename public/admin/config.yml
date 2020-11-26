@@ -14,38 +14,49 @@ collections:
     folder: "stalls"
     create: true # Allow users to create new stalls
     fields: # The fields each document in this collection have
-      - { label: "Stall Name", name: "name", widget: "string", tagname: "h1", required: true }
+      - {
+          label: "Stall Name",
+          name: "name",
+          widget: "string",
+          tagname: "h1",
+          required: true,
+        }
       - {
           label: "Website",
           name: "url",
           widget: "string",
           tagname: "h1",
-          required: true
           hint: "ensure you include full link - i.e. http:// at the beginning of the link",
+          required: true,
         }
       - {
           label: "Facebook",
           name: "facebook",
           widget: "string",
           tagname: "h1",
-          required: false
           hint: "ensure you include full link - i.e. http:// at the beginning of the link",
+          required: false,
         }
       - {
           label: "Instagram",
           name: "instagram",
           widget: "string",
           tagname: "h1",
-          required: false
           hint: "ensure you include full link - i.e. http:// at the beginning of the link",
+          required: false,
         }
-      - { label: "Logo", name: "logo", widget: "image", required: true}
-      - { label: "Stall Description", name: "description", widget: "text", required: true }
+      - { label: "Logo", name: "logo", widget: "image", required: true }
+      - {
+          label: "Stall Description",
+          name: "description",
+          widget: "text",
+          required: true,
+        }
       - {
           label: "Ethical Description",
           name: "ethicalDescription",
           widget: "text",
-          required: true
+          required: true,
         }
       - label: "Stall Criteria"
         name: "criteria"
