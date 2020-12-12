@@ -1,9 +1,8 @@
 ---
-name: "Kitty Rae"
-image: "/images/musicians/Kitty Rae - Official Image.JPG"
+name: Kitty Rae
+image: /images/musicians/Kitty Rae - Official Image.JPG
 ---
-
-Emerging indie-pop artist Kitty Rae is one to watch. The Melbourne-based singer/songwriter writes uplifting, feel-good bops whilst also engaging in the complicated emotions of what it feels like to be human. Her debut EP The Prelude will be released on November 20th, written and recorded all at home in her living room during isolation.
+Emerging indie-pop artist Kitty Rae is one to watch. The Melbourne-based singer/songwriter writes uplifting, feel-good bops whilst also engaging in the complicated emotions of what it feels like to be human. Her debut EP The Prelude was released on November 20th, written and recorded all at home in her living room during isolation.
 Discover Kitty Rae today - [kittyrae.com](https://www.kittyrae.com/)
 
 <https://youtu.be/VbWYGfznHtg>
@@ -25,3 +24,4 @@ Find all this and more on her [Youtube channel](https://www.youtube.com/channel/
 Head to:
 [kittyrae.com](https://www.kittyrae.com/)
 [kittyrae.com/merch](https://www.kittyrae.com/merch)
+[kittyrae.com/shop](https://www.kittyrae.com/shop)
