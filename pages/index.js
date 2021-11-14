@@ -10,7 +10,7 @@ const Home = () => {
 		<>
 			<SEO title="Home" />
 			<InlineImage src="/images/DSC_0161.jpg" align="imageRight" />
-			{/* <MailchimpForm /> */}
+			<MailchimpForm />
 		</>
 	);
 };
