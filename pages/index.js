@@ -1,29 +1,31 @@
 import SEO from "../components/SEO";
 import InlineImage from "../components/InlineImage";
+import MailchimpForm from "../components/MailchimpForm";
 
-import matter from "gray-matter";
-import fs from "fs";
+// import matter from "gray-matter";
+// import fs from "fs";
 
-const Home = (props) => {
+const Home = () => {
 	return (
 		<>
 			<SEO title="Home" />
 			<InlineImage src="/images/DSC_0161.jpg" align="imageRight" />
+			<MailchimpForm />
 		</>
 	);
 };
 
-export const getStaticProps = () => {
-	const directory = `${process.cwd()}/stalls`;
-	const rawFilenames = fs.readdirSync(directory);
+// export const getStaticProps = () => {
+// 	const directory = `${process.cwd()}/stalls`;
+// 	const rawFilenames = fs.readdirSync(directory);
 
-	const stalls = rawFilenames.map((filename) => {
-		const rawFileContent = fs.readFileSync(`${directory}/${filename}`).toString();
-		const { data } = matter(rawFileContent);
-		return { ...data, filename: filename.replace(".md", "") };
-	});
+// 	const stalls = rawFilenames.map((filename) => {
+// 		const rawFileContent = fs.readFileSync(`${directory}/${filename}`).toString();
+// 		const { data } = matter(rawFileContent);
+// 		return { ...data, filename: filename.replace(".md", "") };
+// 	});
 
-	return { props: { stalls } };
-};
+// 	return { props: { stalls } };
+// };
 
 export default Home;
