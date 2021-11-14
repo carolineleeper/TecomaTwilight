@@ -14,6 +14,18 @@ const MailchimpForm = () => {
 						type: "email",
 						required: true,
 					},
+					{
+						name: "FNAME",
+						placeholder: "First name",
+						type: "text",
+						required: false,
+					},
+					{
+						name: "LNAME",
+						placeholder: "Last name",
+						type: "text",
+						required: false,
+					},
 				]}
 			/>
 		</div>
