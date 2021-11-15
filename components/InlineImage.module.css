@@ -1,44 +1,44 @@
 .imageContainer {
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  max-height: 400px;
-  overflow: hidden;
-  height: 400px;
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	max-height: 400px;
+	overflow: hidden;
+	height: 300px;
 
-  width: 100vw;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+	width: 100vw;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
 }
 .imageContainer img {
-  width: 100%;
-  filter: brightness(0.35);
-  -webkit-filter: brightness(0.35);
-  object-fit: cover;
-  -o-object-fit: cover;
-  object-position: top;
+	width: 100%;
+	filter: brightness(0.35);
+	-webkit-filter: brightness(0.35);
+	object-fit: cover;
+	-o-object-fit: cover;
+	object-position: top;
 }
 .imageContainer p {
-  font-weight: bold;
-  font-size: 2rem;
-  position: absolute;
-  max-width: 80%;
-  top: 15%;
+	font-weight: bold;
+	font-size: 2rem;
+	position: absolute;
+	max-width: 80%;
+	top: 15%;
 }
 .imageRight {
-  float: right;
+	float: right;
 }
 
 @media screen and (max-width: 750px) {
-  .imageContainer {
-    height: 700px;
-    align-items: stretch;
-  }
-  .imageContainer p {
-    top: 5%;
-    font-size: 1.2rem;
-  }
+	.imageContainer {
+		height: 250px;
+		align-items: stretch;
+	}
+	.imageContainer p {
+		top: 5%;
+		font-size: 1.2rem;
+	}
 }
