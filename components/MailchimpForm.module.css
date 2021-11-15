@@ -4,6 +4,10 @@
 	margin: auto;
 }
 
+.msg-alert p {
+	color: #ffe685;
+}
+
 .formContainer,
 .formContainer form {
 	display: flex;
