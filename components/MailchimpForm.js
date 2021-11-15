@@ -10,12 +10,6 @@ const MailchimpForm = () => {
 					action="https://tecomatwilight.us20.list-manage.com/subscribe/post?u=b4dbb5133c7fee517e2253af7&amp;id=7cb9893fd6"
 					fields={[
 						{
-							name: "EMAIL",
-							placeholder: "Email",
-							type: "email",
-							required: true,
-						},
-						{
 							name: "FNAME",
 							placeholder: "First name",
 							type: "text",
@@ -27,7 +21,21 @@ const MailchimpForm = () => {
 							type: "text",
 							required: false,
 						},
+						{
+							name: "EMAIL",
+							placeholder: "Email",
+							type: "email",
+							required: true,
+						},
 					]}
+					messages={{
+						sending: "Sending...",
+						success: "Thank you for subscribing!",
+						error: "An unexpected internal error has occurred.",
+						empty: "Please enter your email.",
+						duplicate: "Too many subscribe attempts for this email address",
+						button: "Subscribe",
+					}}
 				/>
 			</div>
 		</>
