@@ -5,6 +5,10 @@ const MailchimpForm = () => {
 	return (
 		<>
 			<h1 className="title">Be the first to know!</h1>
+			<p className={style.formText}>
+				Enter your details below and we'll let you know as soon as our ethical buying guide has
+				launched
+			</p>
 			<div className={style.formContainer}>
 				<Mailchimp
 					action="https://tecomatwilight.us20.list-manage.com/subscribe/post?u=b4dbb5133c7fee517e2253af7&amp;id=7cb9893fd6"
