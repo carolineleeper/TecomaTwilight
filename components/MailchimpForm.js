@@ -4,10 +4,9 @@ import style from "./MailchimpForm.module.css";
 const MailchimpForm = () => {
 	return (
 		<>
-			<h1 className="title">Be the first to know!</h1>
+			<h1 className="title">Stay in Touch</h1>
 			<p className={style.formText}>
-				Enter your details below and we'll let you know as soon as our ethical buying guide has
-				launched
+				Enter your details below and we'll keep you updated on any market happenings
 			</p>
 			<div className={style.formContainer}>
 				<Mailchimp
