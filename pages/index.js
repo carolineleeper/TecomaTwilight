@@ -1,6 +1,7 @@
 import SEO from "../components/SEO";
 import InlineImage from "../components/InlineImage";
 import MailchimpForm from "../components/MailchimpForm";
+import BuyingGuide from "../components/BuyingGuide";
 
 // import matter from "gray-matter";
 // import fs from "fs";
@@ -9,7 +10,8 @@ const Home = () => {
 	return (
 		<>
 			<SEO title="Home" />
-			<InlineImage src="/images/DSC_0161.jpg" align="imageRight" />
+			{/* <InlineImage src="/images/DSC_0161.jpg" align="imageRight" /> */}
+			<BuyingGuide />
 			<MailchimpForm />
 		</>
 	);

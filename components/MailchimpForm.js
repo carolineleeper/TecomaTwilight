@@ -4,7 +4,7 @@ import style from "./MailchimpForm.module.css";
 const MailchimpForm = () => {
 	return (
 		<>
-			<h1 className="title">Stay in Touch</h1>
+			<h2 className={style.title}>Stay in Touch</h2>
 			<p className={style.formText}>
 				Enter your details below and we'll keep you updated on any market happenings
 			</p>
