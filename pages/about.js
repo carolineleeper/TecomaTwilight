@@ -26,16 +26,6 @@ const About = () => {
 			<h1 className="title">About</h1>
 			{/* <InlineImage src="/images/DSC_0161.jpg" align="imageRight" /> */}
 			<div className="aboutText">
-				<p>
-					To keep us all safe and happy we have decided to once again go online for our market in
-					2021. So grab yourself a drink and maybe some delicious food from one of our{" "}
-					<Link href="/eat">
-						<a>local businesses</a>
-					</Link>
-					, and do all your gift shopping here. We’ve made it even easier for you to give good gifts
-					this year with our curated Ethical Gift Buying Guide which launches on November 19th. Sign
-					up on the home page to be the first to receive it when it launches.
-				</p>
 				<p className="upperCase">
 					Ethical shopping can be challenging and time consuming. So allow the Tecoma Twilight
 					Ethical Market to make things much simpler by highlighting only local and ethical
@@ -54,6 +44,11 @@ const About = () => {
 					So take a stroll through this virtual market and then click on each stall holder to be
 					taken to their website. Payment will be direct to the stall holder, just like at any
 					market.
+				</p>
+				<p>
+					And while you browse and shop, why not listen to artists who have featured at both our
+					in-person and online markets through the 'listen while you shop' feature down the bottom
+					of your screen
 				</p>
 				<p>
 					And why not consider not only purchasing good gifts, but giving a gift! Foothills
