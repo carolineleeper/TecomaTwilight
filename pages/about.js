@@ -1,7 +1,7 @@
 import SEO from "../components/SEO";
 import Ethics from "../components/Ethics";
 import Criteria from "../components/Criteria";
-import Donate from "../components/Donate";
+import MailchimpForm from "../components/MailchimpForm";
 import InlineImage from "../components/InlineImage";
 import Link from "next/link";
 
@@ -79,6 +79,8 @@ const About = () => {
 					Tecoma Twilight is an initiative of the Tecoma Uniting Church in collaboration with a host
 					of community groups and other key members of the surrounding community.
 				</p>
+
+				<MailchimpForm />
 			</div>
 		</>
 	);
