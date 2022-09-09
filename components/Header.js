@@ -21,6 +21,10 @@ const routes = [
 		title: "Listen",
 		url: "/musicians",
 	},
+	{
+		title: "Donate",
+		url: "/donate",
+	},
 ];
 
 const Header = () => {
