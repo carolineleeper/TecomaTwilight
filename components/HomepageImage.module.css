@@ -1,0 +1,22 @@
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 4rem auto;
+  border: 2rem solid white;
+  border-radius: 5px;
+}
+
+@media screen and (max-width:750px) {
+  .imageContainer {
+    max-width: 100vw;
+    border: 0.75rem solid white;
+  }
+
+  
+}
+
+.imageContainer img {
+  width: 100%;
+}
