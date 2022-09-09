@@ -61,15 +61,17 @@ const About = () => {
 					You can do this in one of two ways:
 				</p>
 				<p className="textBox">
-					Donate gifts towards the Foothills Giving Tree. These gifts will go towards their
-					Christmas care-packages to local families in need of some extra support this Christmas.
-					Simply order your gift and drop it at Tecoma Uniting Church, 1566 Burwood Highway, Tecoma
-					before Tuesday December 15th.
+					<strong>Donate gifts towards the Foothills Giving Tree.</strong> Simply purchase your gift
+					and leave it under the Giving Tree at our market, or drop it in to Foothills at Upwey
+					Baptist Church before Tuesday 13th.
 				</p>
 				<p className="textBox">
-					Donate funds to them to help their support of vulnerable and isolated people this
-					Christmas. All donations over $2 are tax-deductible and can be made securely via the
-					Donate button above.
+					<strong>
+						Donate funds to them to help their support of vulnerable and isolated people this
+						Christmas.
+					</strong>{" "}
+					All donations over $2 are tax-deductible and can be made securely via the Donate button
+					above.
 				</p>
 				<p className="upperCase">
 					Thank you for supporting these wonderful businesses, and for sharing the love through
