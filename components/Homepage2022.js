@@ -1,4 +1,5 @@
 import style from "./Homepage2022.module.css";
+import HomepageImage from "./HomepageImage";
 // import style from "./BuyingGuide.module.css";
 
 const Homepage2022 = () => {
@@ -6,7 +7,10 @@ const Homepage2022 = () => {
 		<div className={style.homepageContainer}>
 			<h1 className="upperCase">Tecoma Twilight is returning in-person in 2022</h1>
 			<p className="title">November 20th, 4pm - 8pm</p>
-			<p className="upperCase">Tecoma Uniting Church, 1566 Burwood Highway, Tecoma</p>
+			<HomepageImage
+				src="/images/homepage-image.jpg"
+				alt="crowds at the tecoma twilight market 2019"
+			/>
 			<p className="textCenter">
 				Offering the best of local, ethical, sustainable traders. Check out some of our previous
 				stall holders who have featured in either our physical or online markets.

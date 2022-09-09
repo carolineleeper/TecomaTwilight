@@ -1,6 +1,12 @@
 .homepageContainer {
   padding: 1rem 3rem;
 }
+@media screen and (max-width:750px) {
+  
+  .homepageContainer {
+    padding: 0.5rem 0.5rem;
+  }
+}
 
 .homepageTitle {
   letter-spacing: 4px;
