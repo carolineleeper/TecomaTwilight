@@ -8,7 +8,7 @@ const Homepage2022 = () => {
 			<h1 className="upperCase">Tecoma Twilight is returning in-person in 2022</h1>
 			<p className="title">November 20th, 4pm - 8pm</p>
 			<HomepageImage
-				src="/images/homepage-image.jpg"
+				src="/images/homepage-image.png"
 				alt="crowds at the tecoma twilight market 2019"
 			/>
 			<p className="textCenter">
