@@ -1,4 +1,4 @@
-import style from "./Homepage2022.module.css";
+import style from "./Homepage2023.module.css";
 import HomepageImage from "./HomepageImage";
 
 const Homepage2023 = () => {
