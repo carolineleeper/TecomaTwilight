@@ -63,7 +63,7 @@ const About = () => {
 				<p className="textBox">
 					<strong>Donate gifts towards the Foothills Giving Tree.</strong> Simply purchase your gift
 					and leave it under the Giving Tree at our market, or drop it in to Foothills at Upwey
-					Baptist Church before Tuesday 13th.
+					Baptist Church.
 				</p>
 				<p className="textBox">
 					<strong>
