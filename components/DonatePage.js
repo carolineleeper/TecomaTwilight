@@ -28,7 +28,7 @@ const DonatePage = () => {
 					<p>
 						<strong>Donate gifts towards the Foothills Giving Tree.</strong> Simply purchase your
 						gift and leave it under the Giving Tree at our market, or drop it in to Foothills at
-						Upwey Baptist Church before Tuesday 13th.
+						Upwey Baptist Church.
 					</p>
 				</li>
 				<li>

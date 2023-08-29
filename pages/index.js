@@ -1,30 +1,13 @@
 import SEO from "../components/SEO";
-import Homepage2022 from "../components/Homepage2022";
-
-// import matter from "gray-matter";
-// import fs from "fs";
+import Homepage2023 from "../components/Homepage2023";
 
 const Home = () => {
 	return (
 		<>
 			<SEO title="Home" />
-			{/* <InlineImage src="/images/DSC_0161.jpg" align="imageRight" /> */}
-			<Homepage2022 />
+			<Homepage2023 />
 		</>
 	);
 };
-
-// export const getStaticProps = () => {
-// 	const directory = `${process.cwd()}/stalls`;
-// 	const rawFilenames = fs.readdirSync(directory);
-
-// 	const stalls = rawFilenames.map((filename) => {
-// 		const rawFileContent = fs.readFileSync(`${directory}/${filename}`).toString();
-// 		const { data } = matter(rawFileContent);
-// 		return { ...data, filename: filename.replace(".md", "") };
-// 	});
-
-// 	return { props: { stalls } };
-// };
 
 export default Home;
