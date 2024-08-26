@@ -1,11 +1,11 @@
-import style from "./Homepage2023.module.css";
+import style from "./Homepage.module.css";
 import HomepageImage from "./HomepageImage";
 
-const Homepage2023 = () => {
+const Homepage = () => {
 	return (
 		<div className={style.homepageContainer}>
-			<h1 className="upperCase">Tecoma Twilight is returning in 2023</h1>
-			<p className="title">November 19th, 4pm - 8pm</p>
+			<h1 className="upperCase">Tecoma Twilight is returning in 2024</h1>
+			<p className="title">Sunday November 17th, 4pm - 8pm</p>
 			<HomepageImage
 				src="/images/homepage-image.png"
 				alt="crowds at the tecoma twilight market 2019"
@@ -15,9 +15,9 @@ const Homepage2023 = () => {
 				stall holders who have featured in either our physical or online markets.
 			</p>
 			<p className="upperCase">
-				Interested in being a stall holder in 2023? Fill in this{" "}
+				Interested in being a stall holder in 2024? Fill in this{" "}
 				<a
-					href="https://docs.google.com/forms/d/e/1FAIpQLSc88ma9B9JAwvKctzzDjNdExv9zAlaDUKGqigps2XJWfvHKgQ/viewform?usp=sf_link"
+					href="https://docs.google.com/forms/d/e/1FAIpQLSdidiMigbtVqZQjPCJqif46e1EfTlrNJ_trsIMlgigm-3Xu5w/formResponse"
 					target="_blank"
 				>
 					application form
@@ -28,4 +28,4 @@ const Homepage2023 = () => {
 	);
 };
 
-export default Homepage2023;
+export default Homepage;
