@@ -15,7 +15,7 @@ const Homepage = () => {
 				stall holders who have featured in either our physical or online markets.
 			</p>
 			<p className="upperCase">
-				Interested in being a stall holder in 2023? Fill in this{" "}
+				Interested in being a stall holder in 2024? Fill in this{" "}
 				<a
 					href="https://docs.google.com/forms/d/e/1FAIpQLSdidiMigbtVqZQjPCJqif46e1EfTlrNJ_trsIMlgigm-3Xu5w/formResponse"
 					target="_blank"
