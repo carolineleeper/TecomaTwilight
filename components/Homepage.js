@@ -1,7 +1,7 @@
-import style from "./Homepage2024.module.css";
+import style from "./Homepage.module.css";
 import HomepageImage from "./HomepageImage";
 
-const Homepage2024 = () => {
+const Homepage = () => {
 	return (
 		<div className={style.homepageContainer}>
 			<h1 className="upperCase">Tecoma Twilight is returning in 2024</h1>
@@ -28,4 +28,4 @@ const Homepage2024 = () => {
 	);
 };
 
-export default Homepage2024;
+export default Homepage;

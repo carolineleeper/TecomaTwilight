@@ -1,11 +1,11 @@
 import SEO from "../components/SEO";
-import Homepage2023 from "../components/Homepage2023";
+import Homepage from "../components/Homepage";
 
 const Home = () => {
 	return (
 		<>
 			<SEO title="Home" />
-			<Homepage2023 />
+			<Homepage />
 		</>
 	);
 };
