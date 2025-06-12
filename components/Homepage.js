@@ -4,8 +4,8 @@ import HomepageImage from "./HomepageImage";
 const Homepage = () => {
 	return (
 		<div className={style.homepageContainer}>
-			<h1 className="upperCase">Tecoma Twilight is returning in 2024</h1>
-			<p className="title">Sunday November 17th, 4pm - 8pm</p>
+			<h1 className="upperCase">Tecoma Twilight is returning in 2025</h1>
+			<p className="title">Sunday November 16th, 4pm - 8pm</p>
 			<HomepageImage
 				src="/images/homepage-image.png"
 				alt="crowds at the tecoma twilight market 2019"
@@ -15,6 +15,9 @@ const Homepage = () => {
 				stall holders who have featured in either our physical or online markets.
 			</p>
 			<p className="upperCase">
+				Stay tuned for registration details.
+			</p>
+			{/* <p className="upperCase">
 				Interested in being a stall holder in 2024? Fill in this{" "}
 				<a
 					href="https://docs.google.com/forms/d/e/1FAIpQLSdidiMigbtVqZQjPCJqif46e1EfTlrNJ_trsIMlgigm-3Xu5w/formResponse"
@@ -23,7 +26,7 @@ const Homepage = () => {
 					application form
 				</a>{" "}
 				and we'll let you know if you meet our ethical criteria.
-			</p>
+			</p> */}
 		</div>
 	);
 };
