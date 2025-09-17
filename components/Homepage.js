@@ -4,8 +4,8 @@ import HomepageImage from "./HomepageImage";
 const Homepage = () => {
 	return (
 		<div className={style.homepageContainer}>
-			<h1 className="upperCase">Tecoma Twilight is returning in 2025</h1>
-			<p className="title">Sunday November 16th, 4pm - 8pm</p>
+			<h1 className="upperCase">Tecoma Twilight will not be running in 2025</h1>
+			{/* <p className="title">Sunday November 16th, 4pm - 8pm</p> */}
 			<HomepageImage
 				src="/images/homepage-image.png"
 				alt="crowds at the tecoma twilight market 2019"
@@ -14,9 +14,9 @@ const Homepage = () => {
 				Offering the best of local, ethical, sustainable traders. Check out some of our previous
 				stall holders who have featured in either our physical or online markets.
 			</p>
-			<p className="upperCase">
+			{/* <p className="upperCase">
 				Stay tuned for registration details.
-			</p>
+			</p> */}
 			{/* <p className="upperCase">
 				Interested in being a stall holder in 2024? Fill in this{" "}
 				<a
